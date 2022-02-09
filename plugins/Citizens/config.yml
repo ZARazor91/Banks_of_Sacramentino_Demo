@@ -1,0 +1,169 @@
+npc:
+  chat:
+    prefix: '&3<npc>: '
+    options:
+      bystandersheartargetedchat: false
+      maxnumberoftargetstoshow: 2
+      multipletargetsformat: <target>|, <target>| & <target>| & others
+      range: 5
+      bystanders-hear-targeted-chat: false
+      max-number-of-targets-to-show: 2
+      multiple-targets-format: <target>|, <target>| & <target>| & others
+      max-text-range: 500
+      talk-to-npcs: true
+    format:
+      notargets: '&3<npc>: \xa7e<text>'
+      withtargettobystanders: ''
+      totarget: '&3<npc>: \xa7e<text>'
+      withtargetstobystanders: ''
+      no-targets: ''
+      with-target-to-bystanders: ''
+      to-target: 'Â&3<npc>: Â§e<text>'
+      with-targets-to-bystanders: ''
+  default:
+    look-close:
+      enabled: false
+      range: 5
+      random-look-enabled: false
+      random-look-delay: 60
+      disable-while-navigating: true
+    pathfinding:
+      range: 25.0
+    random-talker: true
+    realistic-looking: false
+    stationary-ticks: -1
+    talk-close:
+      enabled: false
+      range: 5
+    text:
+      '0': Hi, I'm <npc>!
+    lookclose:
+      enabled: false
+      range: 5
+    randomtalker: true
+    realisticlooking: false
+    stationaryticks: -1
+    talkclose:
+      enabled: false
+      range: 5
+    waypoints:
+      cache-paths: false
+    bossbar-view-range: 64
+  limits:
+    default-limit: 10
+    max-permission-checks: 100
+    max-speed: 100
+    defaultlimit: 10
+    maxpermissionchecks: 100
+    maxspeed: 100
+    max-packet-entries: 15
+  selection:
+    quick-select: false
+    item: '280'
+    message: <b>You selected <a><npc><b>!
+    quickselect: false
+  player:
+    remove-from-list: true
+    removefromlist: true
+  server-ownership: false
+  text:
+    max-talk-cooldown: 60
+    min-talk-cooldown: 30
+    talk-item: '340'
+    maxtalkcooldown: 1
+    mintalkcooldown: 1
+    talkitem: '340'
+    speech-bubble-ticks: 50
+  chunks:
+    alwayskeeploaded: false
+    always-keep-loaded: false
+  serverownership: false
+  pathfinding:
+    usenewfinder: true
+    attack-range: 3.0625
+    use-new-finder: true
+    new-finder-open-doors: false
+    default-distance-margin: 2
+    default-path-distance-margin: 1
+    update-path-rate: 20
+    disable-mc-fallback-navigation: true
+    maximum-new-pathfinder-iterations: 50000
+    new-finder:
+      iterations-per-tick: 5000
+      check-bounding-boxes: false
+      open-doors: false
+    straight-line-targeting-distance: 5
+    minecraft:
+      max-fall-distance: 3
+  controllable:
+    use-boat-controls: true
+    max-ground-speed: 0.5
+    ground-direction-modifier: 1.0
+  packets:
+    update-delay: 30
+  tablist:
+    disable: true
+    remove-packet-delay: 1
+  skins:
+    max-retries: -1
+    retry-delay: 120
+    rotation-update-degrees: 90.0
+    use-latest-by-default: false
+    view-distance: 100.0
+    player-join-update-delay-ticks: 60
+    placeholder-update-frequency-ticks: 6000
+  teleport-delay: -1
+  player-scoreboard-teams:
+    enable: true
+  always-use-name-holograms: false
+  hologram:
+    default-line-height: 0.4
+  follow:
+    teleport-across-worlds: true
+  commands:
+    error-messages:
+      maximum-times-used: You have reached the maximum number of uses ({0}).
+      no-permission: You don't have permission to do that.
+      not-enough-money: You need at least ${0}.
+      on-cooldown: Please wait {0} more seconds.
+      missing-item: Missing {1} {0}
+      on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      not-enough-experience: You need at least {0} experience.
+storage:
+  database:
+    driver: ''
+    password: ''
+    url: ''
+    username: ''
+  save-task:
+    delay: 72000
+  file: saves.yml
+  type: yaml
+  savetask:
+    delay: 72000
+general:
+  debug-mode: false
+  color-scheme:
+    message-highlight: <e>
+    message: <a>
+    message-error: <c>
+  translation:
+    locale: ''
+  debugmode: false
+  colorscheme:
+    messagehighlight: <e>
+    message: <a>
+  debug-pathfinding: false
+  authlib:
+    profile-url: https://sessionserver.mojang.com/session/minecraft/profile/
+  debug-file: ''
+  debug-chunk-loads: false
+  reload-warning-enabled: true
+economy:
+  npc:
+    cost: 100.0
+subplugins:
+  folder: plugins
+advanced:
+  checkminecraftversion: true
+  check-minecraft-version: true

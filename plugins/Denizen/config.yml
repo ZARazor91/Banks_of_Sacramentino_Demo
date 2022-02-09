@@ -1,0 +1,122 @@
+Debug:
+    Show: true
+    Ex command help: true
+    Ex command debug: true
+    Line length: 128
+    Trim length limit: 1024
+    Allow console redirection: false
+    Stats: true
+    Override help: true
+    Container default: true
+    Limit per tick: 5000
+    Verbose: false
+    Prefix: ""
+    Show loading info: false
+    Show future warnings: false
+    Warn on async packets: false
+Scripts:
+    World:
+        Events:
+            On player chats:
+                Use asynchronous event: false
+            On time changes:
+                Frequency of check: 250t
+    Interact:
+        Queue speed: instant
+    Queue speed: instant
+    Scripts location:
+        Use default script folder: true
+        Alternative folder path: 'plugins/Denizen'
+    Encoding: utf8
+    Command:
+        Auto init: false
+Traits:
+    Health:
+        Enabled: false
+        Block drops: false
+        Respawn:
+            Enabled: false
+            Delay: 10s
+        Animated death:
+            Enabled: false
+Triggers:
+    Chat:
+        Enabled: true
+        Use asynchronous event: false
+        Cooldown: 2s
+        Range: 3
+        Overhearing range: 4
+        Prerequisites:
+            Must be looking in direction of NPC: true
+            Must be able to see NPC: true
+        Formats:
+            Player to NPC: "<gold><player.name>:<white> <text>"
+            Player to NPC overheard: "<player.name> -> <npc.nickname>: <text>"
+        Appears globally:
+            If triggers missing: true
+            If triggers failed: false
+            If NPC uninteractable: true
+    Click:
+        Enabled: true
+        Cooldown: 2s
+    Damage:
+        Enabled: false
+        Cooldown: 0.5s
+    Proximity:
+        Enabled: true
+        Cooldown: 1s
+        Range: 5
+Commands:
+    Engage:
+        Timeout: 150s
+    While:
+        Max loops: 10000
+    Chat:
+        Options:
+            Multiple targets format: "%target%, %target%, %target%, and others"
+            Range for bystanders: 5.0
+        Formats:
+            No target: "[<[talker].name>]: <[message]>"
+            To target: "<gold><npc.nickname>:<white> <[message]>"
+            With target to bystanders: "[<[talker].name>] -> <[target].name>: <[message]>"
+            With targets to bystanders: "[<[talker].name>] -> [<[targets]>]: <[message]>"
+    Delete:
+        Allow file deletion: true
+    Restart:
+        Allow server stop: false
+        Allow server restart: true
+    Filecopy:
+        Allow copying files: true
+    Log:
+        Allow logging: true
+    Yaml:
+        Allow saving outside folder: false
+        Limit path: none
+    Webget:
+        Allow: true
+    Remove:
+        Always warn on mass delete: false
+    CreateWorld:
+        Allow symbols in names: false
+Tags:
+    Timeout: 10
+    Timeout when silent: false
+    Warning rate: 10000
+    Block tags:
+        Max blocks: 100000000000
+    Chat history:
+        Max messages: 10
+Packets:
+    Interception: true
+    Auto init: false
+times_changed: 4
+Saves:
+    Offline player cache timeout: 300
+    Load async on login: true
+    Skip flag cleaning: false
+Colors:
+    base: <&2>
+    emphasis: <&b>
+    error: <red>
+    warning: <yellow>
+    default: <white>

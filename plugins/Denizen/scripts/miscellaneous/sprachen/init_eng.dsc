@@ -1,0 +1,81 @@
+eng_i:
+  type: task
+  script:
+  - rename Traveller npc:0
+  - rename "Teacher Terry" npc:1
+  - rename Blacksmith npc:2
+  - rename Mage npc:3
+  - rename "Tom Tooley" npc:4
+  - rename , npc:5
+  - rename "Bore Dom" npc:6
+  - rename "Mr. Miller" npc:7
+  - rename "Mrs. Miller" npc:8
+  - rename Cashier npc:9
+  - rename Preacher npc:10
+  - rename Barkeeper npc:11
+  - rename Tip-Trick-Man npc:12
+  - rename Mayor npc:13
+  - rename Garden-Gary npc:14
+  - rename Jeweller npc:15
+  - rename Flower-Freddy npc:16
+  - rename "Booze Buddy" npc:17
+  - rename Dealer npc:18
+  - sign type:automatic "              0|||              0"  sign_1
+  - sign type:automatic ¦¦|==¦¦==|¦¦|¦¦ sign_30
+  - sign type:automatic "* * * *|JEWELLER|Jen Stone|* * * *"  sign_33
+  - sign type:automatic ||¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦ sign_127
+  - sign type:automatic ||¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦ sign_128
+  - sign type:automatic "|Open 24/7"  sign_149
+  - sign type:automatic "|Open 24/7"  sign_150
+  - sign type:automatic "|Departures:|never =("  sign_156
+  - sign type:automatic |Flower-Freddy sign_180
+  - sign type:automatic "|Desert Ville|CHURCH"  sign_192
+  - sign type:automatic "---------------|Idiotus Family||---------------"  sign_193
+  - sign type:automatic "---------------|The Millers||---------------"  sign_194
+  - sign type:automatic "---------------|Mrs. Blocky||---------------"  sign_198
+  - sign type:automatic |Garden-Gary sign_200
+  - sign type:automatic "|YOU NEED"  sign_201
+  - sign type:automatic "|Open|6am - 8pm"  sign_202
+  - sign type:automatic "|Desert Ville|SCHOOL"  sign_203
+  - sign type:automatic "|Bus stop|Line 3.5"  sign_205
+  - sign type:automatic "---------------|Bore Dom||---------------"  sign_207
+  - sign type:automatic "|IN  RI"  sign_212
+  - sign type:automatic "|Pay here"  sign_218
+  - sign type:automatic |101 sign_221
+  - sign type:automatic |102 sign_222
+  - sign type:automatic |201 sign_223
+  - sign type:automatic |9.75 sign_224
+  - sign type:automatic "|Open:|7am - 12pm"  sign_239
+  - sign type:automatic "|Open|9:31pm - 5:49am"  sign_240
+  - sign type:automatic "|Razor91 &|D0N_H_"  sign_250
+  - sign type:automatic |BLACKSMITH|--------------- sign_265
+  - sign type:automatic |STONY sign_280
+  - sign type:automatic |SUPERMARKET sign_282
+  - sign type:automatic "---------------|Sandy Corner|Tavern|---------------"  sign_287
+  - sign type:automatic "|TOOL SHOP"  sign_289
+  - sign type:automatic "|TOOL SHOP"  sign_290
+  - sign type:automatic "|Have fun!"  sign_296
+  - sign type:automatic "|ARMS DEALER|---------------"  sign_297
+  - sign type:automatic |EVERYTHING sign_300
+  - sign type:automatic "|FOR SALE"  sign_319
+  - sign type:automatic "= = = =|Enter /bos|to start|= = = ="  sign_331
+  - sign type:automatic "0              |||0              "  sign_349
+  - sign type:automatic "Buy and Sale||Open:|8am - 6pm"  sign_366
+  - sign type:automatic "PURCHASING||left click the|jeweller"  sign_369
+  - sign type:automatic "City toilet||Free of charge!"  sign_413
+  - sign type:automatic "|Krazy Magic|Shop|* * *"  sign_416
+  - sign type:automatic "|No drugs|dealing! <&gt>:("  sign_442
+  - sign type:automatic "RECOMMENDED|===============|Play without|a minimap"  sign_444
+  - sign type:automatic "Here ends the|area relevant|for the ad-|venture."  sign_481
+  - sign type:automatic "Here ends the|area relevant|for the ad-|venture."  sign_482
+  - sign type:automatic "Here ends the|area relevant|for the ad-|venture."  sign_483
+  - sign type:automatic Home|Sweet|Home sign_488
+  - sign type:automatic "|- THE END -"  sign_492
+  - sign type:automatic "Important|stuff for quest|Don't waste"  sign_506
+  - sign type:automatic "Mount Craftigus|50 Blöcke|ü. N.N.|============="  sign_508
+  - sign type:automatic "o             o|||o             o"  sign_515
+  - sign type:automatic o-------------o|||o-------------o sign_518
+  - sign type:automatic o-------------o|||o-------------o sign_519
+  - sign type:automatic "|Desert Ville|Constitution"  sign_613
+  - sign type:automatic "HAVE FUN!||Razor91|& D0N_H_"  sign_615
+  - sign type:automatic "Do unto others|as you would|have others|do unto you."  sign_618

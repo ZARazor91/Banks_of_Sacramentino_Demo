@@ -1,0 +1,1624 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 18
+npc:
+  '0':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NjM3NzA3MjYwMzcsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI2YTBjYzdiZjlkNDZlOTE0Nzk4YWIyYmE2NDZhYWMwYzk5MzAxYjA1ZTE0MTY5YjMwZmEwZDY0YjIxNDZiYjIifX19
+      cached-skin-uuid-name: b8fba6d3-481e-4ba8-b868-2bbe639156a0
+      cached-skin-uuid: 88486944-ad7a-4cb2-99fe-17515ad6b144
+      player-skin-signature: ZOnEfyvm/FBDu0+3rAkroaz0wGjrnK5Ouvjxg+DUKJnZPIBwfjulKRhbqh8fuXiabtvY5+OV55BxnlYkcdeh6amXELLC6h62ocMxpFkOzOMunswsDMQvOaerE2DDYNdPUNOIeDR6GC+opc6Y7CaXZDOWLaAv00F9g9f1avcLQzEogdwj1+YzH27/H69noKE/bzYpYKAXAoHC8b9R7fHKkK0aSChdaRHEO/qx1PqavtQzuHvL5AkUSxzuOXruNUe2sqsicoTcDuIXjnmo5Dttl5fI8Nu2rZSd9gUWOOiXigPMCJXrGij0/JUmyaFoPJ1nodMkQik/BsHA3jCPubYJxSOioLXB4AZfwGuY2BdXfc/fFfqZS25JnTaumjSSl9idlcUvCFEuojA3NpOZfULmwRTCFUkviq8ftonL/Oy/BtVRp1sB0mo+yLJtl9EAoUT0k7ovPgu82RY4tH51UdB2fzMB5hB8t3uWXjXJIwYIyeP2NM4Ho634QNkhorYaz5LbwEknboTSkkMm4t/+3Cjn68O3laRXpXSVJ/W9ls4yKscqCgoCymJIfbrR65HAUxoCw/7sjLXzqkvVPmJcAydtcJQm18qAsI8A5QIhtvOrDh3fsu0LpkcBkT7wK1XkE7Zkt0EzNu7h+LAs5yLDkBm1tNQ243sDqVnkxUEvo3lig8Q=
+      player-skin-use-latest-skin: false
+      player-skin-name: b8fba6d3-481e-4ba8-b868-2bbe639156a0
+    name: Reisender
+    uuid: 40992288-cb2b-4cc7-8237-68af0c6a83cf
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '432.5'
+        y: '64.0'
+        z: '90.5'
+        yaw: '50.0797'
+        pitch: '0.0'
+        bodyYaw: 16.915466
+      gravity:
+        enabled: false
+      spawned: true
+      equipment:
+        helmet:
+          type_namespace: minecraft
+          type_key: chainmail_helmet
+          amount: 1
+          durability: 0
+        chestplate:
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+        boots:
+          type_namespace: minecraft
+          type_key: leather_boots
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAB1zcQB+ABYAAAAhcQB+ABg=
+        hand:
+          type_namespace: minecraft
+          type_key: minecart
+          amount: 1
+          durability: 0
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: minecart
+          amount: 1
+          durability: 0
+        '36':
+          type_namespace: minecraft
+          type_key: leather_boots
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAB1zcQB+ABYAAAAhcQB+ABg=
+        '38':
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+        '39':
+          type_namespace: minecraft
+          type_key: chainmail_helmet
+          amount: 1
+          durability: 0
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': REISENDE_IN
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ZOnEfyvm/FBDu0+3rAkroaz0wGjrnK5Ouvjxg+DUKJnZPIBwfjulKRhbqh8fuXiabtvY5+OV55BxnlYkcdeh6amXELLC6h62ocMxpFkOzOMunswsDMQvOaerE2DDYNdPUNOIeDR6GC+opc6Y7CaXZDOWLaAv00F9g9f1avcLQzEogdwj1+YzH27/H69noKE/bzYpYKAXAoHC8b9R7fHKkK0aSChdaRHEO/qx1PqavtQzuHvL5AkUSxzuOXruNUe2sqsicoTcDuIXjnmo5Dttl5fI8Nu2rZSd9gUWOOiXigPMCJXrGij0/JUmyaFoPJ1nodMkQik/BsHA3jCPubYJxSOioLXB4AZfwGuY2BdXfc/fFfqZS25JnTaumjSSl9idlcUvCFEuojA3NpOZfULmwRTCFUkviq8ftonL/Oy/BtVRp1sB0mo+yLJtl9EAoUT0k7ovPgu82RY4tH51UdB2fzMB5hB8t3uWXjXJIwYIyeP2NM4Ho634QNkhorYaz5LbwEknboTSkkMm4t/+3Cjn68O3laRXpXSVJ/W9ls4yKscqCgoCymJIfbrR65HAUxoCw/7sjLXzqkvVPmJcAydtcJQm18qAsI8A5QIhtvOrDh3fsu0LpkcBkT7wK1XkE7Zkt0EzNu7h+LAs5yLDkBm1tNQ243sDqVnkxUEvo3lig8Q=
+        skinName: b8fba6d3-481e-4ba8-b868-2bbe639156a0
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NjM3NzA3MjYwMzcsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI2YTBjYzdiZjlkNDZlOTE0Nzk4YWIyYmE2NDZhYWMwYzk5MzAxYjA1ZTE0MTY5YjMwZmEwZDY0YjIxNDZiYjIifX19
+        updateSkins: false
+      owner:
+        uuid: 085c6416-af12-359e-a495-cc0b77a826be
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,denizen_flags,scoreboardtrait,constants,assignment,lookclose,gravity,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    name: Blumen-Bernd
+    uuid: d1e21cb8-4401-4bd6-aeef-f7e1e15cf0c6
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '412.821'
+        y: '64.0'
+        z: '84.1639'
+        yaw: '-95.1029'
+        pitch: '0.0'
+        bodyYaw: -86.2871
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: orange_tulip
+          amount: 1
+          durability: 0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: orange_tulip
+          amount: 1
+          durability: 0
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': BERND_IN
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: YKl8HkoyUDAW6MM7li9kehz/ontWmlwboAvv+CWumkITgUlHuC+UzP29leSUOo0RMb22FImWQmIzPbaFbJc/begG1rgKC9Xx/BtgGi8KcVZMkoNB38hj7hvczCClN0aezbbX8QstYBsRkOWSQTrPO+G3ms4xIvSK1HxvPzfZ72e/3o+4+xB88xAhHaRLqsDIRSOiKCJg8nHnp75N00Whk85v7Is0HgW2mOGOggTOGqX1jcHB6Yh45BTyHv5+oDfpdM6y6QlLEzhBMUeWsOf7rvh6dDpUdXq/diCn2s8ePliNZ9uep82v3wK6O0G6cCaSgTkUieggdGG/BhBpu7s0PVbNiCigqR44Ydb/yogtrPHHhO/RQR3H1mrz2CzW7DATIm8xXb0b37HMnIJ8qC8QPjauNY8smpZOxRZ7hxV41bR4df+09R+9jaWVzcN7P2XbB08N11CiszQR8ALd3jXhwGPzjkwk8Kh1Y26OMFGFKoTDBoM38d2UKhUzdfv3/97r8NVw7I15a6RupGVhNFlCLqao0DZmdXtHY86HCDvFA7A+sT45W4qgfmAu1L7/SzNMdmJ4EkQTnbapLO476L2fEPTJdB0mMjD0/fQ4P1n+AbQNaIwGnuDYZv4O4pl7oZxRRrzXFGCznxXAjSph6fPqCPtH/lLobD1aOTuXWdwZOS8=
+        skinName: 59845351-614f-4663-acbc-572478a9852f
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODczMjYzMDkyNzMsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRhYzUyYzQxN2JmZjljOTc5NTY4YzQ0NzVhNWIwNjk4MTkwY2E5ZTRkMGE3ZGQxMWQ1ZmRhZTkwNWExOTk3MSJ9fX0=
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,denizen_flags,scoreboardtrait,lookclose,assignment,gravity,spawned,equipment,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODczMjYzMDkyNzMsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRhYzUyYzQxN2JmZjljOTc5NTY4YzQ0NzVhNWIwNjk4MTkwY2E5ZTRkMGE3ZGQxMWQ1ZmRhZTkwNWExOTk3MSJ9fX0=
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: 59845351-614f-4663-acbc-572478a9852f
+      player-skin-name: 59845351-614f-4663-acbc-572478a9852f
+      player-skin-signature: YKl8HkoyUDAW6MM7li9kehz/ontWmlwboAvv+CWumkITgUlHuC+UzP29leSUOo0RMb22FImWQmIzPbaFbJc/begG1rgKC9Xx/BtgGi8KcVZMkoNB38hj7hvczCClN0aezbbX8QstYBsRkOWSQTrPO+G3ms4xIvSK1HxvPzfZ72e/3o+4+xB88xAhHaRLqsDIRSOiKCJg8nHnp75N00Whk85v7Is0HgW2mOGOggTOGqX1jcHB6Yh45BTyHv5+oDfpdM6y6QlLEzhBMUeWsOf7rvh6dDpUdXq/diCn2s8ePliNZ9uep82v3wK6O0G6cCaSgTkUieggdGG/BhBpu7s0PVbNiCigqR44Ydb/yogtrPHHhO/RQR3H1mrz2CzW7DATIm8xXb0b37HMnIJ8qC8QPjauNY8smpZOxRZ7hxV41bR4df+09R+9jaWVzcN7P2XbB08N11CiszQR8ALd3jXhwGPzjkwk8Kh1Y26OMFGFKoTDBoM38d2UKhUzdfv3/97r8NVw7I15a6RupGVhNFlCLqao0DZmdXtHY86HCDvFA7A+sT45W4qgfmAu1L7/SzNMdmJ4EkQTnbapLO476L2fEPTJdB0mMjD0/fQ4P1n+AbQNaIwGnuDYZv4O4pl7oZxRRrzXFGCznxXAjSph6fPqCPtH/lLobD1aOTuXWdwZOS8=
+  '15':
+    name: Juwelier
+    uuid: 9edfcff7-bc83-45f7-aeb4-3f637dcb3017
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '417.0258'
+        y: '64.0'
+        z: '61.5032'
+        yaw: '37.7982'
+        pitch: '0.0'
+        bodyYaw: -2.2017822
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: emerald
+          amount: 1
+          durability: 0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: emerald
+          amount: 1
+          durability: 0
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': JUWELIER_DORF_A
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Bxwneo3CIF1O2mYfy68mO3h0nj/0l4UYP3AsCucgS3mfD8WWkyfS9jFW8nSZ02/Kgk07U4WMje0q7vuT7anXQx5hYc/0DrffgrJtyJt1FPwvyYAzXpYr1szgVH3dMUyj0FhCosK3f5qsbavtSdvHU4g8E96fd4JV1pnI5npLYRU+tSlTneEzv0uvzPv3Jf13P0JnQfZm7MJPwiZGEiCkwTswzu0F+1nVKfabRNamQQYKyUkK/9hQuvEqGluzlm2R32phvNEcBGPow3UID3lC9TGGwAP6nHDgu6lpHR3uTb6N8CrDxo4/hsKGGAy+NDQwNpBoBtTbtpIRQKKK/+AQjSkpoWeSo7DtebOPevOKXPg5tQ3V7F/RRfc6/OwfqiozICokCJrFL8tqhYJWrJKZud8gCafJpbT4QUUEl6OcPyAj2wI8gEuaizEIookGGj9UO06MkkKkamezKwhjXxrIIf6kROigPlH/7aTGyfqneo2wK8qMRByqqbtrUcawGwqQ3B8IqOBB0h2+XhvkiNqrvH+3WCpHTWweaqw5Yj5TpkJuhxe0+mNyhwjrz8CnLgEu30P9x2RF497WWhDx41m+fFUU4T+shhmATaGT86bRGv9kL/pkHzkQs8NX42bgR0T39JVZlaNiZVXVL+hjUPBwUhNIBFRU5tlvF7FI6D48ESY=
+        skinName: b83bf72c-fbf1-46d1-8d7f-c9ce26b5ad6c
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODczMDI3OTA1MDgsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJNaW5lU2tpbl9vcmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZhODI3NDU3OTI3MTRmMDc2ZGUzNDZhMjAzYWE0NDBjZGU1MjZhYzYzYWFkMDY3YTdmYWRjZWI0YTlhOTI4NzcifX19
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,denizen_flags,constants,scoreboardtrait,assignment,lookclose,gravity,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODczMDI3OTA1MDgsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJNaW5lU2tpbl9vcmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZhODI3NDU3OTI3MTRmMDc2ZGUzNDZhMjAzYWE0NDBjZGU1MjZhYzYzYWFkMDY3YTdmYWRjZWI0YTlhOTI4NzcifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: b83bf72c-fbf1-46d1-8d7f-c9ce26b5ad6c
+      player-skin-name: b83bf72c-fbf1-46d1-8d7f-c9ce26b5ad6c
+      player-skin-signature: Bxwneo3CIF1O2mYfy68mO3h0nj/0l4UYP3AsCucgS3mfD8WWkyfS9jFW8nSZ02/Kgk07U4WMje0q7vuT7anXQx5hYc/0DrffgrJtyJt1FPwvyYAzXpYr1szgVH3dMUyj0FhCosK3f5qsbavtSdvHU4g8E96fd4JV1pnI5npLYRU+tSlTneEzv0uvzPv3Jf13P0JnQfZm7MJPwiZGEiCkwTswzu0F+1nVKfabRNamQQYKyUkK/9hQuvEqGluzlm2R32phvNEcBGPow3UID3lC9TGGwAP6nHDgu6lpHR3uTb6N8CrDxo4/hsKGGAy+NDQwNpBoBtTbtpIRQKKK/+AQjSkpoWeSo7DtebOPevOKXPg5tQ3V7F/RRfc6/OwfqiozICokCJrFL8tqhYJWrJKZud8gCafJpbT4QUUEl6OcPyAj2wI8gEuaizEIookGGj9UO06MkkKkamezKwhjXxrIIf6kROigPlH/7aTGyfqneo2wK8qMRByqqbtrUcawGwqQ3B8IqOBB0h2+XhvkiNqrvH+3WCpHTWweaqw5Yj5TpkJuhxe0+mNyhwjrz8CnLgEu30P9x2RF497WWhDx41m+fFUU4T+shhmATaGT86bRGv9kL/pkHzkQs8NX42bgR0T39JVZlaNiZVXVL+hjUPBwUhNIBFRU5tlvF7FI6D48ESY=
+  '14':
+    name: Garten-Gerd
+    uuid: 3987feed-823f-4238-88af-8da9d379c91d
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '400.2643'
+        y: '64.0'
+        z: '74.4917'
+        yaw: '-154.7425'
+        pitch: '-27.509'
+        bodyYaw: 165.2575
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_shovel
+          amount: 1
+          durability: 0
+        '39':
+          type_namespace: minecraft
+          type_key: leather_helmet
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAF5zcQB+ABYAAAAWc3EAfgAWAAAAfA==
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_shovel
+          amount: 1
+          durability: 0
+        helmet:
+          type_namespace: minecraft
+          type_key: leather_helmet
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 6192150
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAF5zcQB+ABYAAAAWc3EAfgAWAAAAfA==
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': FLOWER_IN
+      skintrait:
+        fetchDefaultSkin: true
+        signature: TC3dxAZYrAdbkpOP2LLIaxSluLoDOMtkyGg4FkV0rsqB2j07rS++yoC9vpRiikjX8e0rtEz5xGIj7lrXJIzrsKfPmiKamVqa0DrYcKCYncwcV4KWb/TzYY3TcEpk+3+CeceMLMjvGr9TggBToAcrczQQbOjhOnMOFqfqvCRwIrURViJ3G+uy+PGKLVamiKUCrBHwKI6R0wSkgl5wLFGTQd3xcM7wHnY2MAKfq9ZHrMRYCaIgVsxCcsKBCJivBluqaqlUCLsFEtn9Ln5RbukcEtY1trXKH9j7zPUbjEN/vaUX/cZIDMUNTktEYefepjv76OG2PPKz0oubUrC5w3Q3r1z5/1nEe+EqsmUu6qUBhOwcgm48BJ9Iyhd94ybL1In7h8HjhNVNT7mrCyhFOCK65JEw+5MQImJH4Ns95/qQSMwspM5yenCrSBL547nJ/zRJRlZahCRkZa76yFE2ZSzPy8hDbjrnu69A4ctEO7fi5yoO1Hca+CAphM+FMXgrZZ31ffWyxIigVBBaGa7YqgKC+D9BpCk6hxjCfO6RNLMLtVK0Je1nRDujPV5DScUsr4KZutgOkXcLHeoLSJxgFpFeEyqzSDbGfSFkMDKtjYDgbozvfLh76rC3FHxyTC1enVN83eFhEAP/CgGMke+4fo5nOTXydTyMRq/cH1nFiKkH07Q=
+        skinName: f7ff2e4f-919f-4b51-84e6-7bec6fb64970
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODczMjYzNTY2NzcsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNDY2MDc4NzEzMjQ1NjgwZWM0ZDhkMDkwM2M1ZjQ0MDI5ZThmMzQ5Mzk2NTc4M2QzZGUyOTYwNzVjYTY1NDViIn19fQ==
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,denizen_flags,scoreboardtrait,assignment,lookclose,gravity,spawned,equipment,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODczMjYzNTY2NzcsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNDY2MDc4NzEzMjQ1NjgwZWM0ZDhkMDkwM2M1ZjQ0MDI5ZThmMzQ5Mzk2NTc4M2QzZGUyOTYwNzVjYTY1NDViIn19fQ==
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: f7ff2e4f-919f-4b51-84e6-7bec6fb64970
+      player-skin-name: f7ff2e4f-919f-4b51-84e6-7bec6fb64970
+      player-skin-signature: TC3dxAZYrAdbkpOP2LLIaxSluLoDOMtkyGg4FkV0rsqB2j07rS++yoC9vpRiikjX8e0rtEz5xGIj7lrXJIzrsKfPmiKamVqa0DrYcKCYncwcV4KWb/TzYY3TcEpk+3+CeceMLMjvGr9TggBToAcrczQQbOjhOnMOFqfqvCRwIrURViJ3G+uy+PGKLVamiKUCrBHwKI6R0wSkgl5wLFGTQd3xcM7wHnY2MAKfq9ZHrMRYCaIgVsxCcsKBCJivBluqaqlUCLsFEtn9Ln5RbukcEtY1trXKH9j7zPUbjEN/vaUX/cZIDMUNTktEYefepjv76OG2PPKz0oubUrC5w3Q3r1z5/1nEe+EqsmUu6qUBhOwcgm48BJ9Iyhd94ybL1In7h8HjhNVNT7mrCyhFOCK65JEw+5MQImJH4Ns95/qQSMwspM5yenCrSBL547nJ/zRJRlZahCRkZa76yFE2ZSzPy8hDbjrnu69A4ctEO7fi5yoO1Hca+CAphM+FMXgrZZ31ffWyxIigVBBaGa7YqgKC+D9BpCk6hxjCfO6RNLMLtVK0Je1nRDujPV5DScUsr4KZutgOkXcLHeoLSJxgFpFeEyqzSDbGfSFkMDKtjYDgbozvfLh76rC3FHxyTC1enVN83eFhEAP/CgGMke+4fo5nOTXydTyMRq/cH1nFiKkH07Q=
+  '13':
+    name: Bürgermeister
+    uuid: 41ebdc43-7125-4103-9eaa-7fd5c9704ac5
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '395.0286'
+        y: '64.0'
+        z: '54.0125'
+        yaw: '-39.5861'
+        pitch: '0.0'
+        bodyYaw: -2.6705246
+      type: PLAYER
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': HUNGER_IN
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: W3BuS61GdZCxBHEUBSzQbjxBdF82VbeoAYxJ1Zkc2hPhH2x0lLCgn5NdzhbctpzE7a3anafAnPXddekFCPKkAQ6p0Hk8CqA62YmjiLouCCy3PWAF/zPxlOoiaSzzG60fH6C9SHPY/XR5jhQfRN601yMYU+GVavbkC7CPDoffjbN9YGeFDQxg7k792E7vrMAfeHCSIOKs0JIDQyvzIi0hh3jt7Sd0wqfizet2xqYORgXhuJQ4358DTaQNZsX8ch8c0KrjIVedid5gef28Z0MwVfPgTRFwF/qzm7H9C49/b5HnmJil43rt/35yRi3VBcc85koIIOlU2hVo8Ugx88Z+75P24J8EI8GzkXuIObBL9ZcgpmTaHfGxMw9Rs7yIzXVC3hYM12JhEqB5Zz5GWi+oUFtVAj6rdVdVCd7O9wDwnzmQiBA8lNcfUa71pF5kgnayXw0CxoHJgBHM2vGIYX3c80arIwuJkvEavaI5nhrU4zPLhvHSoJiOWkgADrE90DXbeHHd6vx7VftYg3rmlGitE5BOU3H+bPj3/BYBR91PDJQsS36V9wPQC1OSob3szqS81ziMRp1sS9WhXz6EVaYeO/MwbQG70MIeEMppiByJu1yWPhse2Hr7bFqzjBK0oLtNQ7C8AAPTFKcajsDN+GZOCiDD+KrlPtuhY8dkK7VBXIA=
+        skinName: f9aacca8-8b90-4ca8-b7f2-423e8a3f481a
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODY4NzUyODY0OTQsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZlYTM3ODAyMzI5NTU0YzBlZDk3ZTY5ZTQzYWMxYzUyNmVlZDJjYTViZDBhMGM0ODVlM2I5MDQwNjkzYzUxMyJ9fX0=
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,scoreboardtrait,denizen_flags,lookclose,assignment,gravity,spawned,equipment,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODY4NzUyODY0OTQsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZlYTM3ODAyMzI5NTU0YzBlZDk3ZTY5ZTQzYWMxYzUyNmVlZDJjYTViZDBhMGM0ODVlM2I5MDQwNjkzYzUxMyJ9fX0=
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: f9aacca8-8b90-4ca8-b7f2-423e8a3f481a
+      player-skin-name: f9aacca8-8b90-4ca8-b7f2-423e8a3f481a
+      player-skin-signature: W3BuS61GdZCxBHEUBSzQbjxBdF82VbeoAYxJ1Zkc2hPhH2x0lLCgn5NdzhbctpzE7a3anafAnPXddekFCPKkAQ6p0Hk8CqA62YmjiLouCCy3PWAF/zPxlOoiaSzzG60fH6C9SHPY/XR5jhQfRN601yMYU+GVavbkC7CPDoffjbN9YGeFDQxg7k792E7vrMAfeHCSIOKs0JIDQyvzIi0hh3jt7Sd0wqfizet2xqYORgXhuJQ4358DTaQNZsX8ch8c0KrjIVedid5gef28Z0MwVfPgTRFwF/qzm7H9C49/b5HnmJil43rt/35yRi3VBcc85koIIOlU2hVo8Ugx88Z+75P24J8EI8GzkXuIObBL9ZcgpmTaHfGxMw9Rs7yIzXVC3hYM12JhEqB5Zz5GWi+oUFtVAj6rdVdVCd7O9wDwnzmQiBA8lNcfUa71pF5kgnayXw0CxoHJgBHM2vGIYX3c80arIwuJkvEavaI5nhrU4zPLhvHSoJiOWkgADrE90DXbeHHd6vx7VftYg3rmlGitE5BOU3H+bPj3/BYBR91PDJQsS36V9wPQC1OSob3szqS81ziMRp1sS9WhXz6EVaYeO/MwbQG70MIeEMppiByJu1yWPhse2Hr7bFqzjBK0oLtNQ7C8AAPTFKcajsDN+GZOCiDD+KrlPtuhY8dkK7VBXIA=
+  '12':
+    name: Tipp-Trick-Man
+    uuid: 675b29cd-ac7d-45c6-bc43-e8990259fb52
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '393.1312'
+        y: '64.0'
+        z: '62.1913'
+        yaw: '-14.8624'
+        pitch: '0.0'
+        bodyYaw: -54.862396
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: enchanted_book
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAPc3RvcmVkLWVuY2hhbnRzdXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAJRU5DSEFOVEVEc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+        '36':
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+        '39':
+          type_namespace: minecraft
+          type_key: golden_helmet
+          amount: 1
+          durability: 0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: enchanted_book
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            enchantmentstorage:
+              protection: 4
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAPc3RvcmVkLWVuY2hhbnRzdXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAJRU5DSEFOVEVEc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+        helmet:
+          type_namespace: minecraft
+          type_key: golden_helmet
+          amount: 1
+          durability: 0
+        boots:
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': TIP_IN
+      skintrait:
+        fetchDefaultSkin: true
+        signature: J5OhNW2b76Glo5xZ+xIJDX2Rqxf7sn0Owrngayb1rZ32TnoQJb7IErpnukcSOiyvvPix1+MY+3hsahK2flvyHwSnSV0PwCnQKofoPlhhAbZz07wuu0fSSCrmrwFfDqDJQHuxDtNJYa2/aQOVMKim1OJ2YRYynfAPJktKb/cg6XexqRKfdOlFOhSNMQ/fknSYwL6Xm2vzdmiZq3sN/tTaVoLTsfORWh9K/yW26QVWlFcVquxGKtmwm1rT9fXpHr1u+3c/b+aWluLesxTYB/54m7R03JnMB0c7z/4+qaNd8NpNi6EZqx0Hlvl3ov9mM1lG5HDW/7cS3NeQjp8A9A/ZAaGQcLE3KgYc73BW2hcPZhqqybbBBkRCV9P5M+Y8wtqgWfT0f88mMVzg+wIQWjkHImuHRHO6H1iveqXKXY6yfWonUiPhpCdVmNLuJwuCMPnVrajySCjEC/Lj6NdUBFRRAb3WttDvVE6ISDJCLtuB0LzzkK1EjftJnIlil068qboyOpBKOnqzCvKTsrfaO1ibHklvQd8OEI1JhGg0zG4HEnzskwY4T3GySPxk/aEu1UXgo0kuMAYrfgc7RcrE1gm2MeTjBJcXspj/Yb6SWBedfrl/YBfmZxd9sEDftOdqHX5U3LVoSA+d+d3Gr2z8PkQTYYrwz7ox9LXchJLUc6yzzEI=
+        skinName: b8a82828-c8df-4c56-ba3b-c434a23b35b6
+        textureRaw: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNzRlYTg5Y2RiN2M3NDI0NTk3ZjliM2Y4YmU1OWJjMTQiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg1MWY1Y2U4MDdmMDNlMWVkYWE0MWFiOWQxMzA1NTJlYTE0ODkwMmEzMzI1NTkwMDgzODA4OGViNjNhMjBhNiIsCiAgICAgICJwcm9maWxlSWQiIDogIjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwKICAgICAgInRleHR1cmVJZCIgOiAiMTg1MWY1Y2U4MDdmMDNlMWVkYWE0MWFiOWQxMzA1NTJlYTE0ODkwMmEzMzI1NTkwMDgzODA4OGViNjNhMjBhNiIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiNzRlYTg5Y2RiN2M3NDI0NTk3ZjliM2Y4YmU1OWJjMTQiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xODUxZjVjZTgwN2YwM2UxZWRhYTQxYWI5ZDEzMDU1MmVhMTQ4OTAyYTMzMjU1OTAwODM4MDg4ZWI2M2EyMGE2IiwKICAgICJwcm9maWxlSWQiIDogIjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwKICAgICJ0ZXh0dXJlSWQiIDogIjE4NTFmNWNlODA3ZjAzZTFlZGFhNDFhYjlkMTMwNTUyZWExNDg5MDJhMzMyNTU5MDA4MzgwODhlYjYzYTIwYTYiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,denizen_flags,scoreboardtrait,assignment,lookclose,gravity,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNzRlYTg5Y2RiN2M3NDI0NTk3ZjliM2Y4YmU1OWJjMTQiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg1MWY1Y2U4MDdmMDNlMWVkYWE0MWFiOWQxMzA1NTJlYTE0ODkwMmEzMzI1NTkwMDgzODA4OGViNjNhMjBhNiIsCiAgICAgICJwcm9maWxlSWQiIDogIjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwKICAgICAgInRleHR1cmVJZCIgOiAiMTg1MWY1Y2U4MDdmMDNlMWVkYWE0MWFiOWQxMzA1NTJlYTE0ODkwMmEzMzI1NTkwMDgzODA4OGViNjNhMjBhNiIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiNzRlYTg5Y2RiN2M3NDI0NTk3ZjliM2Y4YmU1OWJjMTQiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xODUxZjVjZTgwN2YwM2UxZWRhYTQxYWI5ZDEzMDU1MmVhMTQ4OTAyYTMzMjU1OTAwODM4MDg4ZWI2M2EyMGE2IiwKICAgICJwcm9maWxlSWQiIDogIjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwKICAgICJ0ZXh0dXJlSWQiIDogIjE4NTFmNWNlODA3ZjAzZTFlZGFhNDFhYjlkMTMwNTUyZWExNDg5MDJhMzMyNTU5MDA4MzgwODhlYjYzYTIwYTYiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: b8a82828-c8df-4c56-ba3b-c434a23b35b6
+      player-skin-name: b8a82828-c8df-4c56-ba3b-c434a23b35b6
+      player-skin-signature: J5OhNW2b76Glo5xZ+xIJDX2Rqxf7sn0Owrngayb1rZ32TnoQJb7IErpnukcSOiyvvPix1+MY+3hsahK2flvyHwSnSV0PwCnQKofoPlhhAbZz07wuu0fSSCrmrwFfDqDJQHuxDtNJYa2/aQOVMKim1OJ2YRYynfAPJktKb/cg6XexqRKfdOlFOhSNMQ/fknSYwL6Xm2vzdmiZq3sN/tTaVoLTsfORWh9K/yW26QVWlFcVquxGKtmwm1rT9fXpHr1u+3c/b+aWluLesxTYB/54m7R03JnMB0c7z/4+qaNd8NpNi6EZqx0Hlvl3ov9mM1lG5HDW/7cS3NeQjp8A9A/ZAaGQcLE3KgYc73BW2hcPZhqqybbBBkRCV9P5M+Y8wtqgWfT0f88mMVzg+wIQWjkHImuHRHO6H1iveqXKXY6yfWonUiPhpCdVmNLuJwuCMPnVrajySCjEC/Lj6NdUBFRRAb3WttDvVE6ISDJCLtuB0LzzkK1EjftJnIlil068qboyOpBKOnqzCvKTsrfaO1ibHklvQd8OEI1JhGg0zG4HEnzskwY4T3GySPxk/aEu1UXgo0kuMAYrfgc7RcrE1gm2MeTjBJcXspj/Yb6SWBedfrl/YBfmZxd9sEDftOdqHX5U3LVoSA+d+d3Gr2z8PkQTYYrwz7ox9LXchJLUc6yzzEI=
+  '11':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODcxNjUxMTQ5MDYsInByb2ZpbGVJZCI6ImYwOGU5NzIzYTY5YTRjYWRiNTBkNTM4MjBiNTEyMjM2IiwicHJvZmlsZU5hbWUiOiJCYXJrZWVwZXIiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhNDQwZDA3N2VlODU3YTRiODBjYjU2N2RkZDc0ZTQyNWI1YWMzZDg4YzI3MDI1NmYxMmM5OWIzMDNmNmVmOGEifX19
+      cached-skin-uuid-name: 44fb5539-6c1f-4c5b-a7f6-21d39f420bd7
+      cached-skin-uuid: f08e9723-a69a-4cad-b50d-53820b512236
+      player-skin-signature: biDzHklMJXDqRT9x7Fa9dZg25C/SB1IkVfGJ5W1ZKQDo/NFdDHdmDAgH1P1obSiT1fhhjPeIhnz3+HxAKhbYnw1rwXV0JadKPlo6J2Un4EKF8624MtJiWkVn4gWKjPs2Y7sDniDuur+cj8iDaYKF47uarQIYBI8p5ubUKaeUrIl1PfoEjSi7HWNItLNb8Qq6HTFHlPzfeUNPBk1JyNcsmJgN1TQzHx21xhh1O3G2DUV2kObrV+RpB/9YdNvyAlrR5P8dMRWeDKshxQMed8+4tYI/Aj3nP8u/mrVosQOBWqRuNsnvVn25iGcnOPHEhummc2F5kfp52j4tBeZQ6wb/Ev+SqQUetnmjfUtHGf6flFlAetAestu43SJKhKTbpnZAqTRVYF1xryg6R/KpF8yI8aRHuS72n6hXzR8oA4/DkQEv4ZYcSws/OtVxdLgw0ALX/utsDLYxrfbg13wsBcvB6WJ5EbWbT1cTel+sSirNozYoO8IeYY8SeIzdy0ISiyJV2/ptqEkrdeHGlWBKnX6xgHSkriQ0uCRt+qm64gkL3vyVvXxwb00BnqgDKi2j1eAwx96hlqMDZZ9KvSsOf+I+hwEdvDMwbs1sk+bwHUr4sKAjarvcOsp7hVqF+/1pfvwxXyeTYx7lhYnp6420Lu8RCW0Hi8O1eIeTuMQ6wfkos6U=
+    name: Barkeeper
+    uuid: 390b23c3-0f16-4bb9-ae48-21d056bac7ac
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '378.9817'
+        y: '64.0'
+        z: '65.4249'
+        yaw: '94.3154'
+        pitch: '0.0'
+        bodyYaw: 54.31543
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: potion
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050AA9taW5lY3JhZnQ6d2F0ZXI=
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: potion
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            potion:
+              data:
+                extended: false
+                upgraded: false
+                type: WATER
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050AA9taW5lY3JhZnQ6d2F0ZXI=
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': BARKEEPER_DORF_A
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: rlLpgIOsi7/rpjnygQMGtenD33mEce4ZFDC5YktYo+nPKGHd2O8Q06y7Ww8qbo6mgXWsqRAHRGeQyYR3G9N3AFlrM52kQTdEkWmR0p/tLnO9+uHTLCOUU+gCQX1X2SxqufhknvhSZmgfwxnqW9kiZGDV02vw06yUEAsj5r1Ox7vT1mb/KMlmEYlaEC3aMLhMQQEBv7J66wkww3ZAszbGBgO8piSoIvz88ygMyCK1csZP7hYI5kemfn2A28M6yXVbyTcJllxAmi8JgW3gveQPlOMsXJtHDn/X2YOKG7GQ3OFx/If16RGfXU/GD8DzL5andbTNQCRfB+npEvKckDk9U+tjCvhLxDdZSx6b+oVUiNaih9TBTAPX4+qa0RNQSbEUgBiHdOWGwtKegtaxBQUGVh32zkrcXoF3XiKx8bONwBb9wFwJQ13nFFqVJ7SgDolz58HgQHYNLtG6AJS7XXR6ADyAl3niq0odSRNpk3sA4qHgtMlVksO+E/FYblFM6f0uhGen1iBybQ8o5K3+y+gkxhzXEwzLHSESGRyb0sRkoasapnqpCnGAUVui2VMn0EtZMKmPwoh4uL6bfzL1uiFj41P6kP12QTPtB5if0TvQb7uftS8sdsEDCULZdjIE1M+hpToNaE1nou0v4Nh7R9vGmz+I8OFh+xKQec9w4nzvm14=
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODgxMjk2NDExMjgsInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NGVhODQwNTVjNWJlZjQyZWQ5OGJkYTFmY2YxMjI1NGUyODVkYzhjZGQzNWM2NmU4ZmNjNjdlM2ViODNlYzM5In19fQ==
+        updateSkins: false
+        skinName: 44fb5539-6c1f-4c5b-a7f6-21d39f420bd7
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,scoreboardtrait,denizen_flags,assignment,lookclose,gravity,spawned,equipment,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      player-skin-textures: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiZWJmODAyY2RjOTU5NDA1NWJmMmQ4MTczNDQ5YTZmYTUiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJkY2U4MTdkOTBiNzgyOWI0NDA2NzAwYWY0NmIwZWY0ZjVjODBlYjQwOTRlZjhiOWFjMDI2NDRjYzdiNzZkMyIsCiAgICAgICJwcm9maWxlSWQiIDogIjg3MDkzMmU2ZGYzZDQyMjNhMTZlMzRiYzg4MmU0NGNkIiwKICAgICAgInRleHR1cmVJZCIgOiAiMTJkY2U4MTdkOTBiNzgyOWI0NDA2NzAwYWY0NmIwZWY0ZjVjODBlYjQwOTRlZjhiOWFjMDI2NDRjYzdiNzZkMyIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiZWJmODAyY2RjOTU5NDA1NWJmMmQ4MTczNDQ5YTZmYTUiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMmRjZTgxN2Q5MGI3ODI5YjQ0MDY3MDBhZjQ2YjBlZjRmNWM4MGViNDA5NGVmOGI5YWMwMjY0NGNjN2I3NmQzIiwKICAgICJwcm9maWxlSWQiIDogIjg3MDkzMmU2ZGYzZDQyMjNhMTZlMzRiYzg4MmU0NGNkIiwKICAgICJ0ZXh0dXJlSWQiIDogIjEyZGNlODE3ZDkwYjc4MjliNDQwNjcwMGFmNDZiMGVmNGY1YzgwZWI0MDk0ZWY4YjlhYzAyNjQ0Y2M3Yjc2ZDMiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+      cached-skin-uuid-name: pfarrer
+      cached-skin-uuid: 4663aa4a-e223-4722-a904-f0b210b2be93
+      player-skin-signature: pxBkdAZbhBAR7MgOZ8NJEK+TFptV9S0TYchrU0XaCk50WmuhFSuBI8BTt8Y0Qb85w9DvQ7RSBNwUuvJLnEyjMturIcMgCmI7KA7ksfzvtQsSoVhHAqxgg9a1X5iglrmyUR1ibzlr/4zEZFPYK4oQ8Dlq9r/l6AZ/xvgs9b2b/7wOKYH0GXA5LvR0O/0YPTgSkqWUrPV6+QT0/MRnocFBuLfp2lKV8drpJzJDZw7jA5vgjmw6Kn3xrZvnk5Ktixq93UoKnY5Fef9vx3c+uXitUU05feoCEXLMj3uDcby9kXSRwC6Reua44zGQcP1EH44a63nPRtbImBaQSVjjvsJBjSqDcculFlSNLYOkP/pkU+TdsmZ0tOAImqL+A6K5QhcT+nDln3fK/M0S85YF5zaT7W/LMDnsnNQ4NFOtlBob54w6hwqc/4lC09cs2uNrVngBCffsOXoUAQR/rja2KU9TiUGJvT4s4LegZeGbLR+/ar/8aKjG2ohvi2jo9qdVRq15ULHWe6oiAaa2W1Mq6hLJSHcutcFUKnclhEv3YSC4WoQEiUeIaQQtlnWlTf0T6YtEU7HqS9L/jHbQFwpmeucfH5qXch7QV8qHzHxHCUy78UT5IPa+OgeyJNhdf0qTQ6elTvdr0Nv/ZcRcop/pTfK6OEWNwYltF9Gau9PZ5sj6Oa8=
+    name: Pfarrer
+    uuid: d50ee84d-8774-4c7d-aea9-319c291f944a
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '360.4836'
+        y: '64.5'
+        z: '70.5095'
+        yaw: '-87.0099'
+        pitch: '-11.4426'
+        bodyYaw: -47.00994
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: potion
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABFtaW5lY3JhZnQ6aGVhbGluZw==
+        '37':
+          type_namespace: minecraft
+          type_key: leather_leggings
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAB1zcQB+ABYAAAAhcQB+ABg=
+        '38':
+          type_namespace: minecraft
+          type_key: leather_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAB1zcQB+ABYAAAAhcQB+ABg=
+        '39':
+          type_namespace: minecraft
+          type_key: leather_helmet
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAJ1zcQB+ABYAAACXc3EAfgAWAAAAnQ==
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: potion
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            potion:
+              data:
+                extended: false
+                upgraded: false
+                type: INSTANT_HEAL
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABFtaW5lY3JhZnQ6aGVhbGluZw==
+        helmet:
+          type_namespace: minecraft
+          type_key: leather_helmet
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 10329495
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAJ1zcQB+ABYAAACXc3EAfgAWAAAAnQ==
+        chestplate:
+          type_namespace: minecraft
+          type_key: leather_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAB1zcQB+ABYAAAAhcQB+ABg=
+        leggings:
+          type_namespace: minecraft
+          type_key: leather_leggings
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAB1zcQB+ABYAAAAhcQB+ABg=
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': BEKEHRER_IN
+      skintrait:
+        fetchDefaultSkin: true
+        signature: aHsbrHtxjqtU99GrWjX1xf40R8ZonsGWgZSQehM5izMkQldcd7TEQOemfXv/ik3Cf7i5rwn3H4KPAqSO2nj9nbDujsh/N4DcDpzYsrlbWJxjRZfHEUWVtA8CMzkqLQo6J9ioPSs1ea8DZMI/n7R45v6pGOfR8SA1d9fiJSHg5nHwWSmCyStnBERzUrv5NXoyWT1sBhu1e/cAXn0GZ6/AnpTMXWtrSYP1F7uH9q53g4fj/ZApmRDzMQ4zXKyHn3HBstOQTcXfde65fDJGMKjBcnHdSqyeH4R0PINcs6d4Wx5OAbIyLEXDo41zP52ptr97xHB68+geExaZyFtigOzAPS/vwNL1igaax7eV0W4pxgX9LMKDSDvv02v33/RnZsfMZrf/1q4W+bwZNcjLymPUiDViVuWHVrEB6UfmTQ4q3MPsjCJXBcqo1pq3JGLWApSz/2QkljZOGkb0TQDVmoXIVDNl7TfBkFnHDIVkiB1VK+Y8SknHlvRYFvtp3blvM6D+jqohFlEm2LkHeSQO5Tvug+zYN6qzFAWtBw39J5EKHw/B5Lg7oJSoOHL3NItz9gz3C9CDlyXiKEYRJ24Gl3EA7eSYkeI7ZBB6AyxIxYnNg5hurtSsqgz5nc4UAIHexeJ4YLB6AtWTylk2ke0yYxT+mXfY9kPF/+i4lo3wqNO2CIo=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNTY5NDQzOTQ1MSwKICAicHJvZmlsZUlkIiA6ICI0NjYzYWE0YWUyMjM0NzIyYTkwNGYwYjIxMGIyYmU5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZmFycmVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlODI2OTZjYTk4M2U2MDJiNmYyYTFlMWRmNzA4MDRiZjVkOGZmNDJjMmE0NjE5MzI0ZWNlODMwYmVmYzc0NWYiCiAgICB9CiAgfQp9
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,denizen_flags,scoreboardtrait,lookclose,assignment,gravity,spawned,equipment,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODQxODIzMTk3ODgsInByb2ZpbGVJZCI6IjE5MjUyMWI0ZWZkYjQyNWM4OTMxZjAyYTg0OTZlMTFiIiwicHJvZmlsZU5hbWUiOiJTZXJpYWxpemFibGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYyYWE2YWJiZmFjNzYyZjk1MjYzMWZhMjdlYzE1Y2FhYjRmNjg2ZTljZjc1YjMyYTg0ZGJhMjIxMmFlMWYwZWIifX19
+      cached-skin-uuid-name: f9e253ac-8e64-4f25-a6c4-ae578007fda6
+      cached-skin-uuid: 1bf801e0-ac88-4e32-8548-f6b24098abe0
+      player-skin-signature: Zaj68OQig+lHwPbKVLnJeO1LZ/sDrnyg45RE666tNBONXVzLVCnq8S0kqaeI+KumGIp6NkcSqblXGZqa1Ljhz7jWrWb+7EpVa3pdJmRgx91qrzhpiHYPHuPrVXHtBilmCYdv5Xby7AvqYl9daqngfUiVAY6AYUZe6FMtZhQuxJie4tMtytraCYbgnz7ny7XdiUs0GW1TFuuW2XqDtyEVl1xh1L+VFXwa3jJGE7F+E9bX79XeNk7npyoqrc7luc8JOmnvOn0fUp3eN0ZLC/yJtj4fcWJKQOZ+4gqBb8uWfTHOE2fgxy0ilvh/N06PugzTdWr1LRcfs8dfWOO5Pdjcn3TvuNbdXNf7lmVpwjDEjZZIIb8pmaFbVuQeACcPGuzYXAslph/Jhawrib1kNWXFtoSHB6zxuhkMpLbIvkVgOb50/GL5l2R6/y4VCG+gvmDzDyzRb3qUiHB9sHgMOuajg1ES2VZMGisKc7M9Ovakc/o716mgH40U9XeK0txabYNxCD2sLekcUEu2QzA+VnfHbMbjSrHp4Ks8efufxhimK+Y5hdRn56a4FBTW6ESKFOT2ocMWjCon0fG4oDSWfxXNjwq73sanUsyTVrWwMgm/NWRtd9WDNj9WfL6PQkqLlXg15WGSQO49andVx9KYGjr+eZ9Y+AHekaAAjHDiSosi7DA=
+      player-skin-use-latest-skin: false
+      player-skin-name: f9e253ac-8e64-4f25-a6c4-ae578007fda6
+    name: Kassierer
+    uuid: 11d19929-f3bb-4434-b759-41f103979414
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '392.5222'
+        y: '65.0'
+        z: '82.5029'
+        yaw: '172.0405'
+        pitch: '0.0'
+        bodyYaw: 132.04047
+      type: PLAYER
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': KASSIERER_DORF_A
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Zaj68OQig+lHwPbKVLnJeO1LZ/sDrnyg45RE666tNBONXVzLVCnq8S0kqaeI+KumGIp6NkcSqblXGZqa1Ljhz7jWrWb+7EpVa3pdJmRgx91qrzhpiHYPHuPrVXHtBilmCYdv5Xby7AvqYl9daqngfUiVAY6AYUZe6FMtZhQuxJie4tMtytraCYbgnz7ny7XdiUs0GW1TFuuW2XqDtyEVl1xh1L+VFXwa3jJGE7F+E9bX79XeNk7npyoqrc7luc8JOmnvOn0fUp3eN0ZLC/yJtj4fcWJKQOZ+4gqBb8uWfTHOE2fgxy0ilvh/N06PugzTdWr1LRcfs8dfWOO5Pdjcn3TvuNbdXNf7lmVpwjDEjZZIIb8pmaFbVuQeACcPGuzYXAslph/Jhawrib1kNWXFtoSHB6zxuhkMpLbIvkVgOb50/GL5l2R6/y4VCG+gvmDzDyzRb3qUiHB9sHgMOuajg1ES2VZMGisKc7M9Ovakc/o716mgH40U9XeK0txabYNxCD2sLekcUEu2QzA+VnfHbMbjSrHp4Ks8efufxhimK+Y5hdRn56a4FBTW6ESKFOT2ocMWjCon0fG4oDSWfxXNjwq73sanUsyTVrWwMgm/NWRtd9WDNj9WfL6PQkqLlXg15WGSQO49andVx9KYGjr+eZ9Y+AHekaAAjHDiSosi7DA=
+        skinName: f9e253ac-8e64-4f25-a6c4-ae578007fda6
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODQxODIzMTk3ODgsInByb2ZpbGVJZCI6IjE5MjUyMWI0ZWZkYjQyNWM4OTMxZjAyYTg0OTZlMTFiIiwicHJvZmlsZU5hbWUiOiJTZXJpYWxpemFibGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYyYWE2YWJiZmFjNzYyZjk1MjYzMWZhMjdlYzE1Y2FhYjRmNjg2ZTljZjc1YjMyYTg0ZGJhMjIxMmFlMWYwZWIifX19
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,scoreboardtrait,constants,denizen_flags,lookclose,assignment,gravity,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: Frau Müller
+    uuid: 40f129a9-2ea5-406e-bb05-65b5e8ffc5aa
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '379.1841'
+        y: '68.0'
+        z: '77.1362'
+        yaw: '-141.5974'
+        pitch: '0.0'
+        bodyYaw: 178.40263
+      type: PLAYER
+      inventory:
+        '39':
+          type_namespace: minecraft
+          type_key: golden_helmet
+          amount: 1
+          durability: 0
+      equipment:
+        helmet:
+          type_namespace: minecraft
+          type_key: golden_helmet
+          amount: 1
+          durability: 0
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': SCHWERT_IN
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        radius:
+          PROXIMITY: 5
+      skintrait:
+        fetchDefaultSkin: true
+        signature: a1eBxEF3CjIbVQao8Qk9PjzVZkqbjl6ozq2lu8RvgIrOyeYZwon1jGfC7ruhDPp3X64fTkW+7ar0WzjhAuVWJ5ekg9+p1xXTcBcmYEo/mkrckOsZgH06b9PKwof0xS+w08tr0FnDdQ1hdF0Ucg4klWrMlg4ql/Tr9WwfARGtEsWCSMlDMRjs3R4tbYLMTeNBgjyILsq/U29DUl1HMZDAhHkAqA8Pmj/QMYjigfIUQGTc368TdXzjal88KIw7M9lpvFVhAdSXLJIFDDDGOwzYoZ1jFWwdvNxrFgG+ce9hC5RI7tSzfnJXwH/6NjO71tNnE9u/QlRvVTVq5xm1qAgKkGIKOPIkG6hJbVc/KMSaQQMvRB+AtYa3Jydiks/8K1BeKMYiQ9eRByPwrmEOdAU/Bg4MWcWUnbTksfFEfl1/oNWqjdljN7TNrPz76zCsZPeNOmxqjQAjpLaz9MUmKE2LO4+ZsgSl6lioVfORgRuZEx6BGoih1tT8LU1ZclGqq1Aav2Sf2YfWMAgzRXd/hSjKE727FomiVExV3c03S30T8qt/MUBaa2CRJlsgakOD+0Uz76gnV7EqgDSYXPRbKDIxdAaBaz0cMXvBLBfnSAM7y7ybbR53Ggq27UfjTu0We58jJpUaj5ew5hq6a8qc2E+z2SgsL+8agHQhviIJIVSWoBg=
+        skinName: 972ac122-1bd3-4217-89e8-0717a6216a39
+        textureRaw: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiODcxZWQ0N2MzYWU1NGQ5ZTk5NzRjZmQ2YmE0NjhjMzkiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VmNzg1NjM0YTkyNTJlYTZkZjM5NGFkNjhiOTU5ZTIwNzlmZTVjMzRhYjk2ZmUyODhkMDY2MGU2M2UwMzliOSIsCiAgICAgICJwcm9maWxlSWQiIDogIjE5MjUyMWI0ZWZkYjQyNWM4OTMxZjAyYTg0OTZlMTFiIiwKICAgICAgInRleHR1cmVJZCIgOiAiN2VmNzg1NjM0YTkyNTJlYTZkZjM5NGFkNjhiOTU5ZTIwNzlmZTVjMzRhYjk2ZmUyODhkMDY2MGU2M2UwMzliOSIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiODcxZWQ0N2MzYWU1NGQ5ZTk5NzRjZmQ2YmE0NjhjMzkiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZWY3ODU2MzRhOTI1MmVhNmRmMzk0YWQ2OGI5NTllMjA3OWZlNWMzNGFiOTZmZTI4OGQwNjYwZTYzZTAzOWI5IiwKICAgICJwcm9maWxlSWQiIDogIjE5MjUyMWI0ZWZkYjQyNWM4OTMxZjAyYTg0OTZlMTFiIiwKICAgICJ0ZXh0dXJlSWQiIDogIjdlZjc4NTYzNGE5MjUyZWE2ZGYzOTRhZDY4Yjk1OWUyMDc5ZmU1YzM0YWI5NmZlMjg4ZDA2NjBlNjNlMDM5YjkiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,denizen_flags,constants,scoreboardtrait,assignment,lookclose,gravity,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiODcxZWQ0N2MzYWU1NGQ5ZTk5NzRjZmQ2YmE0NjhjMzkiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VmNzg1NjM0YTkyNTJlYTZkZjM5NGFkNjhiOTU5ZTIwNzlmZTVjMzRhYjk2ZmUyODhkMDY2MGU2M2UwMzliOSIsCiAgICAgICJwcm9maWxlSWQiIDogIjE5MjUyMWI0ZWZkYjQyNWM4OTMxZjAyYTg0OTZlMTFiIiwKICAgICAgInRleHR1cmVJZCIgOiAiN2VmNzg1NjM0YTkyNTJlYTZkZjM5NGFkNjhiOTU5ZTIwNzlmZTVjMzRhYjk2ZmUyODhkMDY2MGU2M2UwMzliOSIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiODcxZWQ0N2MzYWU1NGQ5ZTk5NzRjZmQ2YmE0NjhjMzkiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZWY3ODU2MzRhOTI1MmVhNmRmMzk0YWQ2OGI5NTllMjA3OWZlNWMzNGFiOTZmZTI4OGQwNjYwZTYzZTAzOWI5IiwKICAgICJwcm9maWxlSWQiIDogIjE5MjUyMWI0ZWZkYjQyNWM4OTMxZjAyYTg0OTZlMTFiIiwKICAgICJ0ZXh0dXJlSWQiIDogIjdlZjc4NTYzNGE5MjUyZWE2ZGYzOTRhZDY4Yjk1OWUyMDc5ZmU1YzM0YWI5NmZlMjg4ZDA2NjBlNjNlMDM5YjkiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: 972ac122-1bd3-4217-89e8-0717a6216a39
+      player-skin-name: 972ac122-1bd3-4217-89e8-0717a6216a39
+      player-skin-signature: a1eBxEF3CjIbVQao8Qk9PjzVZkqbjl6ozq2lu8RvgIrOyeYZwon1jGfC7ruhDPp3X64fTkW+7ar0WzjhAuVWJ5ekg9+p1xXTcBcmYEo/mkrckOsZgH06b9PKwof0xS+w08tr0FnDdQ1hdF0Ucg4klWrMlg4ql/Tr9WwfARGtEsWCSMlDMRjs3R4tbYLMTeNBgjyILsq/U29DUl1HMZDAhHkAqA8Pmj/QMYjigfIUQGTc368TdXzjal88KIw7M9lpvFVhAdSXLJIFDDDGOwzYoZ1jFWwdvNxrFgG+ce9hC5RI7tSzfnJXwH/6NjO71tNnE9u/QlRvVTVq5xm1qAgKkGIKOPIkG6hJbVc/KMSaQQMvRB+AtYa3Jydiks/8K1BeKMYiQ9eRByPwrmEOdAU/Bg4MWcWUnbTksfFEfl1/oNWqjdljN7TNrPz76zCsZPeNOmxqjQAjpLaz9MUmKE2LO4+ZsgSl6lioVfORgRuZEx6BGoih1tT8LU1ZclGqq1Aav2Sf2YfWMAgzRXd/hSjKE727FomiVExV3c03S30T8qt/MUBaa2CRJlsgakOD+0Uz76gnV7EqgDSYXPRbKDIxdAaBaz0cMXvBLBfnSAM7y7ybbR53Ggq27UfjTu0We58jJpUaj5ew5hq6a8qc2E+z2SgsL+8agHQhviIJIVSWoBg=
+  '7':
+    name: Herr Müller
+    uuid: 10983b57-49be-41a3-93c8-4f57847137d0
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '380.4451'
+        y: '64.0'
+        z: '77.4401'
+        yaw: '-4.5642'
+        pitch: '0.0'
+        bodyYaw: -40.335747
+      type: PLAYER
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': BEKEHRER_IN
+      skintrait:
+        fetchDefaultSkin: true
+        signature: XB6685LU9tVJU76WV1IG13qrVMJoqNEsxiiIS28i0ScJDDNSQvP5HIpg+845DJe6Vrwwn50auAnvJU5l6diKKd/e8ekhRwycMItb8oTxtLaVljtQacJe45bqQSQawAiqPH6TEie4H+ZFG1LcOSSiaCwevFcu1vvxmsIALpSPxClbCfppHmlmZCgWsrSbVaEwFEiUUNNlhMFd4SGIRRfyhl9qcjTdSQIJ6bmmoepui+L/79DEHoTDDJO3qg0dY5vGuFuPfLzG/SegHYRSdpS49mxgnxOeBznrGTMfQ4rMBE9NBmVPs1MjQOq9N+p/MLvq92022/JPIsMxv9qSf73PojECEJmQWRLAZu3OuECHMdKomvEx9GS9wDgFIoKO0/WMFpm1raYu6/hKx2fgR2SUck5uxzPUu8ZI78ev5BEFyGLs+g1aeNFcw7mmVx8zkBjUzoHrJ25v36ItyQb5K/UlCaj4HtOt0Ww76TCPGrdOcWWep6DV5iMYXUpMvxlH4tozMqAmwjwzYy+hrcNErPWe/YWOR9KFgikbplQ62J9pl3Rn/JbNnUuhqJVRLaK6SpxqdNL3ySQAaNQpu9emc63OOFKaKoZMrYd9DxqI35/BuvNV65cJRwpDulaUYEWwYweIsPOD0/E5ZcL1EIyyHoRX+ZFJv5PyEllMahD5DHRPWGQ=
+        skinName: 23905c92-1cfc-4e91-83f5-4d4b79f7afb7
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODczMjYwMTYyMzgsInByb2ZpbGVJZCI6ImRkZWQ1NmUxZWY4YjQwZmU4YWQxNjI5MjBmN2FlY2RhIiwicHJvZmlsZU5hbWUiOiJEaXNjb3JkQXBwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MGE2NDk2ZGNhNWI1MjNhYjY0MWViNDEyMDJiZjlmOGM4YzYyNjMxM2I0ZTM4ZDNmMzExODA0MmI4ZTZjZThiIn19fQ==
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,scoreboardtrait,denizen_flags,lookclose,assignment,gravity,spawned,equipment,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODczMjYwMTYyMzgsInByb2ZpbGVJZCI6ImRkZWQ1NmUxZWY4YjQwZmU4YWQxNjI5MjBmN2FlY2RhIiwicHJvZmlsZU5hbWUiOiJEaXNjb3JkQXBwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MGE2NDk2ZGNhNWI1MjNhYjY0MWViNDEyMDJiZjlmOGM4YzYyNjMxM2I0ZTM4ZDNmMzExODA0MmI4ZTZjZThiIn19fQ==
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: 23905c92-1cfc-4e91-83f5-4d4b79f7afb7
+      player-skin-name: 23905c92-1cfc-4e91-83f5-4d4b79f7afb7
+      player-skin-signature: XB6685LU9tVJU76WV1IG13qrVMJoqNEsxiiIS28i0ScJDDNSQvP5HIpg+845DJe6Vrwwn50auAnvJU5l6diKKd/e8ekhRwycMItb8oTxtLaVljtQacJe45bqQSQawAiqPH6TEie4H+ZFG1LcOSSiaCwevFcu1vvxmsIALpSPxClbCfppHmlmZCgWsrSbVaEwFEiUUNNlhMFd4SGIRRfyhl9qcjTdSQIJ6bmmoepui+L/79DEHoTDDJO3qg0dY5vGuFuPfLzG/SegHYRSdpS49mxgnxOeBznrGTMfQ4rMBE9NBmVPs1MjQOq9N+p/MLvq92022/JPIsMxv9qSf73PojECEJmQWRLAZu3OuECHMdKomvEx9GS9wDgFIoKO0/WMFpm1raYu6/hKx2fgR2SUck5uxzPUu8ZI78ev5BEFyGLs+g1aeNFcw7mmVx8zkBjUzoHrJ25v36ItyQb5K/UlCaj4HtOt0Ww76TCPGrdOcWWep6DV5iMYXUpMvxlH4tozMqAmwjwzYy+hrcNErPWe/YWOR9KFgikbplQ62J9pl3Rn/JbNnUuhqJVRLaK6SpxqdNL3ySQAaNQpu9emc63OOFKaKoZMrYd9DxqI35/BuvNV65cJRwpDulaUYEWwYweIsPOD0/E5ZcL1EIyyHoRX+ZFJv5PyEllMahD5DHRPWGQ=
+  '6':
+    name: Herr Langeweile
+    uuid: e772bbb6-e2da-48e6-bc92-01d01a0ca130
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '393.0235'
+        y: '64.0'
+        z: '88.013'
+        yaw: '94.5345'
+        pitch: '0.0'
+        bodyYaw: 64.19467
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: bookshelf
+          amount: 1
+          durability: 0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: bookshelf
+          amount: 1
+          durability: 0
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': BUECHER_IN
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: wmIvqY+HYAThSz9KFxkTmP+6K/HhaTDxF9XPwIBNJCUg+ExDHUoNYLjaF+dBC25ySuohGtya4ZpU3rkqbU9q/KGSncKHOpXmWCv18R4rhBMflY2lbNrPfqXJD2e48+ZRY3tFa91yuJdgMixqWRr0r1gDODJcgMx3j27LRx+xhtqHx11KJZ/nGDPU8lHFsLQAKZhbLyQIYj6cAd9mS4jZbpLIxd6bD5RWgX4ibb213BySll38puYbW7cb8Zll0wHS5/HSLtMXrtdtBIfb5puMqEr0vvJrY0O/kRo85d+N3XWokmGcw5FZcAZmqn5JWuwBbThCdx0T+QTrDUsi3NcqYdkNgSrRuW7MBMDKebTsAhrQB7QkZ8qohbk355Hl+FQwMHoFleDHoRpgNfaEPNwA+zvuZ3tZaAvJiWgmDbIMYo00ZwIbVz7xi7mGPlQgUT9xnH+KroM1AKHquA0Q6nwwHY4AZV7rfAwrRc1Iuv40QcWJqFEYExTuPeQZKsAeYIs4lPfdJ/ODReAbCno/RuwRYn5h7UK7pzzin0SPD6wDEkoWbk5gfsrdP90zNQENEg6hu8jSkxEAD9ak7MHDoIMSYLZ0kiW/rcXbNRpguFBJP3WDWXS/Ixb+fMhEl8Fs52F/4sRAzNRrZX9nzjXkalTX61ZqEP1OR1OexxTYlvO9Y7Q=
+        skinName: e19ceb64-a313-412a-8037-51ecfea09f26
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODczMjU3NzM0MzcsInByb2ZpbGVJZCI6IjIzZjFhNTlmNDY5YjQzZGRiZGI1MzdiZmVjMTA0NzFmIiwicHJvZmlsZU5hbWUiOiIyODA3Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZGNiNmU3YWY2M2RkY2Y4MzJhNzFlM2RmYmYxYzM4ZDkxMDEyOTE4MGM1ZDQ2NGVlYmEwMDcwYjhhZDZhZTg1In19fQ==
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,denizen_flags,scoreboardtrait,lookclose,assignment,gravity,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODczMjU3NzM0MzcsInByb2ZpbGVJZCI6IjIzZjFhNTlmNDY5YjQzZGRiZGI1MzdiZmVjMTA0NzFmIiwicHJvZmlsZU5hbWUiOiIyODA3Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZGNiNmU3YWY2M2RkY2Y4MzJhNzFlM2RmYmYxYzM4ZDkxMDEyOTE4MGM1ZDQ2NGVlYmEwMDcwYjhhZDZhZTg1In19fQ==
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: e19ceb64-a313-412a-8037-51ecfea09f26
+      player-skin-name: e19ceb64-a313-412a-8037-51ecfea09f26
+      player-skin-signature: wmIvqY+HYAThSz9KFxkTmP+6K/HhaTDxF9XPwIBNJCUg+ExDHUoNYLjaF+dBC25ySuohGtya4ZpU3rkqbU9q/KGSncKHOpXmWCv18R4rhBMflY2lbNrPfqXJD2e48+ZRY3tFa91yuJdgMixqWRr0r1gDODJcgMx3j27LRx+xhtqHx11KJZ/nGDPU8lHFsLQAKZhbLyQIYj6cAd9mS4jZbpLIxd6bD5RWgX4ibb213BySll38puYbW7cb8Zll0wHS5/HSLtMXrtdtBIfb5puMqEr0vvJrY0O/kRo85d+N3XWokmGcw5FZcAZmqn5JWuwBbThCdx0T+QTrDUsi3NcqYdkNgSrRuW7MBMDKebTsAhrQB7QkZ8qohbk355Hl+FQwMHoFleDHoRpgNfaEPNwA+zvuZ3tZaAvJiWgmDbIMYo00ZwIbVz7xi7mGPlQgUT9xnH+KroM1AKHquA0Q6nwwHY4AZV7rfAwrRc1Iuv40QcWJqFEYExTuPeQZKsAeYIs4lPfdJ/ODReAbCno/RuwRYn5h7UK7pzzin0SPD6wDEkoWbk5gfsrdP90zNQENEg6hu8jSkxEAD9ak7MHDoIMSYLZ0kiW/rcXbNRpguFBJP3WDWXS/Ixb+fMhEl8Fs52F/4sRAzNRrZX9nzjXkalTX61ZqEP1OR1OexxTYlvO9Y7Q=
+  '5':
+    metadata:
+      nameplate-visible: 'false'
+    name: ','
+    uuid: 79e87344-cd3a-4761-b895-91aae72fd0bf
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      location:
+        world: world
+        x: '390.5831'
+        y: '64.0'
+        z: '101.6467'
+        yaw: '90.292'
+        pitch: '2.4'
+        bodyYaw: 90.292
+      type: PLAYER
+      inventory:
+        '37':
+          type_namespace: minecraft
+          type_key: golden_leggings
+          amount: 1
+          durability: 0
+      equipment:
+        leggings:
+          type_namespace: minecraft
+          type_key: golden_leggings
+          amount: 1
+          durability: 0
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: scoreboardtrait,denizen_flags,skintrait,mounttrait,gravity,type,location,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: Werkzeughändler
+    uuid: e0cb0be9-b762-427d-8888-24cb419a6b71
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '381.9948'
+        y: '64.0'
+        z: '102.3461'
+        yaw: '154.3619'
+        pitch: '0.0'
+        bodyYaw: 114.36189
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_pickaxe
+          amount: 1
+          durability: 0
+        '38':
+          type_namespace: minecraft
+          type_key: leather_chestplate
+          amount: 1
+          durability: 0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_pickaxe
+          amount: 1
+          durability: 0
+        chestplate:
+          type_namespace: minecraft
+          type_key: leather_chestplate
+          amount: 1
+          durability: 0
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': WERKZEUGHAENDLER_DORF_A
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        radius:
+          PROXIMITY: 10
+      skintrait:
+        fetchDefaultSkin: true
+        signature: CGNq6mz/cFNChPR4cQQzzl8GGAOZTgqlMn7MrKxVduVsolzKrbowxAEjvt8AN83M1v2+Ci9KH1OL8jYKsM5S5Pgl+4lgsLe/Y31/bgguhkVSmMWfSaJAUNDuZh8Ojmq7vuDpSKrKPsg7cudO2AaYLG4nqw0eanyK4deYkrVbnPznkWkLJOVByUlBjCua2B726QJNsDJ5ma1mbcCSIAgMRrBAdg3HLyG9Rx7P6uv5QRKUCR/cJqBTZTouiFHkWFz91INqgzOB7qcPZUmX0lzBjamNGMMqK6+7ZIBlHBzmjDdEK4qLucGBRxYOPmMYyF+Ss79Vy5WsX22dGOTkZ/knCa56cZDwa4oRN9K85OWYN5EzTJNzCCs8xc4cmzV6Rjdr5Lxd7WaLb3USJwlcb3RKCjKSTVEgo8NRFpoWmdtjg6DSZDOGLN5cwPgaVlqQ4xco3ZwDHv8OcuOArJgkk62GKJQ7whdcxkDo64VTjfuDM4xQQq+fKKbLZSMkE11aRUK+82Z3X8Z3/j4u03ojH7mifLmYgTaK+VJJaSzCaawbtouRPsjMRkMk2N3oOB/RNiseUUUSr01QzSvk14Q61IEBGGUXzIxfjjm2f6AE04ROcqsACuXSgAcXS2y2VFArVN9yD7UCDSX5Oi3Gzsl81DWN7SaFxjJKaqhXkwbR28iSEcs=
+        skinName: b12be49e-e30c-4fa4-b739-e9cf3f617b4a
+        textureRaw: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNjFiYzAwZDk1M2Y5NGRkYzkzNDlkZDdiNzJmYjdkN2EiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUwODljYThiOTM4YWY3NDE3NjM1NDllNDE0YzgyNmI5OWVjZTMyMzA2NmFiODllMmJjYjcwNTU0MTU0ZWU1ZiIsCiAgICAgICJwcm9maWxlSWQiIDogImU3OTNiMmNhN2EyZjQxMjZhMDk4MDkyZDdjOTk0MTdiIiwKICAgICAgInRleHR1cmVJZCIgOiAiOGUwODljYThiOTM4YWY3NDE3NjM1NDllNDE0YzgyNmI5OWVjZTMyMzA2NmFiODllMmJjYjcwNTU0MTU0ZWU1ZiIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiNjFiYzAwZDk1M2Y5NGRkYzkzNDlkZDdiNzJmYjdkN2EiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTA4OWNhOGI5MzhhZjc0MTc2MzU0OWU0MTRjODI2Yjk5ZWNlMzIzMDY2YWI4OWUyYmNiNzA1NTQxNTRlZTVmIiwKICAgICJwcm9maWxlSWQiIDogImU3OTNiMmNhN2EyZjQxMjZhMDk4MDkyZDdjOTk0MTdiIiwKICAgICJ0ZXh0dXJlSWQiIDogIjhlMDg5Y2E4YjkzOGFmNzQxNzYzNTQ5ZTQxNGM4MjZiOTllY2UzMjMwNjZhYjg5ZTJiY2I3MDU1NDE1NGVlNWYiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,denizen_flags,constants,scoreboardtrait,assignment,lookclose,gravity,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNjFiYzAwZDk1M2Y5NGRkYzkzNDlkZDdiNzJmYjdkN2EiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUwODljYThiOTM4YWY3NDE3NjM1NDllNDE0YzgyNmI5OWVjZTMyMzA2NmFiODllMmJjYjcwNTU0MTU0ZWU1ZiIsCiAgICAgICJwcm9maWxlSWQiIDogImU3OTNiMmNhN2EyZjQxMjZhMDk4MDkyZDdjOTk0MTdiIiwKICAgICAgInRleHR1cmVJZCIgOiAiOGUwODljYThiOTM4YWY3NDE3NjM1NDllNDE0YzgyNmI5OWVjZTMyMzA2NmFiODllMmJjYjcwNTU0MTU0ZWU1ZiIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiNjFiYzAwZDk1M2Y5NGRkYzkzNDlkZDdiNzJmYjdkN2EiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTA4OWNhOGI5MzhhZjc0MTc2MzU0OWU0MTRjODI2Yjk5ZWNlMzIzMDY2YWI4OWUyYmNiNzA1NTQxNTRlZTVmIiwKICAgICJwcm9maWxlSWQiIDogImU3OTNiMmNhN2EyZjQxMjZhMDk4MDkyZDdjOTk0MTdiIiwKICAgICJ0ZXh0dXJlSWQiIDogIjhlMDg5Y2E4YjkzOGFmNzQxNzYzNTQ5ZTQxNGM4MjZiOTllY2UzMjMwNjZhYjg5ZTJiY2I3MDU1NDE1NGVlNWYiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: b12be49e-e30c-4fa4-b739-e9cf3f617b4a
+      player-skin-name: b12be49e-e30c-4fa4-b739-e9cf3f617b4a
+      player-skin-signature: CGNq6mz/cFNChPR4cQQzzl8GGAOZTgqlMn7MrKxVduVsolzKrbowxAEjvt8AN83M1v2+Ci9KH1OL8jYKsM5S5Pgl+4lgsLe/Y31/bgguhkVSmMWfSaJAUNDuZh8Ojmq7vuDpSKrKPsg7cudO2AaYLG4nqw0eanyK4deYkrVbnPznkWkLJOVByUlBjCua2B726QJNsDJ5ma1mbcCSIAgMRrBAdg3HLyG9Rx7P6uv5QRKUCR/cJqBTZTouiFHkWFz91INqgzOB7qcPZUmX0lzBjamNGMMqK6+7ZIBlHBzmjDdEK4qLucGBRxYOPmMYyF+Ss79Vy5WsX22dGOTkZ/knCa56cZDwa4oRN9K85OWYN5EzTJNzCCs8xc4cmzV6Rjdr5Lxd7WaLb3USJwlcb3RKCjKSTVEgo8NRFpoWmdtjg6DSZDOGLN5cwPgaVlqQ4xco3ZwDHv8OcuOArJgkk62GKJQ7whdcxkDo64VTjfuDM4xQQq+fKKbLZSMkE11aRUK+82Z3X8Z3/j4u03ojH7mifLmYgTaK+VJJaSzCaawbtouRPsjMRkMk2N3oOB/RNiseUUUSr01QzSvk14Q61IEBGGUXzIxfjjm2f6AE04ROcqsACuXSgAcXS2y2VFArVN9yD7UCDSX5Oi3Gzsl81DWN7SaFxjJKaqhXkwbR28iSEcs=
+  '3':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODczMjU2MjU4MzQsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE4YTZhYzdiYTAwNTVjMWQzODE0M2RlN2I5NGJhY2ZiYTM5MjAxZTliNGU2NDVmYzQ2MTFjNGU3NzdhNzhhZSJ9fX0=
+      cached-skin-uuid-name: 6391ffd1-ff34-41ff-94bc-4025d0aa5b18
+      cached-skin-uuid: 60e26c1d-cadb-49b5-bd9a-b81a7c5c1800
+      player-skin-signature: D8OSDnDtAsBg2FMXOh7eDQsoQK8HIzwzEJXYOFHOWlS0FsROTmC/kdJ5toDQjVTdtAmzBtgVVv01ayAZkdaEC+F3B2+iOPVYpPBfBQiS7MFbXkHQPqd2lYXVX961QppEntSv0GObZnUN7vmafiDy32H7Y989ripnravU8K4u6VsFq6SHSXNbPGmfaZd7votKvG7/7O3Fh38DBRIoTfv6gi+XrSnaipCIAvqgBS6GVztT74hCt4RVKUR9Byk37CCvVyzNd4xdaRdO/m1qB9ncOFb4rRRE+J20FWnD9tK5DhIQbC/pSr479ERULztE9hQd5zJ3HcaAL8J2Bme+IEFguwZ6xtVNaDp/aP9037mkYGSgyiI7qbgB8yXXoh/JRiD/yPq9C0bkht0rDlkkS74MAgj/+PT/o4UNVjTy1TiqJWh+ippiRlqHxFxA84GPHbwz4mY119QNhvGuZ9YZROvb6GF8mPeEqUee8rRfVRjnqOnsF4naBNYV3P8x9du+IjjUtCO4+dJvBMcw9xXuROk2mu9+oqbBqyU6PPHaeWcAGonQufevPDBaaa2cT4Cd8du7CligCT3bgxE7QAeYYO5u+1GLhuF3DwGfpIWztn7ou2Ob/BEEsCQ0zLwdhKkW9ACJpH2cQxBLetZkn5YFNmdJxWhKOTcBwjR/0R6ufXQAOT8=
+      player-skin-use-latest-skin: false
+      player-skin-name: 6391ffd1-ff34-41ff-94bc-4025d0aa5b18
+    name: Magier
+    uuid: dbef1666-5a5a-4a91-92e6-3d9b91456624
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '391.2119'
+        y: '64.0'
+        z: '109.7842'
+        yaw: '-114.009'
+        pitch: '0.0'
+        bodyYaw: -89.13182
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: blaze_rod
+          amount: 1
+          durability: 0
+        '39':
+          type_namespace: minecraft
+          type_key: golden_helmet
+          amount: 1
+          durability: 0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: blaze_rod
+          amount: 1
+          durability: 0
+        helmet:
+          type_namespace: minecraft
+          type_key: golden_helmet
+          amount: 1
+          durability: 0
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': MAGIER_DORF_A
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        radius:
+          PROXIMITY: 10
+      skintrait:
+        fetchDefaultSkin: true
+        signature: D8OSDnDtAsBg2FMXOh7eDQsoQK8HIzwzEJXYOFHOWlS0FsROTmC/kdJ5toDQjVTdtAmzBtgVVv01ayAZkdaEC+F3B2+iOPVYpPBfBQiS7MFbXkHQPqd2lYXVX961QppEntSv0GObZnUN7vmafiDy32H7Y989ripnravU8K4u6VsFq6SHSXNbPGmfaZd7votKvG7/7O3Fh38DBRIoTfv6gi+XrSnaipCIAvqgBS6GVztT74hCt4RVKUR9Byk37CCvVyzNd4xdaRdO/m1qB9ncOFb4rRRE+J20FWnD9tK5DhIQbC/pSr479ERULztE9hQd5zJ3HcaAL8J2Bme+IEFguwZ6xtVNaDp/aP9037mkYGSgyiI7qbgB8yXXoh/JRiD/yPq9C0bkht0rDlkkS74MAgj/+PT/o4UNVjTy1TiqJWh+ippiRlqHxFxA84GPHbwz4mY119QNhvGuZ9YZROvb6GF8mPeEqUee8rRfVRjnqOnsF4naBNYV3P8x9du+IjjUtCO4+dJvBMcw9xXuROk2mu9+oqbBqyU6PPHaeWcAGonQufevPDBaaa2cT4Cd8du7CligCT3bgxE7QAeYYO5u+1GLhuF3DwGfpIWztn7ou2Ob/BEEsCQ0zLwdhKkW9ACJpH2cQxBLetZkn5YFNmdJxWhKOTcBwjR/0R6ufXQAOT8=
+        skinName: 6391ffd1-ff34-41ff-94bc-4025d0aa5b18
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODczMjU2MjU4MzQsInByb2ZpbGVJZCI6IjkxZmUxOTY4N2M5MDQ2NTZhYTFmYzA1OTg2ZGQzZmU3IiwicHJvZmlsZU5hbWUiOiJoaGphYnJpcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE4YTZhYzdiYTAwNTVjMWQzODE0M2RlN2I5NGJhY2ZiYTM5MjAxZTliNGU2NDVmYzQ2MTFjNGU3NzdhNzhhZSJ9fX0=
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,scoreboardtrait,denizen_flags,assignment,lookclose,gravity,spawned,equipment,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODczMDI3NDMzNzQsInByb2ZpbGVJZCI6IjczODJkZGZiZTQ4NTQ1NWM4MjVmOTAwZjg4ZmQzMmY4IiwicHJvZmlsZU5hbWUiOiJZYU9PUCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJiMTVhOGZlNjc5MDYxYmZhZWQ5NGM1ZDNlM2U0MjJjZjliZjc3YjliMjBiODM4OTI3NDY2ODVmZjMzNDliNiJ9fX0=
+      cached-skin-uuid-name: 77516e6f-a16c-41e1-ac03-504f1a67e7ac
+      cached-skin-uuid: e91f8517-8d90-4e22-baf0-0e1a3572945f
+      player-skin-signature: sl3S0liyZ61+UCqX6kTmHs+hwQxqiJIbM9XtnPvM6un6XmuzMLbK8YvjcOJcxmTnkVfHmM0AaoDmTRBfH5HM3QMbs9zZwSMFCCMm+iC2PQgNq0mXeNRCzQbgMGhUSdmY8OT4YDVD9eDzV8KCOBJIZalLnLNnM2E/EUIeu0B3LUeYzVRe9p4EF4+LxM/k0MaDuAWlLkHoGU7Yp6Jl0OTaZce7VrsDsPRjmA6ZPXfUBhuT3QwnsjH6ucQWzyz+ZRGMMX+f4yexGCwZvXtLU2G8d599aVu5oJlnTiWvsw7lVH/41UI/UBBatG88vqVqBQBFeATPpQb7lmeelMAkPnsXzkXkd+VY4bi1VQuUYyCU4slFKkGi43R7RMInYldwW78L3hJvLZGX5CAWXMq5k7NDXURuEU/U2veoZAPqyQb1xsiibJPa0VIlxihs+lgAblqcX9gayHLezkCG2uabo8YoeebaNaJubcO78zkYPK+Rr5zRak3REXM3B9/TDPEbUWinjnHQFph/iG51omG5ijHT8oFwc+QR7jqReWFZCScKLI/eu4HZBTITrx78Bvwf+N/UwvQqhOTW/g27UIhMZSMslJECZ0vicNElul9Ci1jvIyEeU+zT8pYmCvgt5484pa+Op5Ul+hl5CirsDnrIboRgnvBry7JHmrxhGWOhB34AOJg=
+      player-skin-use-latest-skin: false
+      player-skin-name: 77516e6f-a16c-41e1-ac03-504f1a67e7ac
+    name: Schmied
+    uuid: 86a53f87-7e22-4b96-90bb-dc34acf61875
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '401.5'
+        y: '65.0'
+        z: '110.5'
+        yaw: '-156.8846'
+        pitch: '11.5672'
+        bodyYaw: 163.11536
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+        '36':
+          type_namespace: minecraft
+          type_key: leather_boots
+          amount: 1
+          durability: 0
+        '38':
+          type_namespace: minecraft
+          type_key: chainmail_chestplate
+          amount: 1
+          durability: 0
+        '39':
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+        helmet:
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+        chestplate:
+          type_namespace: minecraft
+          type_key: chainmail_chestplate
+          amount: 1
+          durability: 0
+        boots:
+          type_namespace: minecraft
+          type_key: leather_boots
+          amount: 1
+          durability: 0
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        radius:
+          PROXIMITY: 10
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': SCHMIED_DORF_A
+      skintrait:
+        fetchDefaultSkin: true
+        signature: sl3S0liyZ61+UCqX6kTmHs+hwQxqiJIbM9XtnPvM6un6XmuzMLbK8YvjcOJcxmTnkVfHmM0AaoDmTRBfH5HM3QMbs9zZwSMFCCMm+iC2PQgNq0mXeNRCzQbgMGhUSdmY8OT4YDVD9eDzV8KCOBJIZalLnLNnM2E/EUIeu0B3LUeYzVRe9p4EF4+LxM/k0MaDuAWlLkHoGU7Yp6Jl0OTaZce7VrsDsPRjmA6ZPXfUBhuT3QwnsjH6ucQWzyz+ZRGMMX+f4yexGCwZvXtLU2G8d599aVu5oJlnTiWvsw7lVH/41UI/UBBatG88vqVqBQBFeATPpQb7lmeelMAkPnsXzkXkd+VY4bi1VQuUYyCU4slFKkGi43R7RMInYldwW78L3hJvLZGX5CAWXMq5k7NDXURuEU/U2veoZAPqyQb1xsiibJPa0VIlxihs+lgAblqcX9gayHLezkCG2uabo8YoeebaNaJubcO78zkYPK+Rr5zRak3REXM3B9/TDPEbUWinjnHQFph/iG51omG5ijHT8oFwc+QR7jqReWFZCScKLI/eu4HZBTITrx78Bvwf+N/UwvQqhOTW/g27UIhMZSMslJECZ0vicNElul9Ci1jvIyEeU+zT8pYmCvgt5484pa+Op5Ul+hl5CirsDnrIboRgnvBry7JHmrxhGWOhB34AOJg=
+        skinName: 77516e6f-a16c-41e1-ac03-504f1a67e7ac
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODczMDI3NDMzNzQsInByb2ZpbGVJZCI6IjczODJkZGZiZTQ4NTQ1NWM4MjVmOTAwZjg4ZmQzMmY4IiwicHJvZmlsZU5hbWUiOiJZYU9PUCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJiMTVhOGZlNjc5MDYxYmZhZWQ5NGM1ZDNlM2U0MjJjZjliZjc3YjliMjBiODM4OTI3NDY2ODVmZjMzNDliNiJ9fX0=
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,denizen_flags,scoreboardtrait,lookclose,assignment,gravity,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    name: Lehrer Lempel
+    uuid: 515eb2ba-0d98-45c1-badd-a99e92e78736
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        world: world
+        x: '409.5'
+        y: '65.0'
+        z: '95.5'
+        yaw: '114.8887'
+        pitch: '0.0'
+        bodyYaw: 99.74582
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: stick
+          amount: 1
+          durability: 0
+        '36':
+          type_namespace: minecraft
+          type_key: leather_boots
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAJ1zcQB+ABYAAACXc3EAfgAWAAAAnQ==
+        '38':
+          type_namespace: minecraft
+          type_key: leather_chestplate
+          amount: 1
+          durability: 0
+        '39':
+          type_namespace: minecraft
+          type_key: leather_helmet
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAJ1zcQB+ABYAAACXc3EAfgAWAAAAnQ==
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: stick
+          amount: 1
+          durability: 0
+        helmet:
+          type_namespace: minecraft
+          type_key: leather_helmet
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 10329495
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAJ1zcQB+ABYAAACXc3EAfgAWAAAAnQ==
+        chestplate:
+          type_namespace: minecraft
+          type_key: leather_chestplate
+          amount: 1
+          durability: 0
+        boots:
+          type_namespace: minecraft
+          type_key: leather_boots
+          amount: 1
+          durability: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 10329495
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAFY29sb3J1cQB+AAYAAAADdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9Sc3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABHQABUNvbG9yc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAJ1zcQB+ABYAAACXc3EAfgAWAAAAnQ==
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': SCHWAEMME_IN
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: K8N6Iyv/OXopWIvV2P/xmKsXr7MXSLuLvsW3+r8utTbGJJ378DdYE2DXMuiUHwzVSSt2Z7PxJuhFsueFBbdx8eLd4lMuIqxFw9YRe5YbnBUrASMShrp0BjH6rH/VEQ10yhWTymnZI2QNGJQvofOt8+qTHAkKQi8CwBOPomnE6C6crZCcnfnswp9aEYHCJpCc03l7R2sc+Y9HG9Ult1CTj//cTCNqNQMYZBtrTQTVSLJR85QMli4oEndtx+XWRtvNwjREgBGXWe3effvoxKNWx6D+cGUp4YmMGrXvdmj0Mnx2cSsWwRwimFXjZU20ZTHx5cjJjZpWuFvmcYK3/tdy67nEtkJavf8JTR65wa8M/l28DWf6cI0fzFNU9AIJQcgNan+xkyig6fTLrQATmM87ZIg8rxnTvlNFBdeHy3cgO/EuTm+UnJJmC+a/JQWpvZuNjT5HwmXpBOHLdJrrM0mPHc/ZdVQ4cy+bcTf3pvqwFj+WiMutVQ36/B8hSYQC/GuvsWulBLlL5PBuZAfX7jbAPi92v9ZSXa8wT5qEwC1dOvEYzMmgGwvSiErxJB9yAp7DFaqto5cqqSa33NzA2uJ/FG1cpp3McaGgcUusk4QCIU2pZ3URMdeUcZiTot361+dINnx+xbQ8TNj1kvBXNrzhrfbdTjDoKks46YoyKUnDIs0=
+        skinName: c47f9d4c-f70c-4399-93b1-db99f66c5956
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODczMjU0Nzg3OTUsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmMGM3ODUwZWU0YTBhOTVkODgxNjQ0Nzk4NDRhMWU1MDEzNWM4ZDUxZjYzNzc3NDEwZjQwNGY3YmE4YWY3ODMifX19
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,denizen_flags,scoreboardtrait,assignment,lookclose,gravity,spawned,equipment,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODczMjU0Nzg3OTUsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmMGM3ODUwZWU0YTBhOTVkODgxNjQ0Nzk4NDRhMWU1MDEzNWM4ZDUxZjYzNzc3NDEwZjQwNGY3YmE4YWY3ODMifX19
+      cached-skin-uuid-name: c47f9d4c-f70c-4399-93b1-db99f66c5956
+      cached-skin-uuid: 194fec92-14cc-4bdf-9716-f199293f7f85
+      player-skin-signature: K8N6Iyv/OXopWIvV2P/xmKsXr7MXSLuLvsW3+r8utTbGJJ378DdYE2DXMuiUHwzVSSt2Z7PxJuhFsueFBbdx8eLd4lMuIqxFw9YRe5YbnBUrASMShrp0BjH6rH/VEQ10yhWTymnZI2QNGJQvofOt8+qTHAkKQi8CwBOPomnE6C6crZCcnfnswp9aEYHCJpCc03l7R2sc+Y9HG9Ult1CTj//cTCNqNQMYZBtrTQTVSLJR85QMli4oEndtx+XWRtvNwjREgBGXWe3effvoxKNWx6D+cGUp4YmMGrXvdmj0Mnx2cSsWwRwimFXjZU20ZTHx5cjJjZpWuFvmcYK3/tdy67nEtkJavf8JTR65wa8M/l28DWf6cI0fzFNU9AIJQcgNan+xkyig6fTLrQATmM87ZIg8rxnTvlNFBdeHy3cgO/EuTm+UnJJmC+a/JQWpvZuNjT5HwmXpBOHLdJrrM0mPHc/ZdVQ4cy+bcTf3pvqwFj+WiMutVQ36/B8hSYQC/GuvsWulBLlL5PBuZAfX7jbAPi92v9ZSXa8wT5qEwC1dOvEYzMmgGwvSiErxJB9yAp7DFaqto5cqqSa33NzA2uJ/FG1cpp3McaGgcUusk4QCIU2pZ3URMdeUcZiTot361+dINnx+xbQ8TNj1kvBXNrzhrfbdTjDoKks46YoyKUnDIs0=
+      player-skin-use-latest-skin: false
+      player-skin-name: c47f9d4c-f70c-4399-93b1-db99f66c5956
+  '18':
+    metadata:
+      player-skin-textures: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiOTBmNDc4ODZiZjUxNDY4MjlkZjkyMWI3ZWQ4MzQ1YjAiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzNTM4NDM0YjY0OGM5MDI0Y2Q0MjNmNDEzZDg1ODIzYTQwOTgyYjIwYTAzOWU1NzZkZmIyM2EzZTJkZTViYiIsCiAgICAgICJwcm9maWxlSWQiIDogIjRjOTg0NDIwMTU3NzRhNDY4OTNjNjNhOTliMjNlYmYyIiwKICAgICAgInRleHR1cmVJZCIgOiAiNDEzNTM4NDM0YjY0OGM5MDI0Y2Q0MjNmNDEzZDg1ODIzYTQwOTgyYjIwYTAzOWU1NzZkZmIyM2EzZTJkZTViYiIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiOTBmNDc4ODZiZjUxNDY4MjlkZjkyMWI3ZWQ4MzQ1YjAiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MTM1Mzg0MzRiNjQ4YzkwMjRjZDQyM2Y0MTNkODU4MjNhNDA5ODJiMjBhMDM5ZTU3NmRmYjIzYTNlMmRlNWJiIiwKICAgICJwcm9maWxlSWQiIDogIjRjOTg0NDIwMTU3NzRhNDY4OTNjNjNhOTliMjNlYmYyIiwKICAgICJ0ZXh0dXJlSWQiIDogIjQxMzUzODQzNGI2NDhjOTAyNGNkNDIzZjQxM2Q4NTgyM2E0MDk4MmIyMGEwMzllNTc2ZGZiMjNhM2UyZGU1YmIiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+      cached-skin-uuid-name: dealer
+      cached-skin-uuid: 4c984420-1577-4a46-893c-63a99b23ebf2
+      player-skin-signature: r8Ch0b006jUMqc4ugh0Rq3rBiqn2pe8jMVI2XtPzBj/F+fBAVFYhpQbnD3vtGpQwTJ/ARkgo2vK6PM0gxC3G2cdlLVJHq1xpipXIax2/rnLcy1XqPN2t4YeXFSkB9CQKvPBmhfNIPTgnnAmoQxC8Mm+vfgmiwwa24Y+tx/Z3VkrrEFtRZeeecZizmUlG6x5NMiLUUiEGm4RHnNH7oWChGUvHkACjLJ9TTFudQF3RDZmOAOEW9kLReus33h6t1XAZfEse4QskfC8VqSVSSl3+ZY8h8DYdxNS2h7ZZy6t2oNDZM8iSQNZuSwBcgzRkpvvmyfRHgTRh7XekzsJ0nrG2lpvXJ0J1uGPjUzIUjs+5J5QtyAT3aQJs0bayhuw050XolhE78LaIAH18hVA7/8feNXNjVA8qWX/DfjRvjJojiv3zA6sxpIsRYT/h9bgN8EbAhB/DVyv59i7lkTM1sPQ/tPC4DRBIWwbTMWbdVSwW0vmMFQJgUAmE1ZAQ1RfzBKpkO9RuliRW3f2UnmWsOuCi41dLw639ppRkFIqpXyDZm0LVeDTMLL1J47aiv+SAVDp6dyzobkoNIC08F0c5Nrr5xq1q9F0OdnR5aposdo4VWh5riDFRQ7XiZQFHGgQaFwqzRZxNNv43HwKejhkKdaEV+TU56m71oaRkt7YlCfSeRHU=
+    name: Dealer
+    uuid: aa03a6c1-93d5-459b-ab8d-c0d0606a20f1
+    traits:
+      spawned: true
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      gravity:
+        enabled: false
+      location:
+        world: world
+        x: '399.6119'
+        y: '64.0'
+        z: '85.2686'
+        yaw: '-43.2375'
+        pitch: '-22.5574'
+        bodyYaw: -3.237503
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': DEALER_IN
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: r8Ch0b006jUMqc4ugh0Rq3rBiqn2pe8jMVI2XtPzBj/F+fBAVFYhpQbnD3vtGpQwTJ/ARkgo2vK6PM0gxC3G2cdlLVJHq1xpipXIax2/rnLcy1XqPN2t4YeXFSkB9CQKvPBmhfNIPTgnnAmoQxC8Mm+vfgmiwwa24Y+tx/Z3VkrrEFtRZeeecZizmUlG6x5NMiLUUiEGm4RHnNH7oWChGUvHkACjLJ9TTFudQF3RDZmOAOEW9kLReus33h6t1XAZfEse4QskfC8VqSVSSl3+ZY8h8DYdxNS2h7ZZy6t2oNDZM8iSQNZuSwBcgzRkpvvmyfRHgTRh7XekzsJ0nrG2lpvXJ0J1uGPjUzIUjs+5J5QtyAT3aQJs0bayhuw050XolhE78LaIAH18hVA7/8feNXNjVA8qWX/DfjRvjJojiv3zA6sxpIsRYT/h9bgN8EbAhB/DVyv59i7lkTM1sPQ/tPC4DRBIWwbTMWbdVSwW0vmMFQJgUAmE1ZAQ1RfzBKpkO9RuliRW3f2UnmWsOuCi41dLw639ppRkFIqpXyDZm0LVeDTMLL1J47aiv+SAVDp6dyzobkoNIC08F0c5Nrr5xq1q9F0OdnR5aposdo4VWh5riDFRQ7XiZQFHGgQaFwqzRZxNNv43HwKejhkKdaEV+TU56m71oaRkt7YlCfSeRHU=
+        textureRaw: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiOTBmNDc4ODZiZjUxNDY4MjlkZjkyMWI3ZWQ4MzQ1YjAiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzNTM4NDM0YjY0OGM5MDI0Y2Q0MjNmNDEzZDg1ODIzYTQwOTgyYjIwYTAzOWU1NzZkZmIyM2EzZTJkZTViYiIsCiAgICAgICJwcm9maWxlSWQiIDogIjRjOTg0NDIwMTU3NzRhNDY4OTNjNjNhOTliMjNlYmYyIiwKICAgICAgInRleHR1cmVJZCIgOiAiNDEzNTM4NDM0YjY0OGM5MDI0Y2Q0MjNmNDEzZDg1ODIzYTQwOTgyYjIwYTAzOWU1NzZkZmIyM2EzZTJkZTViYiIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiOTBmNDc4ODZiZjUxNDY4MjlkZjkyMWI3ZWQ4MzQ1YjAiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MTM1Mzg0MzRiNjQ4YzkwMjRjZDQyM2Y0MTNkODU4MjNhNDA5ODJiMjBhMDM5ZTU3NmRmYjIzYTNlMmRlNWJiIiwKICAgICJwcm9maWxlSWQiIDogIjRjOTg0NDIwMTU3NzRhNDY4OTNjNjNhOTliMjNlYmYyIiwKICAgICJ0ZXh0dXJlSWQiIDogIjQxMzUzODQzNGI2NDhjOTAyNGNkNDIzZjQxM2Q4NTgyM2E0MDk4MmIyMGEwMzllNTc2ZGZiMjNhM2UyZGU1YmIiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,constants,scoreboardtrait,denizen_flags,lookclose,assignment,gravity,equipment,spawned,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    metadata:
+      player-skin-textures: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNjI2YTJlNDYxZmI3NDAzODhjZWUxNDZiZDIzMWJmNjYiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlNmNkODY4ODdjZjE3ZmZlYWNiMzNhZTNiYjc3ZGEyNDc3ZDVhZWQ4NjRiNDM2Njg4Mzk3OTJmMTE3OWE1IiwKICAgICAgInByb2ZpbGVJZCIgOiAiYjBkNzMyZmUwMGY3NDA3ZTllN2Y3NDYzMDFjZDk4Y2EiLAogICAgICAidGV4dHVyZUlkIiA6ICI2N2U2Y2Q4Njg4N2NmMTdmZmVhY2IzM2FlM2JiNzdkYTI0NzdkNWFlZDg2NGI0MzY2ODgzOTc5MmYxMTc5YTUiCiAgICB9CiAgfSwKICAic2tpbiIgOiB7CiAgICAiaWQiIDogIjYyNmEyZTQ2MWZiNzQwMzg4Y2VlMTQ2YmQyMzFiZjY2IiwKICAgICJ0eXBlIiA6ICJTS0lOIiwKICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlNmNkODY4ODdjZjE3ZmZlYWNiMzNhZTNiYjc3ZGEyNDc3ZDVhZWQ4NjRiNDM2Njg4Mzk3OTJmMTE3OWE1IiwKICAgICJwcm9maWxlSWQiIDogImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwKICAgICJ0ZXh0dXJlSWQiIDogIjY3ZTZjZDg2ODg3Y2YxN2ZmZWFjYjMzYWUzYmI3N2RhMjQ3N2Q1YWVkODY0YjQzNjY4ODM5NzkyZjExNzlhNSIKICB9LAogICJjYXBlIiA6IG51bGwKfQ==
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: 76355c57-3a7f-40cf-ba95-7d4ee5a5fc30
+      player-skin-name: 76355c57-3a7f-40cf-ba95-7d4ee5a5fc30
+      player-skin-signature: DW4+TufHfmqHZN3ZZbGK8EIwEil48Rhp7guwfHkbS1mm5SOJeFCJS79CbGFMIADDLtGapYT196FCweZyLZ6wwX2+CXX1DR+fBTUeOjvo3faIms7ocrVEWXQYFx4mhgb16aQ1tujxpxQN88IWkWJ+QurSfvkzMD3GdltVZ00M+UMxcD5gD7j9E2Cbkv3EqBgKLdu044iaFQwqNA9M7dAWbAviaX6I9QQQPeGn/yhJJ1VuEHdY+uwIZ2WBNgItqshbLiIYhSwXIxUrxuPE9b8VQxWybB23Piz5HtdKqtm4YvNNhx0Fk8VBwLjO06GKy7KhA9bBxs++i/hbrNnXZqEYj/fdCw0t2uODWjq7anPtfohgYmcmDE+aZj0GP0rCmfS9aQ5KdFtowxxKQyYFFGHlLzsW1efA8WaEa39Yw/8yt5VHUAS8nsteEiKSxjJv8xJ0M1nOXTXAdyq/9jnh5D8HpElECHi68gx0+c+QFfL+qMNibuHEynABG0U1QPZpy1EU8PtqVgb+qtWn2OAyA++Ez/yDrCTo6bzIeTqHifqRaJ6eKqU6FCSgoOUJatuptiU0EQ48WqNMrc+WPEbuW+BHNsM49tbrQlcNe+LsFSjSojuAtLmTzRxBalG9kuG58hFTMJRlrxDR2N61NpNzYRnMl8RL28Adgbf8x6LVvDZR9Ss=
+    name: Saufkumpane
+    uuid: 64b55c8e-3043-4aab-8a60-94559fa431ab
+    traits:
+      spawned: true
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: true
+          DAMAGE: false
+      type: PLAYER
+      gravity:
+        enabled: false
+      location:
+        world: world
+        x: '379.5853'
+        y: '64.0'
+        z: '56.5315'
+        yaw: '-8.9953'
+        pitch: '-0.2999'
+        bodyYaw: -8.9953
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': DEALER_IN
+      skintrait:
+        fetchDefaultSkin: true
+        signature: DW4+TufHfmqHZN3ZZbGK8EIwEil48Rhp7guwfHkbS1mm5SOJeFCJS79CbGFMIADDLtGapYT196FCweZyLZ6wwX2+CXX1DR+fBTUeOjvo3faIms7ocrVEWXQYFx4mhgb16aQ1tujxpxQN88IWkWJ+QurSfvkzMD3GdltVZ00M+UMxcD5gD7j9E2Cbkv3EqBgKLdu044iaFQwqNA9M7dAWbAviaX6I9QQQPeGn/yhJJ1VuEHdY+uwIZ2WBNgItqshbLiIYhSwXIxUrxuPE9b8VQxWybB23Piz5HtdKqtm4YvNNhx0Fk8VBwLjO06GKy7KhA9bBxs++i/hbrNnXZqEYj/fdCw0t2uODWjq7anPtfohgYmcmDE+aZj0GP0rCmfS9aQ5KdFtowxxKQyYFFGHlLzsW1efA8WaEa39Yw/8yt5VHUAS8nsteEiKSxjJv8xJ0M1nOXTXAdyq/9jnh5D8HpElECHi68gx0+c+QFfL+qMNibuHEynABG0U1QPZpy1EU8PtqVgb+qtWn2OAyA++Ez/yDrCTo6bzIeTqHifqRaJ6eKqU6FCSgoOUJatuptiU0EQ48WqNMrc+WPEbuW+BHNsM49tbrQlcNe+LsFSjSojuAtLmTzRxBalG9kuG58hFTMJRlrxDR2N61NpNzYRnMl8RL28Adgbf8x6LVvDZR9Ss=
+        skinName: 76355c57-3a7f-40cf-ba95-7d4ee5a5fc30
+        textureRaw: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNjI2YTJlNDYxZmI3NDAzODhjZWUxNDZiZDIzMWJmNjYiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlNmNkODY4ODdjZjE3ZmZlYWNiMzNhZTNiYjc3ZGEyNDc3ZDVhZWQ4NjRiNDM2Njg4Mzk3OTJmMTE3OWE1IiwKICAgICAgInByb2ZpbGVJZCIgOiAiYjBkNzMyZmUwMGY3NDA3ZTllN2Y3NDYzMDFjZDk4Y2EiLAogICAgICAidGV4dHVyZUlkIiA6ICI2N2U2Y2Q4Njg4N2NmMTdmZmVhY2IzM2FlM2JiNzdkYTI0NzdkNWFlZDg2NGI0MzY2ODgzOTc5MmYxMTc5YTUiCiAgICB9CiAgfSwKICAic2tpbiIgOiB7CiAgICAiaWQiIDogIjYyNmEyZTQ2MWZiNzQwMzg4Y2VlMTQ2YmQyMzFiZjY2IiwKICAgICJ0eXBlIiA6ICJTS0lOIiwKICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlNmNkODY4ODdjZjE3ZmZlYWNiMzNhZTNiYjc3ZGEyNDc3ZDVhZWQ4NjRiNDM2Njg4Mzk3OTJmMTE3OWE1IiwKICAgICJwcm9maWxlSWQiIDogImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwKICAgICJ0ZXh0dXJlSWQiIDogIjY3ZTZjZDg2ODg3Y2YxN2ZmZWFjYjMzYWUzYmI3N2RhMjQ3N2Q1YWVkODY0YjQzNjY4ODM5NzkyZjExNzlhNSIKICB9LAogICJjYXBlIiA6IG51bGwKfQ==
+        updateSkins: false
+      owner:
+        uuid: b10feb7c-2495-4666-9abb-3cb967156c00
+      sneak:
+        sneaking: false
+    traitnames: triggers,skintrait,mounttrait,type,location,denizen_flags,scoreboardtrait,constants,assignment,gravity,spawned,equipment,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
