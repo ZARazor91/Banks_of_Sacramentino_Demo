@@ -8,9 +8,9 @@ Please note that you need OpenJDK 17 to play this adventure.
 
 | Name      | Version | Build    |
 | --------- | ------- | -------- |
-| Paper     | 1.18.1  | 188      |
-| Citizens2 | 2.0.29  | 2464     |
-| Denizen   | 1.2.3   | 6119-DEV |
+| Paper     | 1.18.1  | 197      |
+| Citizens2 | 2.0.29  | 2466     |
+| Denizen   | 1.2.3   | 6121-DEV |
 | Vault     | 1.7.3   | N/A      |
 
 Notes:
