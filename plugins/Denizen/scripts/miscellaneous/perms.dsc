@@ -31,7 +31,7 @@ perms_w:
       - determine cancelled
 
     on command:
-      - if !<list[bos|help|money|time|stop].contains[<context.command>]> && <context.source_type.equals[PLAYER]>:
+      - if !<list[bos|help|money|time|stop|wahl].contains[<context.command>]> && <context.source_type.equals[PLAYER]>:
         - narrate <script[lang].data_key[d_cmd_unknown.<server.flag[lang]>].parsed>
         - determine cancelled
 
