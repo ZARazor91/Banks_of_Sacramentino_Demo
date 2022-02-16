@@ -14,4 +14,4 @@ Please note that you need OpenJDK 17 to play this adventure.
 | Vault     | 1.7.3   | N/A      |
 
 Notes:
-Denizen will changed to the stable version after the development.
+Denizen will be changed to the stable version after the development.
