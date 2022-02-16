@@ -86,8 +86,8 @@ lang:
     ger: <green>Uhrzeit<&co> <red><[hour]>:<[minute]>
     eng: <green>Time of day<&co> <red><[hour]>:<[minute]> <[app]>
   d_help:
-    ger: Verfügbare Befehle dieses Adventures:<&nl>/bos      Zeigt die BoS-Einführung<&nl>/time     Zeigt die aktuelle Uhrzeit<&nl>/money  Zeigt deinen aktuellen Kontostand
-    eng: Available commands of this adventure:<&nl>/bos      Shows the BoD-Introduction<&nl>/time     Shows the current time<&nl>/money  Shows your current bank balance
+    ger: Verfügbare Befehle dieses Adventures:<&nl>/bos      Zeigt die BoS-Einführung<&nl>/time     Zeigt die aktuelle Uhrzeit<&nl>/money  Zeigt deinen aktuellen Kontostand<&nl>/stop     Speichert und beendet das Adventure
+    eng: Available commands of this adventure:<&nl>/bos      Shows the BoD-Introduction<&nl>/time     Shows the current time<&nl>/money  Shows your current bank balance<&nl>/stop     Saves and ends the adventure
 
   #Hilfetexte
   d_bos_about:
