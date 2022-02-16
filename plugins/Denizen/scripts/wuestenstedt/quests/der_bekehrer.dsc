@@ -16,11 +16,11 @@ bekehrer_in:
                   - narrate "<script[lang].data_key[quest_gestartet.<server.flag[lang]>].parsed> <script[lang].data_key[bek_name.<server.flag[lang]>].parsed>"
                   - chat <script[lang].data_key[bek_annahme.<server.flag[lang]>].parsed>
                   - give item:<item[paper[display_name=<script[lang].data_key[bek_item.<server.flag[lang]>].parsed>]]> quantity:10
-                  - flag server curNPC:<npc.name>
+                  - flag server curNPC:<npc.id>
                   - flag server quest:true
                   - flag server bek_c_var:0
                   - flag server bek_d:<list[]>
-                  - run bekehrer_task
+                  - run 10_task
                 - else:
                   - chat <script[lang].data_key[bek_ablehnung.<server.flag[lang]>].parsed>
               - else:
@@ -44,7 +44,7 @@ bekehrer_in:
     on exit proximity:
       - flag server nah:false
 
-bekehrer_task:
+10_task:
   type: task
   debug: false
   script:

@@ -39,11 +39,11 @@ lang:
     ger: <element[<green>[JA]<white>].on_click[/wahl a6105c0a611b41b08f1209506350279e].type[RUN_COMMAND]> <element[<red>[NEIN]<white>].on_click[/wahl 7fa3b767c460b54a2be4d49030b349c7].type[RUN_COMMAND]>
     eng: <element[<green>[YES]<white>].on_click[/wahl a6105c0a611b41b08f1209506350279e].type[RUN_COMMAND]> <element[<red>[NO]<white>].on_click[/wahl 7fa3b767c460b54a2be4d49030b349c7].type[RUN_COMMAND]>
   hat_quest:
-    ger: Du hast bereits eine Quest von <yellow><server.flag[curNPC]>
-    eng: You already have a quest from <yellow><server.flag[curNPC]>
+    ger: Du hast bereits eine Quest von <yellow><npc[<server.flag[curNPC]>].name>
+    eng: You already have a quest from <yellow><npc[<server.flag[curNPC]>].name>
   sidebar_quest:
-    ger: <yellow>= Quest von <server.flag[curNPC]> =
-    eng: <yellow>= Quest by <server.flag[curNPC]> =
+    ger: <yellow>= Quest von <npc[<server.flag[curNPC]>].name> =
+    eng: <yellow>= Quest by <npc[<server.flag[curNPC]>].name> =
 
   #System-Texte
   d_sprache:

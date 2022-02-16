@@ -10,14 +10,11 @@ lang_Inventory:
 
 language_Handler:
   type: world
-  debug: true
+  debug: false
   events:
     on player joins:
       - wait 0.1s
       - adjust <player> "send_server_brand:<green>Banks of Sacramentino <yellow>1.18.1 <red>DEMO<white>"
-      - if !<list[ZARazor91|D0N_H_].contains[<player.name>]> && <server.online_players.size.is_more_than[1]>:
-        - adjust <player> gamemode:spectator
-        - stop
       - if !<server.has_flag[init]>:
         - teleport <player> <location[445.5,64,98.5,0,180,world]>
         - time 0t
@@ -32,6 +29,8 @@ language_Handler:
           - adjust <npc[<[value]>]> "hologram_lines:<list[[ <yellow>! <white>]]>"
         - money set quantity:0
         - flag server init:true
+      - if <server.flag[quest]>:
+        - run <server.flag[curNPC]>_task
 
       - if !<server.has_flag[lang]>:
         - title "title:Banks of Sacramentino <red>DEMO" "subtitle:<green>A MC-Adventure by ZARazor91 & D0N_H_"

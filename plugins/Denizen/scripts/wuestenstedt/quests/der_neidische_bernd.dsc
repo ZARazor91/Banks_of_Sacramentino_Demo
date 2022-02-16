@@ -17,9 +17,9 @@ bernd_in:
                   - narrate "<script[lang].data_key[quest_gestartet.<server.flag[lang]>].parsed> <script[lang].data_key[ber_name.<server.flag[lang]>].parsed>"
                   - chat <script[lang].data_key[ber_annahme.<server.flag[lang]>].parsed>
                   - modifyblock bernd_button stone_button
-                  - flag server curNPC:<npc.name>
+                  - flag server curNPC:<npc.id>
                   - flag server quest:true
-                  - run bernd_task
+                  - run 16_task
                 - else:
                   - chat <script[lang].data_key[bue_ablehnung.<server.flag[lang]>].parsed>
               - else:
@@ -43,7 +43,7 @@ bernd_in:
     on exit proximity:
       - flag server nah:false
 
-bernd_task:
+16_task:
   type: task
   debug: false
   script:

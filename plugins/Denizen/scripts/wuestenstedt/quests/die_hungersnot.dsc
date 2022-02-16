@@ -16,9 +16,9 @@ hunger_in:
                 - if <server.flag[hun_var].equals[1]>:
                   - narrate "<script[lang].data_key[quest_gestartet.<server.flag[lang]>].parsed> <script[lang].data_key[hun_name.<server.flag[lang]>].parsed>"
                   - chat <script[lang].data_key[hun_annahme.<server.flag[lang]>].parsed>
-                  - flag server curNPC:<npc.name>
+                  - flag server curNPC:<npc.id>
                   - flag server quest:true
-                  - run hunger_task
+                  - run 13_task
                 - else:
                   - chat <script[lang].data_key[hun_ablehnung.<server.flag[lang]>].parsed>
               - else:
@@ -46,7 +46,7 @@ hunger_in:
     on exit proximity:
       - flag server nah:false
 
-hunger_task:
+13_task:
   type: task
   debug: false
   script:
