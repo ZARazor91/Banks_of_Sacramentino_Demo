@@ -63,6 +63,7 @@ world-settings:
   worldeditregentempworld:
     verbose: false
   default:
+    seed-stronghold: default
     below-zero-generation-in-existing-chunks: true
     simulation-distance: default
     thunder-chance: 100000

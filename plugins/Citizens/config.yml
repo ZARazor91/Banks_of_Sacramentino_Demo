@@ -95,6 +95,8 @@ npc:
     straight-line-targeting-distance: 5
     minecraft:
       max-fall-distance: 3
+    defaults:
+      destination-teleport-margin: -1
   controllable:
     use-boat-controls: true
     max-ground-speed: 0.5
