@@ -2,7 +2,7 @@ bekehrer_in:
   type: assignment
   actions:
     on click:
-      - if <player.item_in_hand.material.equals[<material[chest[display_name=<script[lang].data_key[bek_item.<server.flag[lang]>]>]]>]> && !<server.flag[bek_d].contains[<npc.id>]> && !<npc.id.equals[10]>:
+      - if <player.item_in_hand.has_display> && <player.item_in_hand.display.equals[<script[lang].data_key[bek_item.<server.flag[lang]>]>]>:
         - run bekehrer_t def:true
       - else:
         - choose <server.flag[bek_var]>:

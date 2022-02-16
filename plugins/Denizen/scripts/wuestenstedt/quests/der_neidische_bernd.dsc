@@ -3,7 +3,7 @@ bernd_in:
   debug: false
   actions:
     on click:
-      - if <server.flag[bek_var].equals[1]> && <player.item_in_hand.material.equals[<material[paper[display=<script[lang].data_key[bek_item.<server.flag[lang]>]>]]>]>:
+      - if <player.item_in_hand.has_display> && <player.item_in_hand.display.equals[<script[lang].data_key[bek_item.<server.flag[lang]>]>]>:
         - run bekehrer_t def:true
       - else:
         - choose <server.flag[ber_var]>:
