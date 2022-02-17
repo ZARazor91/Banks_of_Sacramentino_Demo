@@ -68,9 +68,6 @@ ger_i:
   - sign type:automatic "Das|schräge|Zauberlädle|* * *" sign_416
   - sign type:automatic Drogen|dealen|verboten! sign_442
   - sign type:automatic "EMPFOHLEN|===============|Spiele ohne|eine Minimap" sign_444
-  - sign type:automatic "Hier endet der|für das|Adventure rele-|vante Bereich." sign_481
-  - sign type:automatic "Hier endet der|für das|Adventure rele-|vante Bereich." sign_482
-  - sign type:automatic "Hier endet der|für das|Adventure rele-|vante Bereich." sign_483
   - sign type:automatic Home|Sweet|Home sign_488
   - sign type:automatic "keinem Andern|zu!||- Ende -" sign_492
   - sign type:automatic Missions-|relevante|Gegenstände!! sign_506

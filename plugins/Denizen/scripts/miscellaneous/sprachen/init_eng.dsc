@@ -68,9 +68,6 @@ eng_i:
   - sign type:automatic "|Krazy Magic|Shop|* * *"  sign_416
   - sign type:automatic "|No drugs|dealing! <&gt>:("  sign_442
   - sign type:automatic "RECOMMENDED|===============|Play without|a minimap"  sign_444
-  - sign type:automatic "Here ends the|area relevant|for the ad-|venture."  sign_481
-  - sign type:automatic "Here ends the|area relevant|for the ad-|venture."  sign_482
-  - sign type:automatic "Here ends the|area relevant|for the ad-|venture."  sign_483
   - sign type:automatic Home|Sweet|Home sign_488
   - sign type:automatic "|- THE END -"  sign_492
   - sign type:automatic "Important|stuff for quest|Don't waste"  sign_506

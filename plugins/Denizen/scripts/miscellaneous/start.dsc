@@ -33,7 +33,7 @@ language_Handler:
         - run <server.flag[curNPC]>_task
 
       - if !<server.has_flag[lang]>:
-        - title "title:Banks of Sacramentino <red>DEMO" "subtitle:<green>A MC-Adventure by ZARazor91 & D0N_H_"
+        - title "title:Banks of Sacramentino <red>DEMO" "subtitle:<green>An MC-Adventure by ZARazor91 & d0nh"
         - wait 5.5s
         - inventory open d:lang_Inventory
 
