@@ -49,7 +49,7 @@ eng_i:
   - sign type:automatic |9.75 sign_224
   - sign type:automatic "|Open:|7am - 12pm"  sign_239
   - sign type:automatic "|Open|9:31pm - 5:49am"  sign_240
-  - sign type:automatic "|Razor91 &|D0N_H_"  sign_250
+  - sign type:automatic "|ZARazor91 &|d0nh"  sign_250
   - sign type:automatic |BLACKSMITH|--------------- sign_265
   - sign type:automatic |STONY sign_280
   - sign type:automatic |SUPERMARKET sign_282
@@ -79,5 +79,5 @@ eng_i:
   - sign type:automatic o-------------o|||o-------------o sign_518
   - sign type:automatic o-------------o|||o-------------o sign_519
   - sign type:automatic "|Desert Ville|Constitution"  sign_613
-  - sign type:automatic "HAVE FUN!||Razor91|& D0N_H_"  sign_615
+  - sign type:automatic "HAVE FUN!||ZARazor91|& d0nh"  sign_615
   - sign type:automatic "Do unto others|as you would|have others|do unto you."  sign_618

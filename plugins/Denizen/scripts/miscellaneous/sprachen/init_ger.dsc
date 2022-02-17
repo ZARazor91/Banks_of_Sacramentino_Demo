@@ -49,7 +49,7 @@ ger_i:
   - sign type:automatic |Klasse|9,75 sign_224
   - sign type:automatic "Öffnungszeiten:|07:00 - 20:00" sign_239
   - sign type:automatic "|Öffnungszeiten:|21:31 - 05:49" sign_240
-  - sign type:automatic "|Razor91 &|D0N_H_" sign_250
+  - sign type:automatic "|ZARazor91 &|d0nh" sign_250
   - sign type:automatic "|SCHMIED UND" sign_265
   - sign type:automatic |STONY sign_280
   - sign type:automatic |SUPERMARKT sign_282
@@ -79,5 +79,5 @@ ger_i:
   - sign type:automatic o-------------o|||o-------------o sign_518
   - sign type:automatic o-------------o|||o-------------o sign_519
   - sign type:automatic "Verfassung von|Wüstenstedt|Art. 1, Abs. 1" sign_613
-  - sign type:automatic "Viel Spaß|wünschen|Razor91 |& D0N_H_ !" sign_615
+  - sign type:automatic "Viel Spaß|wünschen|ZARazor91 |& d0nh !" sign_615
   - sign type:automatic "Was du nicht|willst, dass|man dir tu,|das füg auch" sign_618
