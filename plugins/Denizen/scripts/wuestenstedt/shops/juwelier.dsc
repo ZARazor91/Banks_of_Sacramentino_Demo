@@ -1,5 +1,6 @@
 juwelier_dorf_a:
   type: assignment
+  debug: false
   actions:
     on click:
       - if <server.flag[bek_var].equals[1]> && <player.item_in_hand.material.equals[<material[paper[display=<script[lang].data_key[bek_item.<server.flag[lang]>]>]]>]>:
@@ -31,6 +32,7 @@ juwelier_dorf_buy_i:
 
 juwelier_dorf_h:
   type: world
+  debug: false
   events:
     on player left clicks item in juwelier_dorf_sell_i:
       - if <context.item.has_flag[price]>:

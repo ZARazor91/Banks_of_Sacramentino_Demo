@@ -1,5 +1,6 @@
 lang:
   type: data
+  debug: false
 
   # Allgemeine Quest-Texte
   summe_erhalten:

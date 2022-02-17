@@ -1,5 +1,6 @@
 bekehrer_in:
   type: assignment
+  debug: false
   actions:
     on click:
       - if <player.item_in_hand.has_display> && <player.item_in_hand.display.equals[<script[lang].data_key[bek_item.<server.flag[lang]>]>]>:

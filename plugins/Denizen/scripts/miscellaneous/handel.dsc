@@ -1,6 +1,6 @@
 kaufen_t:
   type: task
-  debug: true
+  debug: false
   definitions: summe|item|npc
   script:
     - if <player.money.is_more_than_or_equal_to[<[summe]>]>:

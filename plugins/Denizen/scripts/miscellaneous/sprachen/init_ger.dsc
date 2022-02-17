@@ -1,5 +1,7 @@
 ger_i:
   type: task
+  debug: false
+
   script:
   - rename Reisender npc:0
   - rename "Lehrer Lempel" npc:1

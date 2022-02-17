@@ -1,6 +1,6 @@
 eco_script:
   type: economy
-  debug: true
+  debug: false
 
   priority: highest
   name single: Thaler

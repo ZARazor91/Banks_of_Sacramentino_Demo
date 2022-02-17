@@ -1,5 +1,6 @@
 kassierer_dorf_a:
   type: assignment
+  debug: false
   actions:
     on click:
       - if <server.flag[bek_var].equals[1]> && <player.item_in_hand.material.equals[<material[paper[display=<script[lang].data_key[bek_item.<server.flag[lang]>]>]]>]>:
@@ -20,6 +21,7 @@ kassierer_dorf_i:
 
 kassierer_dorf_h:
   type: world
+  debug: false
   events:
     on player left clicks item in kassierer_dorf_i:
       - if <context.item.has_flag[price]>:

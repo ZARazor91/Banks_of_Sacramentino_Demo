@@ -1,5 +1,6 @@
 lwc_w:
   type: world
+  debug: false
   events:
     on player right clicks chest in:chest_*:
       - determine passively cancelled

@@ -1,5 +1,7 @@
 eng_i:
   type: task
+  debug: false
+
   script:
   - rename Traveller npc:0
   - rename "Teacher Terry" npc:1
