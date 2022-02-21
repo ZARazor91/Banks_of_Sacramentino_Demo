@@ -3,7 +3,7 @@ bekehrer_in:
   debug: false
   actions:
     on click:
-      - if <player.item_in_hand.has_display> && <player.item_in_hand.display.equals[<script[lang].data_key[bek_item.<server.flag[lang]>]>]>:
+      - if !<npc.id.equals[10]>:
         - run bekehrer_t def:true
       - else:
         - choose <server.flag[bek_var]>:

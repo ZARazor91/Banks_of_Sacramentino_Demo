@@ -3,7 +3,7 @@ dealer_in:
   debug: false
   actions:
     on click:
-      - if <player.item_in_hand.has_display> && <player.item_in_hand.display.equals[<script[lang].data_key[bek_item.<server.flag[lang]>]>]>:
+      - if <player.item_in_hand.has_display>:
         - run bekehrer_t def:false
       - else:
         - if "<list[Saufkumpane|Booze Buddy].contains[<npc.name>]>":

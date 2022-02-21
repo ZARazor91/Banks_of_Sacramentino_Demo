@@ -153,9 +153,6 @@ lang:
     ger: Ich danke dir, hier sind die 10 Zeitungen. Kehre anschließend zu mir zurück für die Belohnung.
     eng: Thank you so much. Here you have the ten letters. As you're finished, return to me for your reward.
   bek_item:
-    ger: <&r>Gemeindeblatt
-    eng: <&r>Parish Newsletter
-  bek_item_2:
     ger: Gemeindeblatt
     eng: Parish Newsletter
   bek_ablehnung:

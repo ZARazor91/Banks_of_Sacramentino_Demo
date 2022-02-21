@@ -14,7 +14,7 @@ juwelier_dorf_a:
 
 juwelier_dorf_sell_i:
   type: inventory
-  inventory: generic
+  inventory: chest
   title: <script[lang].data_key[shop.<server.flag[lang]>].parsed>
   size: 18
   gui: true

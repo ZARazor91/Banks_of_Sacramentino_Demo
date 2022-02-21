@@ -11,7 +11,7 @@ schmied_dorf_a:
 
 schmied_dorf_i:
   type: inventory
-  inventory: generic
+  inventory: chest
   title: <script[lang].data_key[shop.<server.flag[lang]>].parsed>
   size: 18
   gui: true

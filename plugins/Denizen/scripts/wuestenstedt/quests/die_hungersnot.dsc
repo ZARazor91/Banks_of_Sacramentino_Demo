@@ -3,7 +3,7 @@ hunger_in:
   debug: false
   actions:
     on click:
-      - if <player.item_in_hand.has_display> && <player.item_in_hand.display.equals[<script[lang].data_key[bek_item.<server.flag[lang]>]>]>:
+      - if <player.item_in_hand.has_display>:
         - run bekehrer_t def:true
       - else :
         - choose <server.flag[hun_var]>:
@@ -34,7 +34,7 @@ hunger_in:
               - take item:bread quantity:10
               - take item:cooked_beef quantity:20
               - give money quantity:250
-              - give enchanted_golden_apple quantity: 1
+              - give item:enchanted_golden_apple quantity:1
               - flag server hun_var:2
               - flag server quest:false
             - else:
