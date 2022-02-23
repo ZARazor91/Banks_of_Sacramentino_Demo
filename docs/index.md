@@ -1,6 +1,6 @@
-###Banks of Sacramentino DEMO
+### Banks of Sacramentino DEMO
 
-##Banks of Sacramentino DEMO
+## Banks of Sacramentino DEMO
 
 Willkommen zur Demo des Adventures "Banks of Sacramentino" für Minecraft 1.18.1!
 
