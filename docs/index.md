@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Banks of Sacramentino DEMO
 
 You can use the [editor on GitHub](https://github.com/ZARazor91/Banks_of_Sacramentino_Demo/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
