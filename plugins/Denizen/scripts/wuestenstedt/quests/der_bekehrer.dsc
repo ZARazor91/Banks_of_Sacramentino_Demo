@@ -4,7 +4,7 @@ bekehrer_in:
   actions:
     on click:
       - if !<npc.id.equals[10]>:
-        - run bekehrer_t def:true
+        - inject bekehrer_t
       - else:
         - choose <server.flag[bek_var]>:
           - case 0:

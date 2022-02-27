@@ -99,6 +99,9 @@ Cuboids:
     flags: |
       time1:1000
       time2:18016
+  anvil_1:
+    object: cu@world,404,65,110,404,65,110
+    flags: ''
   gate_1:
     object: cu@world,403,65,109,403,65,109
     flags: ''
@@ -107,9 +110,6 @@ Cuboids:
     flags: |
       time1:0
       time2:14016
-  anvil_1:
-    object: cu@world,404,65,110,404,65,110
-    flags: ''
 Polygons:
   farm_1:
     object: polygon@world,63.0,65.0,429.0,95.0,429.0,107.0,437.0,107.0,437.0,122.0,453.0,122.0,453.0,99.0,452.0,99.0,452.0,97.0,448.0,97.0,448.0,95.0

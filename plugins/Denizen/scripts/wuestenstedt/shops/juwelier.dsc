@@ -3,14 +3,12 @@ juwelier_dorf_a:
   debug: false
   actions:
     on click:
-      - if <player.item_in_hand.has_display> && <player.item_in_hand.material.equals[<material[paper]>]>:
-        - run bekehrer_t def:true
-      - else:
-        - chat <script[lang].data_key[gruss.<server.flag[lang]>].parsed>
-        - if <player.is_sneaking>:
-          - inventory open d:juwelier_dorf_buy_i
-        - else :
-          - inventory open d:juwelier_dorf_sell_i
+      - inject bekehrer_t
+      - chat <script[lang].data_key[gruss.<server.flag[lang]>].parsed>
+      - if <player.is_sneaking>:
+        - inventory open d:juwelier_dorf_buy_i
+      - else :
+        - inventory open d:juwelier_dorf_sell_i
 
 juwelier_dorf_sell_i:
   type: inventory

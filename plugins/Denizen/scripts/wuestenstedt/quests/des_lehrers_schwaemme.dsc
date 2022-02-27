@@ -3,41 +3,39 @@ schwaemme_in:
   debug: false
   actions:
     on click:
-      - if <player.item_in_hand.has_display> && <player.item_in_hand.material.equals[<material[paper]>]>:
-        - run bekehrer_t def:true
-      - else:
-        - choose <server.flag[leh_var]>:
-          - case 0:
-            - if !<server.flag[nah]>:
-              - if !<server.flag[quest]>:
-                - chat <script[lang].data_key[leh_start.<server.flag[lang]>].parsed>
-                - run wahl_t def:leh_var|1|0|quest_frage
-                - waituntil !<server.flag[nah]>
-                - if <server.flag[leh_var].equals[1]>:
-                  - narrate "<script[lang].data_key[quest_gestartet.<server.flag[lang]>].parsed> <script[lang].data_key[leh_name.<server.flag[lang]>].parsed>"
-                  - chat <script[lang].data_key[leh_annahme.<server.flag[lang]>].parsed>
-                  - flag server curNPC:<npc.id>
-                  - flag server quest:true
-                  - run 1_task
-                - else:
-                  - chat <script[lang].data_key[leh_ablehnung.<server.flag[lang]>].parsed>
+      - inject bekehrer_t
+      - choose <server.flag[leh_var]>:
+        - case 0:
+          - if !<server.flag[nah]>:
+            - if !<server.flag[quest]>:
+              - chat <script[lang].data_key[leh_start.<server.flag[lang]>].parsed>
+              - run wahl_t def:leh_var|1|0|quest_frage
+              - waituntil !<server.flag[nah]>
+              - if <server.flag[leh_var].equals[1]>:
+                - narrate "<script[lang].data_key[quest_gestartet.<server.flag[lang]>].parsed> <script[lang].data_key[leh_name.<server.flag[lang]>].parsed>"
+                - chat <script[lang].data_key[leh_annahme.<server.flag[lang]>].parsed>
+                - flag server curNPC:<npc.id>
+                - flag server quest:true
+                - run 1_task
               - else:
-                - narrate <script[lang].data_key[hat_quest.<server.flag[lang]>].parsed>
-
-          - case 1:
-            - if <player.inventory.contains_item[sponge].quantity[8]> && <player.item_in_hand.material.equals[<material[sponge]>]>:
-              - chat <script[lang].data_key[leh_abgabe.<server.flag[lang]>].parsed>
-              - toast <script[lang].data_key[quest_beendet.<server.flag[lang]>].parsed><script[lang].data_key[leh_name.<server.flag[lang]>].parsed> icon:nether_star frame:goal
-              - narrate <script[lang].data_key[leh_lohn.<server.flag[lang]>].parsed>
-              - take item:sponge quantity:8
-              - give item:glowstone_dust quantity:1
-              - flag server leh_var:2
-              - flag server quest:false
+                - chat <script[lang].data_key[leh_ablehnung.<server.flag[lang]>].parsed>
             - else:
-              - chat <script[lang].data_key[leh_frage.<server.flag[lang]>].parsed>
+              - narrate <script[lang].data_key[hat_quest.<server.flag[lang]>].parsed>
 
-          - case 2:
-            - chat <script[lang].data_key[gruss.<server.flag[lang]>].parsed>
+        - case 1:
+          - if <player.inventory.contains_item[sponge].quantity[8]> && <player.item_in_hand.material.equals[<material[sponge]>]>:
+            - chat <script[lang].data_key[leh_abgabe.<server.flag[lang]>].parsed>
+            - toast <script[lang].data_key[quest_beendet.<server.flag[lang]>].parsed><script[lang].data_key[leh_name.<server.flag[lang]>].parsed> icon:nether_star frame:goal
+            - narrate <script[lang].data_key[leh_lohn.<server.flag[lang]>].parsed>
+            - take item:sponge quantity:8
+            - give item:glowstone_dust quantity:1
+            - flag server leh_var:2
+            - flag server quest:false
+          - else:
+            - chat <script[lang].data_key[leh_frage.<server.flag[lang]>].parsed>
+
+        - case 2:
+          - chat <script[lang].data_key[gruss.<server.flag[lang]>].parsed>
 
     on exit proximity:
       - flag server nah:false

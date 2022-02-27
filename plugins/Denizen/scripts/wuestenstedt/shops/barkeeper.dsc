@@ -3,11 +3,9 @@ barkeeper_dorf_a:
   debug: false
   actions:
     on click:
-      - if <player.item_in_hand.has_display> && <player.item_in_hand.material.equals[<material[paper]>]>:
-        - run bekehrer_t def:true
-      - else:
-        - chat <script[lang].data_key[gruss.<server.flag[lang]>].parsed>
-        - inventory open d:barkeeper_dorf_i
+      - inject bekehrer_t
+      - chat <script[lang].data_key[gruss.<server.flag[lang]>].parsed>
+      - inventory open d:barkeeper_dorf_i
 
 barkeeper_dorf_i:
   type: inventory

@@ -3,11 +3,9 @@ magier_dorf_a:
   debug: false
   actions:
     on click:
-      - if <player.item_in_hand.has_display> && <player.item_in_hand.material.equals[<material[paper]>]>:
-        - run bekehrer_t def:false
-      - else:
-        - chat <script[lang].data_key[gruss.<server.flag[lang]>].parsed>
-        - inventory open d:magier_dorf_i
+      - inject bekehrer_t
+      - chat <script[lang].data_key[gruss.<server.flag[lang]>].parsed>
+      - inventory open d:magier_dorf_i
 
 magier_dorf_i:
   type: inventory
