@@ -6,11 +6,7 @@ time_cmd:
   description: Time
   script:
     - define hour <player.world.time.div[1000].add[6].truncate>
-    - define shour <player.world.time.div[1000].add[6].truncate>
-    - if <player.world.time.equals[18000]>:
-      - define minute 0
-    - else:
-      - define minute <player.world.time.div[1000].add[6].mod[24].sub[<[shour]>].mul[0.6].mul[100].truncate>
+    - define minute <player.world.time.div[1000].add[6].sub[<[hour]>].mul[0.6].mul[100].truncate>
     - if <[minute].is_less_than_or_equal_to[9]>:
       - define minute 0<[minute]>
     - if <server.flag[lang].equals[ger]>:
@@ -22,7 +18,6 @@ time_cmd:
     - else:
       - if <player.world.time.div[1000].add[6].is_more_than[24]>:
         - define hour <[hour].sub[24]>
-        - define shour <[shour].sub[24]>
       - if <[hour].is_less_than[12]> || <[hour].equals[24]>:
         - define app AM
         - if <[hour].equals[0]> || <[hour].equals[24]>:
