@@ -3,7 +3,7 @@ reisende_in:
   debug: false
   actions:
     on click:
-      - if <player.item_in_hand.has_display>:
+      - if <player.item_in_hand.has_display> && <player.item_in_hand.material.equals[paper]>:
         - run bekehrer_t def:false
       - else:
         - choose <server.flag[rei_var]>:
@@ -18,7 +18,7 @@ reisende_in:
               - narrate <script[lang].data_key[rei_lohn.<server.flag[lang]>].parsed>
               - flag server cycle_d:false
               - repeat 36:
-                - if <player.inventory.slot[<[value].sub[1]>].potion_base.equals[instant_heal,2,false,false]>:
+                - if <player.inventory.slot[<[value].sub[1]>].effects_data.equals[instant_heal,2,false,false]>:
                   - take slot:<[value].sub[1]>
                   - repeat stop
               - take item:enchanted_golden_apple
