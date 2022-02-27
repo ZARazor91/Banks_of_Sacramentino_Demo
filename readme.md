@@ -6,12 +6,12 @@ Please note that you need OpenJDK 17 to play this adventure.
 
 # List of used versions of Paper and plugins
 
-| Name      | Version | Build    |
-| --------- | ------- | -------- |
-| Paper     | 1.18.1  | 197      |
-| Citizens2 | 2.0.29  | 2466     |
-| Denizen   | 1.2.3   | 6121-DEV |
-| Vault     | 1.7.3   | N/A      |
+| Name      | Version | Build |
+| --------- | ------- | ----- |
+| Paper     | 1.18.1  | 215   |
+| Citizens2 | 2.0.29  | 2488  |
+| Denizen   | 1.2.3   | 1761  |
+| Vault     | 1.7.3   | N/A   |
 
 Notes:
 Denizen will be changed to the stable version after the development.
