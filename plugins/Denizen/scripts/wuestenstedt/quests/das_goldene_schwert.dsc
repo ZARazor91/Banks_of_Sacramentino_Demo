@@ -3,7 +3,7 @@ schwert_in:
   debug: false
   actions:
     on click:
-      - if <player.item_in_hand.has_display> && <player.item_in_hand.material.equals[paper]>:
+      - if <player.item_in_hand.has_display> && <player.item_in_hand.material.equals[<material[paper]>]>:
         - run bekehrer_t def:false
       - else:
         - choose <server.flag[sch_var]>:

@@ -77,6 +77,9 @@ lang:
   d_door_locked:
     ger: <red>Diese Tür ist verschlossen
     eng: <red>This door is locked
+  d_anvil_locked:
+    ger: <red>Dieser Amboss ist privat
+    eng: <red>This anvil is private
   d_store_closed:
     ger: <red>Dieses Geschäft hat geschlossen
     eng: <red>This store is closed

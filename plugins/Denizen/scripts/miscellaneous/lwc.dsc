@@ -17,6 +17,10 @@ lwc_w:
     on player right clicks dispenser in:dispenser_*:
       - determine cancelled
 
+    on player right clicks chipped_anvil in:anvil_*:
+      - determine passively cancelled
+      - actionbar <script[lang].data_key[d_anvil_locked.<server.flag[lang]>].parsed>
+
     on player right clicks oak_door ignorecancelled:false priority:1:
       - foreach <context.location.find_blocks[oak_door].within[3].exclude[<context.location>]>:
         - adjustblock <[value]> switched:<context.location.switched.not>
