@@ -31,7 +31,7 @@ bekehrer_in:
             - if <server.flag[bek_c_var].equals[10]>:
               - chat <script[lang].data_key[bek_abgabe.<server.flag[lang]>].parsed>
               - toast <script[lang].data_key[quest_beendet.<server.flag[lang]>].parsed><script[lang].data_key[bek_name.<server.flag[lang]>].parsed> icon:nether_star frame:goal
-              - narrate <green>100<script[lang].data_key[summe_erhalten.<server.flag[lang]>].parsed>
+              - narrate <green>100 <script[lang].data_key[summe_erhalten.<server.flag[lang]>].parsed>
               - give money quantity:100
               - flag server bek_var:2
               - flag server bek_c_var:!

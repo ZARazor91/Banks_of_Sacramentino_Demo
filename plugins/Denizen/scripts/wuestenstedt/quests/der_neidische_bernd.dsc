@@ -27,7 +27,7 @@ bernd_in:
           - if <player.inventory.contains_item[bone_meal].quantity[12]> && <player.item_in_hand.material.equals[<material[bone_meal]>]>:
             - chat <script[lang].data_key[ber_abgabe.<server.flag[lang]>].parsed>
             - toast <script[lang].data_key[quest_beendet.<server.flag[lang]>].parsed><script[lang].data_key[ber_name.<server.flag[lang]>].parsed> icon:nether_star frame:goal
-            - narrate <green>120<script[lang].data_key[summe_erhalten.<server.flag[lang]>].parsed>
+            - narrate <green>120 <script[lang].data_key[summe_erhalten.<server.flag[lang]>].parsed>
             - take item:bone_meal quantity:12
             - give money quantity:120
             - flag server ber_var:2
