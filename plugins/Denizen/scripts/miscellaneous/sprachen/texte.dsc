@@ -5,7 +5,7 @@ lang:
   # Allgemeine Quest-Texte
   summe_erhalten:
     ger: Taler wurden deinem Konto hinzugefügt.
-    eng: Thaler were added to your account.
+    eng: Credits were added to your account.
   quest_gestartet:
     ger: <yellow>Quest angenommen<&co>
     eng: <yellow>Quest accepted<&co>
@@ -19,14 +19,14 @@ lang:
     ger: <npc.name>'s Laden
     eng: <npc.name>'s Shop
   bier:
-    ger: <&r>Bier
-    eng: <&r>Beer
+    ger: <reset>Bier
+    eng: <reset>Beer
   item_gekauft:
     ger: Vielen Dank, Du hast T<[summe]> bezahlt.
-    eng: Thank you, you paid T<[summe]>.
+    eng: Thanks, you paid C<[summe]>.
   item_verkauft:
-    ger: Vielen Dank, du erhälst T<[summe]>.
-    eng: Thank you, you receive T<[summe]>.
+    ger: Vielen Dank, Du erhältst T<[summe]>.
+    eng: Thanks, you receive C<[summe]>.
   item_geld_fehlt:
     ger: Tut mir leid, Du hast nicht genug Geld.
     eng: I'm sorry, you don't have enough money.
@@ -55,16 +55,16 @@ lang:
     eng: <green>Balance<&co> <gold>T<red><player.money>
   d_money_s:
     ger: Taler
-    eng: Thaler
+    eng: Credit
   d_money_p:
     ger: Taler
-    eng: Thalers
+    eng: Credits
   d_cmd_blocked:
     ger: Du hast keinen Zugriff auf diesen Befehl
     eng: You do not have access to this command
   d_play_area:
     ger: Du verlässt den Spielbereich!
-    eng: You're leaving the play area!
+    eng: You are leaving the play area!
   d_cmd_unknown:
     ger: Unbekannter Befehl. Geben Sie <&dq>/help<&dq> für Hilfe ein.
     eng: Unknown command. Type <&dq>/help<&dq> for help.
@@ -91,38 +91,38 @@ lang:
     eng: <green>Time of day<&co> <red><[hour]>:<[minute]> <[app]>
   d_help:
     ger: Verfügbare Befehle dieses Adventures:<&nl>/bos      Zeigt die BoS-Einführung<&nl>/time     Zeigt die aktuelle Uhrzeit<&nl>/money  Zeigt deinen aktuellen Kontostand<&nl>/stop     Speichert und beendet das Adventure
-    eng: Available commands of this adventure:<&nl>/bos      Shows the BoD-Introduction<&nl>/time     Shows the current time<&nl>/money  Shows your current bank balance<&nl>/stop     Saves and ends the adventure
+    eng: Available commands of this adventure:<&nl>/bos      Shows the BoS-Introduction<&nl>/time     Shows the current time<&nl>/money  Shows your current bank balance<&nl>/stop     Saves and ends the adventure
 
   #Hilfetexte
   d_bos_about:
-    ger: <&nbsp><&nl> <red>- Das Adventure -<white><&nl> Du befindest dich hier in einem etwas anderen Adventure. Hier gilt es nicht nur, durch einen linearen Baukasten von Rätseln zu gehen, sondern dich erwartet ein vollständiges Rollenspiel.<&nl><&nl> Die Handlung<&co> Das Einzige, was du weißt, ist, dass du ein/e Farmer/in bist und hier in Wüstenstedt lebst. Der Reisende an der Bushaltestelle kommt gerade hier vorbei und hat dir sicher etwas Interessantes zu erzählen. Sprich ihn an, um die Handlung zu beginnen.<&nl><&nl> Du hast Zugriff auf die Befehle '/time' sowie '/money'<&nl><&nl> Für Tipps für den Start klicke einfach <element[<gold>[hier]<white>].on_click[/bos help].type[RUN_COMMAND]>
-    eng: <&nbsp><&nl> <red>- The Adventure -<white><&nl> You are in a slightly different adventure here. Here you don't just have to go through a linear set of puzzles, but a complete role-playing game awaits you.<&nl><&nl> The plot<&co> The only thing you know is that you are a farmer and live here in Desert Ville. The traveler at the bus stop is just passing by and must have something interesting to tell you. Talk to him to start the plot.<&nl><&nl> You have access to the commands '/time' as well as '/money'<&nl><&nl> For tips on how to get started just click <element[<gold>[here]<white>].on_click[/bos help].type[RUN_COMMAND]>
+    ger: <&nbsp><&nl> <red>- Das Adventure -<white><&nl> Du befindest dich hier in einem etwas anderen Adventure. Hier gilt es nicht nur, durch einen linearen Baukasten von Rätseln zu gehen, sondern dich erwartet ein vollständiges Rollenspiel.<&nl><&nl> Die Handlung<&co> Das Einzige, was du weißt, ist, dass du ein/e Farmer/in bist und hier in Wüstenstedt lebst. Der Reisende an der Bushaltestelle kommt gerade hier vorbei und hat dir sicher etwas Interessantes zu erzählen. Sprich ihn an, um die Handlung zu beginnen.<&nl><&nl> Du hast Zugriff auf die Befehle '/time' sowie '/money'<&nl><&nl> Für Starter-Tipps klicke einfach <element[<gold>[hier]<white>].on_click[/bos help].type[RUN_COMMAND]>
+    eng: <&nbsp><&nl> <red>- The Adventure -<white><&nl> You are in a somewhat different adventure here. You don't just navigate through a linear set of puzzles, instead a complete role-playing game awaits you.<&nl><&nl> The plot<&co> The only thing you know is that you are a farmer and live here in Desert Ville. The traveler at the bus stop is just passing by and seems to have something interesting to tell you. Talk to him to start the plot.<&nl><&nl> You have access to the commands '/time' as well as '/money'<&nl><&nl> For tips on how to get started just click <element[<gold>[here]<white>].on_click[/bos help].type[RUN_COMMAND]>
   d_bos_help:
-    ger: <&nbsp><&nl> <red>- Start-Tipps -<white><&nl> <&gt> Es gibt keine 'Regeln'. Abbauen ist normalerweise (bis auf Ausnahmen) nicht möglich. Craften u.Ä. schon.<&nl><&nl> <&gt> Du wirst von vielen NPCs Quests erhalten. Klicke sie dazu einfach rechts an, es sollte recht intuitiv sein. Bitte beachte, dass Quests nicht ohne weiteres abgebrochen werden können, erledige sie also nacheinander.<&nl><&nl> <&gt> Lies immer alle Texte sorgfältig, denn darin sind viele Informationen enthalten. Wenn du möchtest, kannst du im Werkzeugladen ein Notizbuch kaufen.<&nl><&nl> <&gt> Der Tipp-Trick-Man am Brunnen wird dir in der Anfangsphase noch helfen. Kannst ihn ja mal ansprechen!<&nl><&nl> <&gt> Dass ein NPC nichts sagt, muss nicht bedeuten, dass er später nicht noch was zu sagen haben wird! Nicht schüchtern sein, immer anklicken! ;)<&nl><&nl> <&gt> Wenn du herumschnüffeln musst, tu das, aber schmeiße niemals etwas weg, was du gefunden hast. Vieles ist relevant für den weiteren Spielverlauf!
-    eng: <&nbsp><&nl> <red>- Starting tips -<white><&nl> <&gt> There are no 'rules'. Mining is usually (with exceptions) not possible. Crafting etc. is.<&nl><&nl> <&gt> You will receive quests from many NPCs. Just click them on the right to do so, it should be quite intuitive. Please note that quests can't be canceled easily, so do them one by one.<&nl><&nl> <&gt> Always read all texts carefully, because there is a lot of information in them. If you want, you can buy a notebook in the tool store.<&nl><&nl> <&gt> The tip-trick-man at the fountain will help you in the beginning. You can talk to him!<&nl><&nl> <&gt> That an NPC doesn't say anything doesn't have to mean that he won't have something to say later! Don't be shy, always click! ;)<&nl><&nl> <&gt> If you need to snoop around, do so, but never throw away anything you've found. A lot of stuff is relevant to the rest of the game!
+    ger: <&nbsp><&nl> <red>- Start-Tipps -<white><&nl> <&gt> Es gibt hier keine 'Regeln'. Abbauen ist nur dort möglich, wo es gestattet ist, Craften u.Ä. kannst du.<&nl><&nl> <&gt> Du wirst von vielen NPCs Quests erhalten. Klicke sie dazu einfach mit der rechten Maustaste an. Anfangs kannst du nur eine Quest gleichzeitig haben und musst diese abschließen, bevor es weiter geht. Das ändert sich im weiteren Spielverlauf.<&nl><&nl> <&gt> Lies immer alle Texte sorgfältig, denn darin sind viele Informationen enthalten. Wenn du möchtest, kannst du im Werkzeugladen ein Notizbuch kaufen.<&nl><&nl> <&gt> Der Tipp-Trick-Man am Brunnen wird dir in der Anfangsphase helfen. Sprich ihn an, wenn du bei einer Mission nicht weiter weißt.<&nl><&nl> <&gt> Dass ein NPC nichts sagt, muss nicht bedeuten, dass er später nicht doch etwas zu sagen haben wird! Nicht schüchtern sein, immer anklicken.<&nl><&nl> <&gt> Wenn du herumschnüffeln willst, tu das. Pass gut auf, was du wegwirfst. Items, die du als Quest-Belohnung bekommst oder an besonderen Orten findest, sind oft relevant für den weiteren Spielverlauf. Wenn du nicht aufpasst, kannst du deine Möglichkeit zerstören, die Handlung abzuschließen. Wertgegenstände können aber normalerweise gefahrlos bei Juwelieren verkauft werden.
+    eng: <&nbsp><&nl> <red>- Tips for Starters -<white><&nl> <&gt> There are no 'rules' here. Breaking blocks should only be possible where it's allowed. Crafting and such is usually permitted.<&nl><&nl> <&gt> You will receive quests from many NPCs. Just right-click them. In the beginning, you will have to finish a quest before you can start the next one, which will change over time.<&nl><&nl> <&gt> Always read texts carefully as there is a lot of information in them. If you want, you can buy a notebook in the tool store.<&nl><&nl> <&gt> Tip-Trick-Man at the city well can help you in the beginning. You can talk to him!<&nl><&nl> <&gt> If an NPC doesn't say anything at first it doesn't mean he won't have something to say later. Don't be shy, always right-click!<&nl><&nl> <&gt> If you want to snoop around, do so, but always think twice before you throw anything away. Rewards or found items may become relevant later and if you aren't careful you could even break the game and your story advancement. However, valuables may usually be sold to a jeweller.
   d_bos_quest:
-    ger: <&nbsp><&nl> <red>- Die Quests -<white><&nl> <&gt> Ansprechen<&co> Rechtsklick auf einen NPC.<&nl><&nl> <&gt> Text fortsetzen<&co> Rechtsklick auf den NPC.<&nl><&nl> <&gt> Mission annehmen<&co> <green>[JA]<white> im Chat anklicken.<&nl><&nl> <&gt> Mission ablehnen<&co> <red>[NEIN]<white> im Chat anklicken oder weggehen.<&nl><&nl> Bitte beachte, dass du eine Quest nicht ohne weiteres abgebrechen kannst, erledige sie also nacheinander.
-    eng: <&nbsp><&nl> <red>- Quests -<white><&nl> <&gt> Address<&co> Right click on an NPC.<&nl><&nl> <&gt> Continue text<&co> Right click on the NPC.<&nl><&nl> <&gt> Accept mission<&co> Click <green>[YES]<white> in chat. <&nl><&nl> <&gt> Decline mission<&co> Click <red>[NO]<white> in chat or walk away.<&nl><&nl> Please note that you can't easily cancel a quest, so do them one by one.
+    ger: <&nbsp><&nl> <red>- Quests -<white><&nl> <&gt> Ansprechen<&co> Rechtsklick auf einen NPC<&nl><&nl> <&gt> Text fortsetzen<&co> Weiterer Rechtsklick auf den NPC<&nl><&nl> <&gt> Mission annehmen<&co> <green>[JA]<white> im Chat anklicken<&nl><&nl> <&gt> Mission ablehnen<&co> <red>[NEIN]<white> im Chat anklicken oder weggehen<&nl><&nl> Bitte beachte, dass du eine Quest nicht ohne Weiteres abbrechen kannst.
+    eng: <&nbsp><&nl> <red>- Quests -<white><&nl> <&gt> Talk to<&co> Right-click an NPC.<&nl><&nl> <&gt> Continue text<&co> Right click the NPC again<&nl><&nl> <&gt> Accept mission<&co> Click <green>[YES]<white> in chat <&nl><&nl> <&gt> Decline mission<&co> Click <red>[NO]<white> in chat or walk away<&nl><&nl> Please note that you can't easily cancel a quest.
   d_bos_trade:
-    ger: <&nbsp><&nl> <red>- Der Handel -<white><&nl> <&gt> Kaufen<&co> Rechtsklick auf den Händler. Item linksklicken zum kaufen, den Preis findest du im Tooltip.<&nl><&nl> <&gt> Verkaufen<&co> Shift + Rechtsklick auf den Händler. Item in dessen Inventar anklicken zum verkaufen, sein Angebot findest du im Tooltip.
-    eng: <&nbsp><&nl> <red>- Trading -<white><&nl> <&gt> Buy<&co> Right click on the merchant. Item left click to buy, you can find the price in the tooltip.<&nl><&nl> <&gt> Sell<&co> Shift + right click on the merchant. Click on the item in his inventory to sell it, you can find his offer in the tooltip.
+    ger: <&nbsp><&nl> <red>- Handel -<white><&nl> <&gt> Kaufen<&co> Rechtsklick auf den Händler. Item linksklicken zum kaufen, den Preis findest du im Tooltip.<&nl><&nl> <&gt> Verkaufen<&co> Ducken (Standard ist Shift) + Rechtsklick auf den Händler. Item in dessen Inventar anklicken zum Verkaufen, sein Angebot findest du im Tooltip.
+    eng: <&nbsp><&nl> <red>- Trading -<white><&nl> <&gt> Buy<&co> Right-click the merchant. Left-click the item to buy, you can find the price in the tooltip.<&nl><&nl> <&gt> Sell<&co> Crouch (default is Shift) + right-click the merchant. Click on the item in his inventory to sell it, you can find his offer in the tooltip.
   d_bos_hints:
-    ger: <&nbsp><&nl> <red>- Hinweise -<white><&nl> <&gt> TEXTE<&co> Immer genau lesen. Falls du dich ausloggen willst, im später weiterzumachen, unbedingt notieren, was gerade deine Aufgabe war!<&nl><&nl> <&gt> LIFTS<&co> Dies sind Schilder mit der Aufschrift [Lift up] oder [Lift down], einfach Rechtsklick!<&nl><&nl> <&gt> GELD VERDIENEN<&co> Wie auch in der echten Welt geht es immer nur ums Geld. ;) Nimm Quests an, sei neugierig, sieh dich um und vor allem<&co> Wirf nie Gegenstände weg, die du gefunden hast.
-    eng: <&nbsp><&nl> <red>- Hints -<white><&nl> <&gt> TEXTS<&co> Always read carefully. If you want to log out to continue later, be sure to note what your quest was!<&nl><&nl> <&gt> LIFTS<&co> These are signs that say [Lift up] or [Lift down], just right click!<&nl><&nl> <&gt> MAKING MONEY<&co> Just like in the real world, it's all about money. ;) Take quests, be curious, look around and most of all<&co> Never throw away items you found.
+    ger: <&nbsp><&nl> <red>- Hinweise -<white><&nl> <&gt> TEXTE<&co> Immer genau lesen. Falls du dich ausloggen willst, um später weiterzumachen, merke dir, was gerade deine Aufgabe war.<&nl><&nl> <&gt> LIFTS<&co> Dies sind Schilder mit der Aufschrift [Lift up] oder [Lift down], einfach rechtsklicken.<&nl><&nl> <&gt> GELD VERDIENEN<&co> Wie auch in der echten Welt geht es immer nur ums Geld. ;) Nimm Quests an, sei neugierig, sieh dich um und vor allem<&co> Wirf nie besondere Gegenstände weg, die du gefunden hast. Andere kann man gut verkaufen.
+    eng: <&nbsp><&nl> <red>- Hints -<white><&nl> <&gt> TEXTS<&co> Always read carefully. If you want to log out to continue later, be sure to remember your current quest!<&nl><&nl> <&gt> LIFTS<&co> These are signs that say [Lift up] or [Lift down], just right click!<&nl><&nl> <&gt> MAKING MONEY<&co> Just like in the real world, it's all about money. ;) Take quests, be curious, look around and most of all<&co> Never throw away interesting items. Others can be sold for a good price.
   d_bos_start:
     ger: <&nbsp><&nl> <red>--------------- <gold>BANKS of SACRAMENTINO<red> ----------------<&nl> <red>--------------- <green>von ZARazor91 & d0nh<red> ---------------<&nl><&nl> <white>Herzlich willkommen! Danke, dass du BoS spielst. Klicke die unten stehenden Kapitel im Chat an, um Tutorials und Infos zu erhalten.
     eng: <&nbsp><&nl> <red>--------------- <gold>BANKS of SACRAMENTINO<red> ----------------<&nl> <red>--------------- <green>by ZARazor91 & d0nh<red> ----------------<&nl><&nl> <white>Welcome! Thanks for playing BoS. Click the chapters below inside the chat for tutorials and information.
   d_bos_menu:
-    ger: <&nl> <red>---- <element[<blue>[Das Adventure]<white>].on_click[/bos about].type[RUN_COMMAND]> <element[<green>[Die Quests]<white>].on_click[/bos quest].type[RUN_COMMAND]> <element[<gold>[Der Handel]<white>].on_click[/bos trade].type[RUN_COMMAND]> <element[<gray>[Hinweise]<white>].on_click[/bos hints].type[RUN_COMMAND]><red> ---
-    eng: <&nl> <red>---- <element[<blue>[Aventure]<white>].on_click[/bos about].type[RUN_COMMAND]> <element[<green>[Quests]<white>].on_click[/bos quest].type[RUN_COMMAND]> <element[<gold>[Trading]<white>].on_click[/bos trade].type[RUN_COMMAND]> <element[<gray>[Hints]<white>].on_click[/bos hints].type[RUN_COMMAND]><red> ----
+    ger: <&nl> <red>---- <element[<blue>[Das Adventure]<white>].on_click[/bos about].type[RUN_COMMAND]> <element[<green>[Quests]<white>].on_click[/bos quest].type[RUN_COMMAND]> <element[<gold>[Handel]<white>].on_click[/bos trade].type[RUN_COMMAND]> <element[<gray>[Hinweise]<white>].on_click[/bos hints].type[RUN_COMMAND]><red> ---
+    eng: <&nl> <red>---- <element[<blue>[The Adventure]<white>].on_click[/bos about].type[RUN_COMMAND]> <element[<green>[Quests]<white>].on_click[/bos quest].type[RUN_COMMAND]> <element[<gold>[Trading]<white>].on_click[/bos trade].type[RUN_COMMAND]> <element[<gray>[Hints]<white>].on_click[/bos hints].type[RUN_COMMAND]><red> ----
 
   #Das goldene Schwert
   sch_name:
     ger: Das goldene Schwert
-    eng: The golden sword
+    eng: The Golden Sword
   sch_start:
-    ger: Ach, <player.name>. Ich muss so oft an meinen verstorbenen Großvater denken... er erzählte immer etwas von einem alten goldenen Familienschwert, das würde ich gerne finden. Möchtest du mir dabei helfen?
-    eng: Oh, <player.name>. I'm thinking about my grandfather who passed away a while ago. He always talked about an old golden family sword that is supposed to be hidden somewhere... yould you like to help me find it?
+    ger: Ach, <player.name>. Ich muss so oft an meinen verstorbenen Großvater denken. Er erzählte immer etwas von einem alten goldenen Familienschwert, das würde ich gerne finden. Möchtest du mir dabei helfen?
+    eng: Oh, <player.name>. I'm thinking about my grandfather who passed away a while ago. He always talked about an old golden family sword that is supposed to be hidden somewhere. Would you like to help me find it?
   sch_annahme:
     ger: Das Schwert muss irgendwo in den Bergen versteckt sein, glaube ich. Viele haben ihn für einen Trottel gehalten, aber ich glaube, er meinte das ernst. Er sagte immer 'Gefahren erwarten dich auf dem Weg gen Osten' und sowas. Ich habe gesucht, aber ich konnte nie etwas finden. Vielleicht hast du mehr Glück.
     eng: The sword is probably to be found somewhere in the mountains. My grandfather was often called an old fool but I think he meant what he said. He kept babbling about 'dangers awaiting him on his eastwards journey to the mountains' or something. I looked, but I could never find anything. Maybe you'll be luckier.
@@ -136,7 +136,7 @@ lang:
     ger: Unglaublich! Ich kann dir gar nicht genug dafür danken! Nimm das hier. Es wird dir vielleicht mal in einer schwierigen Situation weiterhelfen. Aber verschwende es nicht!
     eng: Unbelievable! I can't thank you enough. Take this. It might help you out in a tough situation. But don't waste it!
   sch_lohn:
-    ger: <green>Du erhälst einen Speed II-Trank
+    ger: <green>Du erhältst einen Speed II-Trank
     eng: <green>You receive a Speed II potion
   sch_sidebar_un:
     ger: <server.flag[unchecked]> Finde das goldene Schwert
@@ -148,7 +148,7 @@ lang:
   #Der Bekehrer
   bek_name:
     ger: Der Bekehrer
-    eng: The converter
+    eng: The Converter
   bek_start:
     ger: Sei gegrüßt, <player.name>! Könntest du mir den Gefallen tun und die aktuelle Ausgabe der Gemeindezeitung an die Dorfbewohner verteilen?
     eng: Greetings, <player.name>! Would you like to help me spread the word by delivering the new parish newsletter to the people?
@@ -166,7 +166,7 @@ lang:
     eng: Greetings, have you distributed all the parish papers yet?
   bek_abgabe:
     ger: Sei bedankt! Die Gemeinde spendet dir dafür 100 Taler.
-    eng: Thank you a lot! The parish donates this with 100 Thaler.
+    eng: Thank you a lot! The parish donates this with 100 Credits.
   bek_ja:
     ger: Ah, danke für die Gemeindezeitung.
     eng: Ah, thanks for the parish newsletter.
@@ -186,7 +186,7 @@ lang:
   #Der Bücherwurm
   bue_name:
     ger: Der Bücherwurm
-    eng: The bookworm
+    eng: The Bookworm
   bue_start:
     ger: Hallo <player.name>, ich möchte in meinem Haus Bücherregale aufstellen, allerdings fehlen mir noch einige Bücher. Möchtest du mir welche organisieren?
     eng: Hi <player.name>, good to see you! I would like to put up some more bookshelves in my house, but I am still missing some books. Would you like to organize some for me?
@@ -203,16 +203,16 @@ lang:
     ger: Danke.
     eng: Thank you.
   bue_sidebar_un:
-    ger: <server.flag[unchecked]> Beschaffe 20x Buch
-    eng: <server.flag[unchecked]> Obtain 20x book
+    ger: <server.flag[unchecked]> Beschaffe 20 Bücher
+    eng: <server.flag[unchecked]> Obtain 20 books
   bue_sidebar_ch:
-    ger: <server.flag[checked]> Beschaffe 20x Buch
-    eng: <server.flag[checked]> Obtain 20x book
+    ger: <server.flag[checked]> Beschaffe 20 Bücher
+    eng: <server.flag[checked]> Obtain 20 books
 
   #Der neidische Bernd
   ber_name:
     ger: Der neidische Bernd
-    eng: The jealous Freddy
+    eng: Jealous Freddy
   ber_start:
     ger: Hey, <player.name>! Psst! Du, sag mal... ich hab mitgekriegt, dass der Garten-Gerd da irgendwie an ziemlich viel Knochenmehl rangekommen ist, und jetzt will er natürlich meinen Garten übertrumpfen, dieser Schlingel. Was meinst du, würdest du mir auch einen kleinen Gefallen tun? Ich würd mich das auch was kosten lassen!
     eng: Hey, <player.name>! Shh, come over here! Say... I hear Garden-Gary got a hold of quite an amount of bonemeal earlier. Naturally, now he wants to surpass my garden. Would you like to do me a little - uh - favor? I'd make it worth your time!
@@ -238,21 +238,21 @@ lang:
   #Der Reisende
   rei_start:
     ger: Guten Tag, <player.name>! Ich komme von weit her und will weit weg. Leider fährt hier irgendwie selten ein Bus... naja. Jedenfalls gebe ich dir einen Tipp. In der großen Stadt, weit weg von hier, sie nennt sich Sacramentino, da geht echt viel mehr ab als in diesem Kaff hier. Da werden Millionäre geboren! Und ich bin deine Chance, dorthin zu kommen. Wenn du mir einen Heiltrank der Stufe II und einen goldenen Super-Apfel bringst, dann bekommst du von mir dieses Minecart hier und ich zeige dir den Weg nach Sacramentino. Wir sprechen uns also später!
-    eng: Hello there, <player.name>! I have travelled a long way and there is still much to come. Somehow buses are really rare here, though... Anyway, let me tell you something. There's not too much going on here, is it? That's in marked contrast to the sprawling metropolis I passed on my journey - Sacramentino City. This is where people get from rags to riches, I can tell you. See... if you should feel an urge to get there, I could give you this here minecart and I'll show you the way. All I need are two things<&co> An enhanced potion Healing II and an enchanted golden super-apple. Don't know if you have things like these here, but they're essential to my dangerous journey. I'll be waiting here, come back whenever you like!
+    eng: Hello there, <player.name>! I have travelled a long way and there is still much to come. Somehow buses are really rare here, though... Anyway, let me tell you something. There's not too much going on here, is it? That's in marked contrast to the sprawling metropolis I passed on my journey - Sacramentino City. This is where people get from rags to riches, I'm telling you that. See – if you should feel an urge to get there, I could give you this here minecart and I'll show you the way. All I need are two things<&co> An enhanced potion Healing II and an enchanted golden super-apple. Don't know if you have things like these here, but they're essential to my dangerous journey. I'll be waiting here, come back whenever you like!
   rei_frage:
-    ger: Hey, <player.name>! Hast du schon das Bedürfnis verspürt, nach Sacramentino zu gehen? Denk dran, ich brauche Heilung Stufe II und einen dieser verzauberten goldenen Super-Äpfel. Fühl dich frei, mir die Sachen wann immer du magst zu bringen!
+    ger: Hey, <player.name>! Hast du schon das Bedürfnis verspürt, nach Sacramentino zu gehen? Denk dran, ich brauche Heilung Stufe II und einen dieser verzauberten goldenen Super-Äpfel. Fühl dich frei, mir die Sachen zu bringen, wann immer du magst!
     eng: Hey, <player.name>! Did you already feel the need to go to Sacramentino? Remember, I need a Healing II potion and an enchanted golden super-apple. Feel free to get me that stuff whenever you like!
   rei_abgabe:
     ger: Sei bedankt, <player.name>. Hier ist dein Minecart und 2000 Taler in bar, die wirst du für einen guten Start brauchen. Nun noch ein Tipp für dich. In dem Haus der vor Jahren umgezogenen Familie Idiotus gibt es unter dem Bett einen geheimen Schalter. Betätige ihn, komm dann hierher zurück und sieh dich ein wenig um. Viel Glück noch!
-    eng: Thank you, <player.name>. What a glorious day. Here, take your minecart and 2000 Thaler, you'll need that for an auspicious start in the city. I asked around a little in the village. There is an old, abandoned train track that leads to Sacramentino. The Idiotus family apparently has a secret switch under one of the beds in their old house right here in the village. Find that lever, pull it, and then come back to me and take a look around right here, there should be a surprise for you. Good luck!
+    eng: Thank you, <player.name>. What a glorious day. Here, take your minecart and 2000 Credits, you'll need that for an auspicious start in the city. I asked around a little in the village. There is an old, abandoned train track that leads to Sacramentino. The Idiotus family apparently has a secret switch under one of the beds in their old house right here in the village. Find that lever, pull it, and then come back to me and take a look around right here, there should be a surprise for you. Good luck!
   rei_lohn:
-    ger: <green>Du erhälst eine Lore
+    ger: <green>Du erhältst eine Lore
     eng: <green>You receive a minecart
 
   #Des Lehrers Schwämme
   leh_name:
     ger: Des Lehrers Schwämme
-    eng: The teacher's sponges
+    eng: The Teacher's Sponges
   leh_start:
     ger: Hallo, <player.name>! Na, Lust, nochmal die Schulbank zu drücken? Späßchen. Nein, hier wurde lange nicht mehr unterrichtet. Liegt wohl daran, dass die ganzen jungen Leute nach Sacramentino gezogen sind, in die Großstadt. Ich häette eine Aufgabe für dich. Möchtest du mir helfen, etwas zu finden?
     eng: Good morning, <player.name>! Wanna go to school again? He-he. Just kidding. Nobody attended school here for a long time now... probably because all the young people moved to Sacramentino years ago. Well, well. But you look like you might want to help me. I lost something, would you like to search it?
@@ -266,10 +266,10 @@ lang:
     ger: Und, hast du meine alten Schwämme gefunden? Sie müssen irgendwo im Schulhaus sein...
     eng: Hey, did you find my old sponges already? They must be somewhere in the schoolhouse...
   leh_abgabe:
-    ger: Hey, danke! Wo hast du die denn gefunden? Hier, ich hab was für dich. Habe es einmal unter einem Tisch klebend gefunden, ich habe keine Ahnung, wozu es gut ist. Vielleicht kannst du es gebrauchen, sieht glänzend aus.
-    eng: Gee, thanks! Where did you find those? Oh, I got something for you here. Found it sticking beneath a table once, I have no idea what it's good for. Maybe you can use it, looks shiny.
+    ger: Hey, danke! Wo hast du die denn gefunden? Hier, ich hab was für dich. Das klebte mal unter einem Tisch, ich hab keine Ahnung, wozu es gut ist. Vielleicht kannst du es gebrauchen, sieht glänzend aus.
+    eng: Gee, thanks! Where did you find those? Anyway, I got something for you here. Found it sticking beneath a table once, I have no idea what it's good for. Maybe you can use it, looks shiny.
   leh_lohn:
-    ger: <green>Du erhälst 1x Glowstonestaub
+    ger: <green>Du erhältst 1x Glowstone-Staub
     eng: <green>You receive 1 glowstone dust
   leh_sidebar_un:
     ger: <server.flag[unchecked]> Finde die Schwämme
@@ -281,7 +281,7 @@ lang:
   #Die Hungersnot
   hun_name:
     ger: Die Hungersnot
-    eng: The famine
+    eng: The Famine
   hun_start:
     ger: Guten Tag, <player.name>! Wüstenstedt benötigt deine Hilfe. Wir leiden gerade an einer kleinen Hungersnot, der Supermarkt zieht die Preise an und du bist hier die einzige Seele mit einer Farm. Möchtest du deinem Dorf aushelfen? Du wirst selbstverständlich entlohnt.
     eng: Hello, <player.name>! Desert Ville needs your help. A small famine is rising. The supermarket is getting more expensive every week and you're the only one operating a farm. Will you bring me some food to feed the people? Your effort will be remunerated.
@@ -296,48 +296,48 @@ lang:
     eng: <player.name>, please deliver the food soon. We need 20 cooked steaks, 10 eggs and 10 breads. Otherwise, we might end up in a famine.
   hun_abgabe:
     ger: Du bist wirklich unbezahlbar, <player.name>. Dafür kriegst du 250 Taler und diesen goldenen Apfel hier, das ist ein altes Familienerbstück!
-    eng: You are really priceless, <player.name>. The village pays you 250 Thaler for that. Oh, and take this old family heirloom. It's quite precious.
+    eng: You are really priceless, <player.name>. The village pays you 250 Credits for that. Oh, and take this old family heirloom. It's quite precious.
   hun_lohn:
-    ger: <green>Du erhälst einen magischen goldenen Apfel
+    ger: <green>Du erhältst einen magischen goldenen Apfel
     eng: <green>You receive a magic golden apple
   hun_sidebar1_un:
-    ger: <server.flag[unchecked]> Beschaffe 20x gebratenes Rindersteak
-    eng: <server.flag[unchecked]> Obtain 20x cooked beef steak
+    ger: <server.flag[unchecked]> Beschaffe 20 gebratene Rindersteaks
+    eng: <server.flag[unchecked]> Obtain 20 cooked beef steaks
   hun_sidebar1_ch:
-    ger: <server.flag[checked]> Beschaffe 20x gebratene Rindersteak
-    eng: <server.flag[checked]> Obtain 20x cooked beef steak
+    ger: <server.flag[checked]> Beschaffe 20 gebratene Rindersteaks
+    eng: <server.flag[checked]> Obtain 20 cooked beef steaks
   hun_sidebar2_un:
-    ger: <server.flag[unchecked]> Beschaffe 10x Ei
-    eng: <server.flag[unchecked]> Obtain 10x egg
+    ger: <server.flag[unchecked]> Beschaffe 10 Eier
+    eng: <server.flag[unchecked]> Obtain 10 eggs
   hun_sidebar2_ch:
-    ger: <server.flag[checked]> Beschaffe 10x Ei
-    eng: <server.flag[checked]> Obtain 10x egg
+    ger: <server.flag[checked]> Beschaffe 10 Eier
+    eng: <server.flag[checked]> Obtain 10 eggs
   hun_sidebar3_un:
-    ger: <server.flag[unchecked]> Beschaffe 10x Brot
-    eng: <server.flag[unchecked]> Obtain 10x bread
+    ger: <server.flag[unchecked]> Beschaffe 10 Brote
+    eng: <server.flag[unchecked]> Obtain 10 breads
   hun_sidebar3_ch:
-    ger: <server.flag[checked]> Beschaffe 10x Brot
-    eng: <server.flag[checked]> Obtain 10x breads
+    ger: <server.flag[checked]> Beschaffe 10 Brote
+    eng: <server.flag[checked]> Obtain 10 breads
 
   #Die Not des Dealers
   dea_name:
     ger: Die Not des Dealers
-    eng: The plight of the dealer
+    eng: The Dealer's Plight
   dea_start:
     ger: Heey, <player.name>! Hast du Lust, dir ein paar Mäuse dazuzuverdienen? Ich wüsste da was. Mein Sohnemann, der ist ein Drogendealer. Ziemlich erfolglos in diesem kleinen Kaff hier... aber er tut mir so leid, der Eumel. Wenn du ihm ein bisschen Nachschub bringen könntest, wär das super! Was meinst du, Bruder?
     eng: Heeey, <player.name>! Wanna make some money? I'd have a job for you. My son is a - well - dealer... you know... weed and such. He needs some resupplies. Would you like to help, brother? I'll pay you and such...
   dea_annahme:
     ger: Stark, Alter. 30x Gras wird erstmal genug sein. Es muss ganz normales Gras sein, kein hohes Gras. Er dealt immer irgendwo hinter der Schule. Ach, hier hast du ein paar Taler für eine Schere, um das Zeuch zu besorgen. Soll dein Schaden nicht sein, wenn du's ausführst! Du bist hier echt sowas wie unser Held!
-    eng: Sweet, mah friend. OK 30x grass should be enough to begin with. It must be regular grass, not tall grass. He mostly deals somewhere behind the schoolhouse. Here you have 30 bucks to get a pair of shears to collect that stuff. You're kinda... my hero right now, man!
+    eng: Sweet, mah friend. OK 30x grass should be enough to begin with. Gotta be regular grass, not tall grass. He mostly deals somewhere behind the schoolhouse. Here you have 30 bucks to get a pair of shears to collect that stuff. You're kinda... my hero right now, man!
   dea_ablehnung:
     ger: Na gut. Hab ja nur mal gefragt. Hat noch jemand 'n Bier für mich?
     eng: Okay okay, I was just askin', man. Can I get another beer, anybody?
   dea_frage:
-    ger: Na, hast du meinem Sohnemann schon den Stoff gebracht? Er braucht Nachschub, Alter.
-    eng: Yo, did you already bring my son 30x grass? He needs some resupplies, man.
+    ger: Na, hast du meinem Sohnemann schon den Stoff gebracht? Er braucht Nachschub, Alter. Er steht immer irgendwo hinter der Schule...
+    eng: Yo, did you already bring my son 30x grass? He needs some resupplies, man. You'll find him somewhere behind the school house...
   dea_abgabe:
     ger: Ey tut mir sorry, Mann, aber ich hab leider mein ganzes Geld versoffen. So ein Mist aber auch... ich kann dir nix zahlen! Aber du hast was gut bei mir, das schwör ich dir...
-    eng: Aaah I'm so sorry, I spent all my dough for drinks, man. Can't pay you right now. But buddy... I owe you.
+    eng: Aaah I'm so sorry, I spent all my dough for drinks, man. Can't pay you right now. But dude... I owe you.
   dea_lieferung:
     ger: Danke für den Stoff, Alter!
     eng: Weyy thanks for that stuff, dude!
@@ -360,7 +360,7 @@ lang:
     eng: Hi <player.name>! Can you spare a minute? You know that Flower-Freddy guy, right? He always tries to make his garden bloom nicer than mine. How would you like to bring me some materials so mine can yield some really beautiful plants? I'll make it worth your time...
   flo_annahme:
     ger: Ich danke dir! Ich brauche 12x Knochenmehl. Leider sind Knochen hier sehr schwer zu finden. Aber ich glaube, es gab vor Jahren im Dorf mal ein paar Grufties, die sich irgendwo eine Art Höhle gebuddelt haben und da mit Knochen spielten... Keine Ahnung, wo, aber deren Klamotten waren immer klatschnass. Du sollst es nicht bereuen, wenn du mir den Kram bringst!
-    eng: Thanks, great! I need 12x bone meal. This will have an overwhelmingly fertilizing effect. Unfortunately, there aren't too many bones around here... but I think there were some goth kids a while ago who used to play somewhere below the village in some kind of cave. I don't know exactly how they got down there, but there probably would be some bones down there. These kids used to come home with wet clothes every other day... huh. Maybe you can find something.
+    eng: Thanks, great! I need 12x bone meal. This will have an overwhelmingly fertilizing effect. Unfortunately, there aren't too many bones around here... but I think there were some goth kids a while ago who used to play somewhere below the village in some kind of cave. I don't know exactly how they got there, but there probably would be some bones down there. These kids used to come home with wet clothes every time... huh. Maybe you can find something.
   flo_ablehnung:
     ger: Okay, ich warte hier, bis du es dir anders überlegt hast.
     eng: Too bad. I'll be here in case you change your mind!
@@ -383,19 +383,19 @@ lang:
     eng: Let's see what my magic booklet says...
   tip_buecher:
     ger: Du brauchst Bücher? Nun, Bücher werden aus Papier und Leder hergestellt, und Papier besteht in der Welt von MineCraft aus Zuckerrohr. Sowas wächst in der Natur oder auf deiner Farm...
-    eng: So you need books? Well, they're made from paper and leather. Paper is made from sugar canes in this universe. You'll find these next to water. Of course, you aren't restricted to the stuff that grows on your farm, just wander around. Leather will be dropped by cows.
+    eng: So you need books? Well, they're made from paper and leather. Paper is made from sugar canes in this universe. You'll find these next to water. Of course, you aren't restricted to the stuff that grows on your farm, just search around. Leather will be dropped by cows.
   tip_schwert:
-    ger: Ja, ganz recht, der alte Herr Müller war ein komischer Kauz. Aber manche glauben, dass da was Wahres dran war an seinen Erzählungen... erinnerst du dich an die Hinweise, die dir Frau Müller gegeben hat? Im Gebirge, gen Osten... das könnte auf den Mount Craftigus hinweisen, der die Sonne morgens immer so lange vom Dorf fernhält. Ach ja, und ausserdem wurde der alte Müller oft gesehen, wie er in dem Birkenwäldchen auf dem Berg herumcreepte. Nun aber los!
-    eng: Ah yes, the old Miller. What a strange old pal. Still, his stories might have a little truth in them! Mrs. Miller gave you some hints, didn't she? The mountains... eastward... might as well be Mount Craftigus. The sun rises late in Desert Ville because of that big rock. I think old Miller has sometimes been seen creeping around in that little birch grove up there...
+    ger: Ja, ganz recht, der alte Herr Müller war ein komischer Kauz. Angeblich hat er ein altes Erbstück der Familie an einem sehr sicheren Ort versteckt. Erinnerst du dich an die Hinweise, die dir Frau Müller gegeben hat? Im Gebirge, gen Osten... das könnte auf den Mount Craftigus hinweisen, der die Sonne morgens immer so lange vom Dorf fernhält. Soweit ich weiß, hatte seine Enkelin dort schon gesucht, aber kam mit leeren Händen zurück. Vielleicht hast du mehr Glück?
+    eng: Ah yes, the old Miller. What a strange old pal. According to his granddaughter he managed to hide an old piece of family heritage so well, nobody should ever find it. Mrs. Miller gave you some hints, didn't she? The mountains... eastward... might as well be Mount Craftigus. The sun rises late in Desert Ville because of that big rock. She had been up there, searching, but never found anything. Maybe you'll have better luck...?
   tip_bernd:
-    ger: Ach, immer diese beiden Pflanzenfreaks mit ihrem Gehabe. Der Garten-Gard, der passt überhaupt nicht auf seine Sachen auf. Bei dem geht öfter das halbe Dorf ein und aus und bedient sich, haha! Vielleicht wartest du vorsichtshalber, bis es dunkel ist... aber ansonsten bedien dich einfach bei ihm!
-    eng: Ah, those two flowerish freaks. They would always try to have the most beautiful garden, each of them. Actually, half the village takes Gary's stuff because he doesn't pay attention to anything but his flowers. Just sneak in, I think he didn't lock his door again this morning.
+    ger: Ach, immer diese beiden Pflanzenfreaks mit ihrem Gehabe. Der Garten-Gerd schließt öfter mal seine Tür nicht richtig ab. Vielleicht wartest du vorsichtshalber, bis es dunkel ist... aber ansonsten bedien dich einfach bei ihm! Moralisch brauchst du dir da nicht zu viele Gedanken machen, die beiden Typen haben da schon viel Schlimmeres abgezogen.
+    eng: Ah, those two flowerish freaks. They would always try to have the most beautiful garden, each of them. Actually, Gary often forgets to close his door properly. He doesn't pay attention to anything but his flowers. Just sneak in, I think he didn't lock his door again this morning. And don't make yourself too much of a moral dilemma from that, these guys have been up to way worse things than stealing.
   tip_flower:
     ger: Na? Ich hätte einen Tipp für dich... fast direkt neben mir, aber auf einer anderen Ebene, da hab ich mal eine Kiste mit Knochen entdeckt... du musst wirklich nicht weit gehen!
     eng: Hey, I have a little hint for you<&co> Practically right next to me, but on a different height level, that's where I once found the bones these goth kids used to play with. Don't forget to train your lungs!
   tip_schwaemme:
-    ger: Brauchst du da echt noch Hilfe? Der Lehrer Lempel hatte schon einen sehr brauchbaren Tipp gegeben.
-    eng: Do you really need help with that one? I think the teacher couldn't have given you more information. He probably left his stuff in that one creepy, dirty classroom that nobody used for years again.
+    ger: Brauchst du da echt noch Hilfe? Der Lehrer Lempel hatte schon einen sehr brauchbaren Tipp gegeben. Da gibt es diesen einen gruseligen Klassenraum, ich weiß noch, wie wir den schon als Kinder immer spannend fanden...
+    eng: Do you really need help with that one? I think the teacher couldn't have given you more information. He probably left his stuff in that one creepy, dirty classroom that nobody used for years. I remember how that unused room gave us the chills when we were kids...
   tip_hungersnot:
     ger: Steaks, Brote und Eier, ja? Und eine ganz besondere Belohnung will er dir geben? Na, dann nichts wie auf deine Farm und nutze deine Tiere und Pflanzen!
     eng: Steaks, breads and eggs. Well, head to your farm, you can produce all that stuff there!
