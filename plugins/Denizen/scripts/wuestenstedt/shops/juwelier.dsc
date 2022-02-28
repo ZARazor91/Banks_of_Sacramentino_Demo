@@ -17,11 +17,11 @@ juwelier_dorf_sell_i:
   size: 18
   gui: true
   slots:
-  - [s_gold_nugget] [s_ender_pearl] [s_diamond] [s_golden_apple] [s_emerald] [s_gold_helmet] [s_clock] [] []
+  - [s_gold_nugget] [s_ender_pearl] [s_diamond] [s_golden_apple] [s_emerald] [s_golden_helmet] [s_clock] [] []
 
 juwelier_dorf_buy_i:
   type: inventory
-  inventory: generic
+  inventory: chest
   title: <script[lang].data_key[shop.<server.flag[lang]>].parsed>
   size: 18
   gui: true

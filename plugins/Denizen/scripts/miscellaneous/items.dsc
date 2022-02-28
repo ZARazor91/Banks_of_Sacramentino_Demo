@@ -14,7 +14,7 @@ s_leather_helmet:
   flags:
     price: 7
   lore:
-  - <green>$<yellow>7
+  - <green>T<yellow>7
 
 s_leather_chestplate:
   type: item
@@ -22,7 +22,7 @@ s_leather_chestplate:
   flags:
     price: 12
   lore:
-  - <green>$<yellow>12
+  - <green>T<yellow>12
 
 s_leather_leggings:
   type: item
@@ -30,7 +30,7 @@ s_leather_leggings:
   flags:
     price: 12
   lore:
-  - <green>$<yellow>12
+  - <green>T<yellow>12
 
 s_leather_boots:
   type: item
@@ -38,7 +38,7 @@ s_leather_boots:
   flags:
     price: 9
   lore:
-  - <green>$<yellow>9
+  - <green>T<yellow>9
 
 s_iron_helmet:
   type: item
@@ -46,7 +46,7 @@ s_iron_helmet:
   flags:
     price: 15
   lore:
-  - <green>$<yellow>15
+  - <green>T<yellow>15
 
 s_iron_chestplate:
   type: item
@@ -54,7 +54,7 @@ s_iron_chestplate:
   flags:
     price: 35
   lore:
-  - <green>$<yellow>35
+  - <green>T<yellow>35
 
 s_iron_leggings:
   type: item
@@ -62,7 +62,7 @@ s_iron_leggings:
   flags:
     price: 35
   lore:
-  - <green>$<yellow>35
+  - <green>T<yellow>35
 
 s_iron_boots:
   type: item
@@ -70,7 +70,7 @@ s_iron_boots:
   flags:
     price: 20
   lore:
-  - <green>$<yellow>20
+  - <green>T<yellow>20
 
 s_chainmail_helmet:
   type: item
@@ -78,7 +78,7 @@ s_chainmail_helmet:
   flags:
     price: 10
   lore:
-  - <green>$<yellow>10
+  - <green>T<yellow>10
 
 s_chainmail_chestplate:
   type: item
@@ -86,7 +86,7 @@ s_chainmail_chestplate:
   flags:
     price: 25
   lore:
-  - <green>$<yellow>25
+  - <green>T<yellow>25
 
 s_chainmail_leggings:
   type: item
@@ -94,7 +94,7 @@ s_chainmail_leggings:
   flags:
     price: 25
   lore:
-  - <green>$<yellow>25
+  - <green>T<yellow>25
 
 s_chainmail_boots:
   type: item
@@ -102,7 +102,7 @@ s_chainmail_boots:
   flags:
     price: 12
   lore:
-  - <green>$<yellow>12
+  - <green>T<yellow>12
 
 s_bow:
   type: item
@@ -110,7 +110,7 @@ s_bow:
   flags:
     price: 75
   lore:
-  - <green>$<yellow>75
+  - <green>T<yellow>75
 
 s_arrow:
   type: item
@@ -118,7 +118,7 @@ s_arrow:
   flags:
     price: 0.30
   lore:
-  - <green>$<yellow>0.30
+  - <green>T<yellow>0.30
 
 s_iron_sword:
   type: item
@@ -126,7 +126,7 @@ s_iron_sword:
   flags:
     price: 100
   lore:
-  - <green>$<yellow>100
+  - <green>T<yellow>100
 
 s_diamond_sword:
   type: item
@@ -134,7 +134,7 @@ s_diamond_sword:
   flags:
     price: 3999
   lore:
-  - <green>$<yellow>3999
+  - <green>T<yellow>3999
 
 s_tnt:
   type: item
@@ -142,7 +142,7 @@ s_tnt:
   flags:
     price: 100
   lore:
-  - <green>$<yellow>100
+  - <green>T<yellow>100
 
 s_lever:
   type: item
@@ -150,7 +150,7 @@ s_lever:
   flags:
     price: 0.50
   lore:
-  - <green>$<yellow>0.50
+  - <green>T<yellow>0.50
 
 ####
 
@@ -160,7 +160,7 @@ s_nether_wart:
   flags:
     price: 10
   lore:
-  - <green>$<yellow>10
+  - <green>T<yellow>10
 
 s_blaze_rod:
   type: item
@@ -168,7 +168,7 @@ s_blaze_rod:
   flags:
     price: 50
   lore:
-  - <green>$<yellow>50
+  - <green>T<yellow>50
 
 s_ghast_tear:
   type: item
@@ -176,7 +176,7 @@ s_ghast_tear:
   flags:
     price: 45
   lore:
-  - <green>$<yellow>45
+  - <green>T<yellow>45
 
 s_slime_ball:
   type: item
@@ -184,7 +184,7 @@ s_slime_ball:
   flags:
     price: 10
   lore:
-  - <green>$<yellow>10
+  - <green>T<yellow>10
 
 s_fermented_spider_eye:
   type: item
@@ -192,7 +192,7 @@ s_fermented_spider_eye:
   flags:
     price: 0.49
   lore:
-  - <green>$<yellow>0.49
+  - <green>T<yellow>0.49
 
 s_glowstone_dust:
   type: item
@@ -200,7 +200,7 @@ s_glowstone_dust:
   flags:
     price: 24.99
   lore:
-  - <green>$<yellow>24.99
+  - <green>T<yellow>24.99
 
 s_redstone:
   type: item
@@ -208,7 +208,7 @@ s_redstone:
   flags:
     price: 0.50
   lore:
-  - <green>$<yellow>0.5
+  - <green>T<yellow>0.5
 
 ####
 
@@ -218,7 +218,7 @@ s_string:
   flags:
     price: 0.25
   lore:
-  - <green>$<yellow>0.25
+  - <green>T<yellow>0.25
 
 s_glass_bottle:
   type: item
@@ -226,7 +226,7 @@ s_glass_bottle:
   flags:
     price: 2.99
   lore:
-  - <green>$<yellow>2.99
+  - <green>T<yellow>2.99
 
 s_compass:
   type: item
@@ -234,7 +234,7 @@ s_compass:
   flags:
     price: 50
   lore:
-  - <green>$<yellow>50
+  - <green>T<yellow>50
 
 s_fishing_rod:
   type: item
@@ -242,7 +242,7 @@ s_fishing_rod:
   flags:
     price: 39.90
   lore:
-  - <green>$<yellow>39.90
+  - <green>T<yellow>39.90
 
 s_iron_hoe:
   type: item
@@ -250,7 +250,7 @@ s_iron_hoe:
   flags:
     price: 40
   lore:
-  - <green>$<yellow>40
+  - <green>T<yellow>40
 
 s_shears:
   type: item
@@ -258,7 +258,7 @@ s_shears:
   flags:
     price: 30
   lore:
-  - <green>$<yellow>30
+  - <green>T<yellow>30
 
 s_lead:
   type: item
@@ -266,7 +266,7 @@ s_lead:
   flags:
     price: 11.99
   lore:
-  - <green>$<yellow>11.99
+  - <green>T<yellow>11.99
 
 s_writable_book:
   type: item
@@ -274,7 +274,7 @@ s_writable_book:
   flags:
     price: 25
   lore:
-  - <green>$<yellow>25
+  - <green>T<yellow>25
 
 ####
 
@@ -284,7 +284,7 @@ s_chicken:
   flags:
     price: 2.95
   lore:
-  - <green>$<yellow>2.95
+  - <green>T<yellow>2.95
 
 s_salmon:
   type: item
@@ -292,7 +292,7 @@ s_salmon:
   flags:
     price: 2.25
   lore:
-  - <green>$<yellow>2.25
+  - <green>T<yellow>2.25
 
 s_apple:
   type: item
@@ -300,7 +300,7 @@ s_apple:
   flags:
     price: 0.35
   lore:
-  - <green>$<yellow>0.35
+  - <green>T<yellow>0.35
 
 s_bread:
   type: item
@@ -308,7 +308,7 @@ s_bread:
   flags:
     price: 1.99
   lore:
-  - <green>$<yellow>1.99
+  - <green>T<yellow>1.99
 
 s_carrot:
   type: item
@@ -316,7 +316,7 @@ s_carrot:
   flags:
     price: 0.39
   lore:
-  - <green>$<yellow>0.39
+  - <green>T<yellow>0.39
 
 s_potato:
   type: item
@@ -324,7 +324,7 @@ s_potato:
   flags:
     price: 0.50
   lore:
-  - <green>$<yellow>0.50
+  - <green>T<yellow>0.50
 
 s_brown_mushroom:
   type: item
@@ -332,7 +332,7 @@ s_brown_mushroom:
   flags:
     price: 0.20
   lore:
-  - <green>$<yellow>0.20
+  - <green>T<yellow>0.20
 
 s_red_mushroom:
   type: item
@@ -340,7 +340,7 @@ s_red_mushroom:
   flags:
     price: 0.20
   lore:
-  - <green>$<yellow>0.20
+  - <green>T<yellow>0.20
 
 s_beef:
   type: item
@@ -348,7 +348,7 @@ s_beef:
   flags:
     price: 3.95
   lore:
-  - <green>$<yellow>3.95
+  - <green>T<yellow>3.95
 
 s_porkchop:
   type: item
@@ -356,7 +356,7 @@ s_porkchop:
   flags:
     price: 3.95
   lore:
-  - <green>$<yellow>25
+  - <green>T<yellow>25
 
 s_melon:
   type: item
@@ -364,7 +364,7 @@ s_melon:
   flags:
     price: 5.95
   lore:
-  - <green>$<yellow>5.95
+  - <green>T<yellow>5.95
 
 s_melon_slice:
   type: item
@@ -372,7 +372,7 @@ s_melon_slice:
   flags:
     price: 2
   lore:
-  - <green>$<yellow>2
+  - <green>T<yellow>2
 
 s_cake:
   type: item
@@ -380,7 +380,7 @@ s_cake:
   flags:
     price: 15
   lore:
-  - <green>$<yellow>15
+  - <green>T<yellow>15
 
 s_cookie:
   type: item
@@ -388,7 +388,7 @@ s_cookie:
   flags:
     price: 0.30
   lore:
-  - <green>$<yellow>0.30
+  - <green>T<yellow>0.30
 
 s_egg:
   type: item
@@ -396,7 +396,7 @@ s_egg:
   flags:
     price: 0.60
   lore:
-  - <green>$<yellow>0.60
+  - <green>T<yellow>0.60
 
 s_mushroom_stew:
   type: item
@@ -404,7 +404,7 @@ s_mushroom_stew:
   flags:
     price: 3.99
   lore:
-  - <green>$<yellow>3.99
+  - <green>T<yellow>3.99
 
 ####
 
@@ -414,7 +414,7 @@ s_cooked_salmon:
   flags:
     price: 6
   lore:
-  - <green>$<yellow>6
+  - <green>T<yellow>6
 
 s_beer:
   type: item
@@ -423,7 +423,7 @@ s_beer:
   flags:
     price: 2.90
   lore:
-  - <green>$<yellow>2.90
+  - <green>T<yellow>2.90
 
 ####
 
@@ -433,7 +433,7 @@ s_gold_nugget:
   flags:
     price: 70
   lore:
-  - <green>$<yellow>70
+  - <green>T<yellow>70
 
 s_ender_pearl:
   type: item
@@ -441,7 +441,7 @@ s_ender_pearl:
   flags:
     price: 275
   lore:
-  - <green>$<yellow>275
+  - <green>T<yellow>275
 
 s_diamond:
   type: item
@@ -449,7 +449,7 @@ s_diamond:
   flags:
     price: 999
   lore:
-  - <green>$<yellow>999
+  - <green>T<yellow>999
 
 s_golden_apple:
   type: item
@@ -457,7 +457,7 @@ s_golden_apple:
   flags:
     price: 750
   lore:
-  - <green>$<yellow>750
+  - <green>T<yellow>750
 
 s_emerald:
   type: item
@@ -465,15 +465,15 @@ s_emerald:
   flags:
     price: 300
   lore:
-  - <green>$<yellow>300
+  - <green>T<yellow>300
 
-s_gold_helmet:
+s_golden_helmet:
   type: item
-  material: gold_helmet
+  material: golden_helmet
   flags:
     price: 599
   lore:
-  - <green>$<yellow>599
+  - <green>T<yellow>599
 
 s_clock:
   type: item
@@ -481,7 +481,7 @@ s_clock:
   flags:
     price: 2999
   lore:
-  - <green>$<yellow>2999
+  - <green>T<yellow>2999
 
 ####
 
@@ -491,7 +491,7 @@ b_emerald:
   flags:
     price: 220
   lore:
-  - <green>$<yellow>220
+  - <green>T<yellow>220
 
 b_gold_nugget:
   type: item
@@ -499,7 +499,7 @@ b_gold_nugget:
   flags:
     price: 50
   lore:
-  - <green>$<yellow>50
+  - <green>T<yellow>50
 
 b_diamond:
   type: item
@@ -507,7 +507,7 @@ b_diamond:
   flags:
     price: 350
   lore:
-  - <green>$<yellow>350
+  - <green>T<yellow>350
 
 b_clock:
   type: item
@@ -515,4 +515,4 @@ b_clock:
   flags:
     price: 890
   lore:
-  - <green>$<yellow>890
+  - <green>T<yellow>890
