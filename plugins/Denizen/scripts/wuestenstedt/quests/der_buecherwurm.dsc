@@ -26,7 +26,7 @@ buecher_in:
           - if <player.inventory.contains_item[book].quantity[20]> && <player.item_in_hand.material.equals[<material[book]>]>:
             - chat <script[lang].data_key[bue_abgabe.<server.flag[lang]>].parsed>
             - toast <script[lang].data_key[quest_beendet.<server.flag[lang]>].parsed><script[lang].data_key[bue_name.<server.flag[lang]>].parsed> icon:nether_star frame:goal
-            - narrate <green>50 <script[lang].data_key[summe_erhalten.<server.flag[lang]>].parsed>
+            - narrate "<green>50 <script[lang].data_key[summe_erhalten.<server.flag[lang]>].parsed>"
             - take item:book quantity:20
             - give money quantity:50
             - flag server bue_var:2

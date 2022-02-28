@@ -26,7 +26,7 @@ hunger_in:
           - if <player.inventory.contains_item[cooked_beef].quantity[20]> && <player.inventory.contains_item[egg].quantity[10]> && <player.inventory.contains_item[bread].quantity[10]>:
             - chat <script[lang].data_key[hun_abgabe.<server.flag[lang]>].parsed>
             - toast <script[lang].data_key[quest_beendet.<server.flag[lang]>].parsed><script[lang].data_key[hun_name.<server.flag[lang]>].parsed> icon:nether_star frame:goal
-            - narrate <green>250 <script[lang].data_key[summe_erhalten.<server.flag[lang]>].parsed>
+            - narrate "<green>250 <script[lang].data_key[summe_erhalten.<server.flag[lang]>].parsed>"
             - narrate <script[lang].data_key[hun_lohn.<server.flag[lang]>].parsed>
             - take item:egg quantity:10
             - take item:bread quantity:10
