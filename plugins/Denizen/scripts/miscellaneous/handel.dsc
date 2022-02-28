@@ -6,7 +6,7 @@ kaufen_t:
     - if <player.money.is_more_than_or_equal_to[<[summe]>]>:
       - narrate "<gold><[npc]>:<white> <script[lang].data_key[item_gekauft.<server.flag[lang]>].parsed>"
       - take money quantity:<[summe]>
-      - if <definition[item].equals[potion]>:
+      - if <definition[item].equals[<material[potion]>]>:
         - give item:potion[potion_effects=FIRE_RESISTANCE,false,false;display_name=<&r><script[lang].data_key[bier.<server.flag[lang]>].parsed>]
       - else:
         - give item:<[item].after[@]>
