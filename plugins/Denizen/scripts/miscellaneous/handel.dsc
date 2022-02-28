@@ -9,7 +9,10 @@ kaufen_t:
       - if <definition[item].equals[<material[potion]>]>:
         - give item:potion[potion_effects=FIRE_RESISTANCE,false,false;display_name=<&r><script[lang].data_key[bier.<server.flag[lang]>].parsed>]
       - else:
-        - give item:<[item].after[@]>
+        - if <[item].after[@].contains_any[nether_wart]>:
+          - give item:nether_wart
+        - else:
+          - give item:<[item].after[@]>
     - else:
       - narrate "<gold><[npc]>:<white> <script[lang].data_key[item_geld_fehlt.<server.flag[lang]>].parsed>"
 
