@@ -16,7 +16,7 @@ reisende_in:
             - narrate <script[lang].data_key[rei_lohn.<server.flag[lang]>].parsed>
             - flag server cycle_d:false
             - repeat 36:
-              - if <player.inventory.slot[<[value].sub[1]>].effects_data.equals[instant_heal,2,false,false]>:
+              - if <player.inventory.slot[<[value].sub[1]>].equals[<item[potion[potion_effects=<list[<map[type=INSTANT_HEAL;upgraded=true;extended=false]>]>]]>]>:
                 - take slot:<[value].sub[1]>
                 - repeat stop
             - take item:enchanted_golden_apple
