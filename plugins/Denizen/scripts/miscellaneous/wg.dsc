@@ -13,4 +13,6 @@ wg_w:
       - determine cancelled:false
 
     on player enters end_demo:
-      - title "title:<red>THE END" "subtitle:<green>Thanks for playing!"
+      - if !<server.has_flag[end]>:
+        - title "title:<red>THE END" "subtitle:<green>Thanks for playing!"
+        - flag server end:true
