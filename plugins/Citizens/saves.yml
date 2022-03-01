@@ -119,7 +119,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: mounttrait,constants,lookclose,hologramtrait,denizen_flags,gravity,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,hologramtrait,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,lookclose,inventory,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -190,7 +190,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,gravity,denizen_flags,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,lookclose,inventory,location,gravity,equipment,owner,skintrait,assignment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -267,7 +267,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,lookclose,inventory,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -367,7 +367,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: mounttrait,constants,lookclose,hologramtrait,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,hologramtrait,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,inventory,lookclose,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -437,7 +437,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: mounttrait,constants,lookclose,hologramtrait,gravity,denizen_flags,type,owner,skintrait,equipment,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,hologramtrait,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,lookclose,inventory,location,gravity,equipment,owner,skintrait,assignment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -542,7 +542,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,equipment,skintrait,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,inventory,lookclose,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -635,7 +635,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,gravity,denizen_flags,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,inventory,lookclose,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -780,7 +780,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: mounttrait,constants,lookclose,hologramtrait,gravity,denizen_flags,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,hologramtrait,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,lookclose,inventory,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -846,7 +846,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,lookclose,inventory,location,gravity,equipment,owner,skintrait,assignment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -924,7 +924,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: mounttrait,constants,lookclose,hologramtrait,denizen_flags,gravity,type,owner,skintrait,equipment,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,hologramtrait,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,inventory,lookclose,location,gravity,equipment,owner,skintrait,assignment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -989,7 +989,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,gravity,denizen_flags,type,owner,skintrait,equipment,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,inventory,lookclose,location,gravity,equipment,owner,skintrait,assignment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1071,7 +1071,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: mounttrait,constants,lookclose,hologramtrait,gravity,denizen_flags,type,owner,equipment,skintrait,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,hologramtrait,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,inventory,lookclose,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1119,7 +1119,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,sneak,inventory,spawned,gravity,denizen_flags,type,location,owner,skintrait,equipment,scoreboardtrait
+    traitnames: scoreboardtrait,inventory,location,spawned,mounttrait,sneak,gravity,equipment,owner,skintrait,type,denizen_flags
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1202,7 +1202,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,inventory,lookclose,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1298,7 +1298,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,lookclose,inventory,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1408,7 +1408,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,lookclose,inventory,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1530,7 +1530,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: mounttrait,constants,lookclose,hologramtrait,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,hologramtrait,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,inventory,lookclose,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1600,7 +1600,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: mounttrait,constants,lookclose,gravity,denizen_flags,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,lookclose,inventory,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1657,7 +1657,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: mounttrait,constants,hologramtrait,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
+    traitnames: constants,spawned,hologramtrait,mounttrait,sneak,triggers,type,denizen_flags,scoreboardtrait,inventory,location,gravity,equipment,owner,assignment,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

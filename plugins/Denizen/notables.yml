@@ -68,6 +68,9 @@ Cuboids:
   door_1:
     object: cu@world,411,64,73,411,65,73
     flags: ''
+  end_demo:
+    object: cu@world,440,56,75,441,58,75
+    flags: ''
   bett_idiotus:
     object: cu@world,378,64,81,379,64,82
     flags: ''
