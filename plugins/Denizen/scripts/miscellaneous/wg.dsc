@@ -11,3 +11,6 @@ wg_w:
 
     on cow|chicken|pig spawns in:farm_1 priority:2 ignorecancelled:true:
       - determine cancelled:false
+
+    on player enters end_demo:
+      - title "title:<red>THE END" "subtitle:<green>Thanks for playing!"
