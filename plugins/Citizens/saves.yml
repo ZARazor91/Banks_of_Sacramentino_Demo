@@ -11,7 +11,7 @@ npc:
       player-skin-signature: ZOnEfyvm/FBDu0+3rAkroaz0wGjrnK5Ouvjxg+DUKJnZPIBwfjulKRhbqh8fuXiabtvY5+OV55BxnlYkcdeh6amXELLC6h62ocMxpFkOzOMunswsDMQvOaerE2DDYNdPUNOIeDR6GC+opc6Y7CaXZDOWLaAv00F9g9f1avcLQzEogdwj1+YzH27/H69noKE/bzYpYKAXAoHC8b9R7fHKkK0aSChdaRHEO/qx1PqavtQzuHvL5AkUSxzuOXruNUe2sqsicoTcDuIXjnmo5Dttl5fI8Nu2rZSd9gUWOOiXigPMCJXrGij0/JUmyaFoPJ1nodMkQik/BsHA3jCPubYJxSOioLXB4AZfwGuY2BdXfc/fFfqZS25JnTaumjSSl9idlcUvCFEuojA3NpOZfULmwRTCFUkviq8ftonL/Oy/BtVRp1sB0mo+yLJtl9EAoUT0k7ovPgu82RY4tH51UdB2fzMB5hB8t3uWXjXJIwYIyeP2NM4Ho634QNkhorYaz5LbwEknboTSkkMm4t/+3Cjn68O3laRXpXSVJ/W9ls4yKscqCgoCymJIfbrR65HAUxoCw/7sjLXzqkvVPmJcAydtcJQm18qAsI8A5QIhtvOrDh3fsu0LpkcBkT7wK1XkE7Zkt0EzNu7h+LAs5yLDkBm1tNQ243sDqVnkxUEvo3lig8Q=
       player-skin-use-latest-skin: false
       player-skin-name: b8fba6d3-481e-4ba8-b868-2bbe639156a0
-    name: Traveller
+    name: Reisender
     uuid: 40992288-cb2b-4cc7-8237-68af0c6a83cf
     traits:
       type: PLAYER
@@ -20,9 +20,9 @@ npc:
         x: '432.5'
         y: '64.0'
         z: '90.5'
-        yaw: '35.8235'
-        pitch: '0.0'
-        bodyYaw: 11.580334
+        yaw: '-9.2727'
+        pitch: '-63.3165'
+        bodyYaw: -49.27266
       gravity:
         enabled: false
       spawned: true
@@ -119,13 +119,13 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: inventory,spawned,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,denizen_flags,lookclose,owner,scoreboardtrait,triggers,sneak,hologramtrait
+    traitnames: mounttrait,constants,lookclose,hologramtrait,denizen_flags,gravity,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '16':
-    name: Flower-Freddy
+    name: Blumen-Bernd
     uuid: d1e21cb8-4401-4bd6-aeef-f7e1e15cf0c6
     traits:
       spawned: true
@@ -190,7 +190,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: inventory,spawned,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,lookclose,denizen_flags,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,gravity,denizen_flags,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -202,7 +202,7 @@ npc:
       player-skin-name: 59845351-614f-4663-acbc-572478a9852f
       player-skin-signature: YKl8HkoyUDAW6MM7li9kehz/ontWmlwboAvv+CWumkITgUlHuC+UzP29leSUOo0RMb22FImWQmIzPbaFbJc/begG1rgKC9Xx/BtgGi8KcVZMkoNB38hj7hvczCClN0aezbbX8QstYBsRkOWSQTrPO+G3ms4xIvSK1HxvPzfZ72e/3o+4+xB88xAhHaRLqsDIRSOiKCJg8nHnp75N00Whk85v7Is0HgW2mOGOggTOGqX1jcHB6Yh45BTyHv5+oDfpdM6y6QlLEzhBMUeWsOf7rvh6dDpUdXq/diCn2s8ePliNZ9uep82v3wK6O0G6cCaSgTkUieggdGG/BhBpu7s0PVbNiCigqR44Ydb/yogtrPHHhO/RQR3H1mrz2CzW7DATIm8xXb0b37HMnIJ8qC8QPjauNY8smpZOxRZ7hxV41bR4df+09R+9jaWVzcN7P2XbB08N11CiszQR8ALd3jXhwGPzjkwk8Kh1Y26OMFGFKoTDBoM38d2UKhUzdfv3/97r8NVw7I15a6RupGVhNFlCLqao0DZmdXtHY86HCDvFA7A+sT45W4qgfmAu1L7/SzNMdmJ4EkQTnbapLO476L2fEPTJdB0mMjD0/fQ4P1n+AbQNaIwGnuDYZv4O4pl7oZxRRrzXFGCznxXAjSph6fPqCPtH/lLobD1aOTuXWdwZOS8=
   '15':
-    name: Jeweller
+    name: Juwelier
     uuid: 9edfcff7-bc83-45f7-aeb4-3f637dcb3017
     traits:
       spawned: true
@@ -267,7 +267,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: spawned,inventory,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,denizen_flags,lookclose,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -279,7 +279,7 @@ npc:
       player-skin-name: b83bf72c-fbf1-46d1-8d7f-c9ce26b5ad6c
       player-skin-signature: Bxwneo3CIF1O2mYfy68mO3h0nj/0l4UYP3AsCucgS3mfD8WWkyfS9jFW8nSZ02/Kgk07U4WMje0q7vuT7anXQx5hYc/0DrffgrJtyJt1FPwvyYAzXpYr1szgVH3dMUyj0FhCosK3f5qsbavtSdvHU4g8E96fd4JV1pnI5npLYRU+tSlTneEzv0uvzPv3Jf13P0JnQfZm7MJPwiZGEiCkwTswzu0F+1nVKfabRNamQQYKyUkK/9hQuvEqGluzlm2R32phvNEcBGPow3UID3lC9TGGwAP6nHDgu6lpHR3uTb6N8CrDxo4/hsKGGAy+NDQwNpBoBtTbtpIRQKKK/+AQjSkpoWeSo7DtebOPevOKXPg5tQ3V7F/RRfc6/OwfqiozICokCJrFL8tqhYJWrJKZud8gCafJpbT4QUUEl6OcPyAj2wI8gEuaizEIookGGj9UO06MkkKkamezKwhjXxrIIf6kROigPlH/7aTGyfqneo2wK8qMRByqqbtrUcawGwqQ3B8IqOBB0h2+XhvkiNqrvH+3WCpHTWweaqw5Yj5TpkJuhxe0+mNyhwjrz8CnLgEu30P9x2RF497WWhDx41m+fFUU4T+shhmATaGT86bRGv9kL/pkHzkQs8NX42bgR0T39JVZlaNiZVXVL+hjUPBwUhNIBFRU5tlvF7FI6D48ESY=
   '14':
-    name: Garden-Gary
+    name: Garten-Gerd
     uuid: 3987feed-823f-4238-88af-8da9d379c91d
     traits:
       spawned: true
@@ -367,7 +367,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: spawned,inventory,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,denizen_flags,lookclose,owner,scoreboardtrait,triggers,hologramtrait,sneak
+    traitnames: mounttrait,constants,lookclose,hologramtrait,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -379,7 +379,7 @@ npc:
       player-skin-name: f7ff2e4f-919f-4b51-84e6-7bec6fb64970
       player-skin-signature: TC3dxAZYrAdbkpOP2LLIaxSluLoDOMtkyGg4FkV0rsqB2j07rS++yoC9vpRiikjX8e0rtEz5xGIj7lrXJIzrsKfPmiKamVqa0DrYcKCYncwcV4KWb/TzYY3TcEpk+3+CeceMLMjvGr9TggBToAcrczQQbOjhOnMOFqfqvCRwIrURViJ3G+uy+PGKLVamiKUCrBHwKI6R0wSkgl5wLFGTQd3xcM7wHnY2MAKfq9ZHrMRYCaIgVsxCcsKBCJivBluqaqlUCLsFEtn9Ln5RbukcEtY1trXKH9j7zPUbjEN/vaUX/cZIDMUNTktEYefepjv76OG2PPKz0oubUrC5w3Q3r1z5/1nEe+EqsmUu6qUBhOwcgm48BJ9Iyhd94ybL1In7h8HjhNVNT7mrCyhFOCK65JEw+5MQImJH4Ns95/qQSMwspM5yenCrSBL547nJ/zRJRlZahCRkZa76yFE2ZSzPy8hDbjrnu69A4ctEO7fi5yoO1Hca+CAphM+FMXgrZZ31ffWyxIigVBBaGa7YqgKC+D9BpCk6hxjCfO6RNLMLtVK0Je1nRDujPV5DScUsr4KZutgOkXcLHeoLSJxgFpFeEyqzSDbGfSFkMDKtjYDgbozvfLh76rC3FHxyTC1enVN83eFhEAP/CgGMke+4fo5nOTXydTyMRq/cH1nFiKkH07Q=
   '13':
-    name: Mayor
+    name: Bürgermeister
     uuid: 41ebdc43-7125-4103-9eaa-7fd5c9704ac5
     traits:
       spawned: true
@@ -437,7 +437,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: inventory,spawned,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,lookclose,denizen_flags,owner,scoreboardtrait,triggers,sneak,hologramtrait
+    traitnames: mounttrait,constants,lookclose,hologramtrait,gravity,denizen_flags,type,owner,skintrait,equipment,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -449,7 +449,7 @@ npc:
       player-skin-name: f9aacca8-8b90-4ca8-b7f2-423e8a3f481a
       player-skin-signature: W3BuS61GdZCxBHEUBSzQbjxBdF82VbeoAYxJ1Zkc2hPhH2x0lLCgn5NdzhbctpzE7a3anafAnPXddekFCPKkAQ6p0Hk8CqA62YmjiLouCCy3PWAF/zPxlOoiaSzzG60fH6C9SHPY/XR5jhQfRN601yMYU+GVavbkC7CPDoffjbN9YGeFDQxg7k792E7vrMAfeHCSIOKs0JIDQyvzIi0hh3jt7Sd0wqfizet2xqYORgXhuJQ4358DTaQNZsX8ch8c0KrjIVedid5gef28Z0MwVfPgTRFwF/qzm7H9C49/b5HnmJil43rt/35yRi3VBcc85koIIOlU2hVo8Ugx88Z+75P24J8EI8GzkXuIObBL9ZcgpmTaHfGxMw9Rs7yIzXVC3hYM12JhEqB5Zz5GWi+oUFtVAj6rdVdVCd7O9wDwnzmQiBA8lNcfUa71pF5kgnayXw0CxoHJgBHM2vGIYX3c80arIwuJkvEavaI5nhrU4zPLhvHSoJiOWkgADrE90DXbeHHd6vx7VftYg3rmlGitE5BOU3H+bPj3/BYBR91PDJQsS36V9wPQC1OSob3szqS81ziMRp1sS9WhXz6EVaYeO/MwbQG70MIeEMppiByJu1yWPhse2Hr7bFqzjBK0oLtNQ7C8AAPTFKcajsDN+GZOCiDD+KrlPtuhY8dkK7VBXIA=
   '12':
-    name: Tip-Trick-Man
+    name: Tipp-Trick-Man
     uuid: 675b29cd-ac7d-45c6-bc43-e8990259fb52
     traits:
       spawned: true
@@ -542,7 +542,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: inventory,spawned,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,denizen_flags,lookclose,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,equipment,skintrait,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -635,7 +635,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: spawned,inventory,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,denizen_flags,lookclose,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,gravity,denizen_flags,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -643,10 +643,10 @@ npc:
   '10':
     metadata:
       player-skin-textures: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiZWJmODAyY2RjOTU5NDA1NWJmMmQ4MTczNDQ5YTZmYTUiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJkY2U4MTdkOTBiNzgyOWI0NDA2NzAwYWY0NmIwZWY0ZjVjODBlYjQwOTRlZjhiOWFjMDI2NDRjYzdiNzZkMyIsCiAgICAgICJwcm9maWxlSWQiIDogIjg3MDkzMmU2ZGYzZDQyMjNhMTZlMzRiYzg4MmU0NGNkIiwKICAgICAgInRleHR1cmVJZCIgOiAiMTJkY2U4MTdkOTBiNzgyOWI0NDA2NzAwYWY0NmIwZWY0ZjVjODBlYjQwOTRlZjhiOWFjMDI2NDRjYzdiNzZkMyIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiZWJmODAyY2RjOTU5NDA1NWJmMmQ4MTczNDQ5YTZmYTUiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMmRjZTgxN2Q5MGI3ODI5YjQ0MDY3MDBhZjQ2YjBlZjRmNWM4MGViNDA5NGVmOGI5YWMwMjY0NGNjN2I3NmQzIiwKICAgICJwcm9maWxlSWQiIDogIjg3MDkzMmU2ZGYzZDQyMjNhMTZlMzRiYzg4MmU0NGNkIiwKICAgICJ0ZXh0dXJlSWQiIDogIjEyZGNlODE3ZDkwYjc4MjliNDQwNjcwMGFmNDZiMGVmNGY1YzgwZWI0MDk0ZWY4YjlhYzAyNjQ0Y2M3Yjc2ZDMiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
-      cached-skin-uuid-name: preacher
-      cached-skin-uuid: 7a8738c0-9d62-4434-b98e-79144ec9b938
+      cached-skin-uuid-name: pfarrer
+      cached-skin-uuid: 4663aa4a-e223-4722-a904-f0b210b2be93
       player-skin-signature: pxBkdAZbhBAR7MgOZ8NJEK+TFptV9S0TYchrU0XaCk50WmuhFSuBI8BTt8Y0Qb85w9DvQ7RSBNwUuvJLnEyjMturIcMgCmI7KA7ksfzvtQsSoVhHAqxgg9a1X5iglrmyUR1ibzlr/4zEZFPYK4oQ8Dlq9r/l6AZ/xvgs9b2b/7wOKYH0GXA5LvR0O/0YPTgSkqWUrPV6+QT0/MRnocFBuLfp2lKV8drpJzJDZw7jA5vgjmw6Kn3xrZvnk5Ktixq93UoKnY5Fef9vx3c+uXitUU05feoCEXLMj3uDcby9kXSRwC6Reua44zGQcP1EH44a63nPRtbImBaQSVjjvsJBjSqDcculFlSNLYOkP/pkU+TdsmZ0tOAImqL+A6K5QhcT+nDln3fK/M0S85YF5zaT7W/LMDnsnNQ4NFOtlBob54w6hwqc/4lC09cs2uNrVngBCffsOXoUAQR/rja2KU9TiUGJvT4s4LegZeGbLR+/ar/8aKjG2ohvi2jo9qdVRq15ULHWe6oiAaa2W1Mq6hLJSHcutcFUKnclhEv3YSC4WoQEiUeIaQQtlnWlTf0T6YtEU7HqS9L/jHbQFwpmeucfH5qXch7QV8qHzHxHCUy78UT5IPa+OgeyJNhdf0qTQ6elTvdr0Nv/ZcRcop/pTfK6OEWNwYltF9Gau9PZ5sj6Oa8=
-    name: Preacher
+    name: Pfarrer
     uuid: d50ee84d-8774-4c7d-aea9-319c291f944a
     traits:
       spawned: true
@@ -768,8 +768,8 @@ npc:
           '0': BEKEHRER_IN
       skintrait:
         fetchDefaultSkin: true
-        signature: ViqoUE/Vno+a65O6zX8jUaVwCKq8hEKzHm4+j3j0Btog59DCDUBCcW1yJvGzUgb4Xh2ewnjCa7ABES7dkeTx2KV270WVBHeWMioYY1PxJ2ogQuSf7OUPEVXitGRashGbYicBIP7tmQasEHk2/9D1s2Tt7W33yUnZDfz/9c0STPptRLubn9pVUnxW6zyRLRXViwjezYrgj255V92QCsA18q85n076VAoJFbft09Bbx6D7ZvX/QnC6ZgpV7sRSLRQWpuXbwhyVIyQBHeX68OlvZoZFKHowMwDkeu0zzJTZ72ETUs4wnJzritfNtjCxqnUvzH+m/2Dlkak1ceVNM+6phlBywiW4xh2PqmtMyrSQCt5yHgX0u8Gwnf7W5kGq0ldWh6VrYvyZVQXyPCVJBOYDcut67YkKUuLnTbjsIfxIHoSLJta7mTy5XXhLRMt8iHyvLrRyf1+jnYQNM2IVtZMI2dK80nZXbnWHtLHf+51yO5heiHmwNqJoXrnLTXD7cEJRmAl4lUN3vgZc1nQmF8TyJ4wEPs06oGSMQFdFRBp+VEZkJfaDrDth62jJ8PjPAwfhc9Z4rcsysIM+Ahwjw2f6AEr+O9UUjIU4x6mdiPtIeUb3Z4B538o48zNydglbPReZoBsfb/Yho6ceaR+7PVznIMAE8P7XY2UZX09bNMw08p0=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NTExMzgyMjQxNCwKICAicHJvZmlsZUlkIiA6ICI3YTg3MzhjMDlkNjI0NDM0Yjk4ZTc5MTQ0ZWM5YjkzOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcmVhY2hlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lYTg0MjZlNTBjMGQ4ZmIzZjcwOWE4NGFmN2ZjMDdiOGNlMGRlM2RlYjMwOGEyZDRhZWY2YjhiZGZhNzAxY2ZiIgogICAgfQogIH0KfQ==
+        signature: Q0eOP7uZPphqqTX7iRq8+w63lJAEksOai4dQHhptPCnzsNxVp4jJf2XApXXx3FBrj4Di8BuH/ltXiI9s0DD0DnRLy1xzW6Wyb857xwhn2oZuh5MtMWe96MteZGQ7/pD+sD6PcooT+WwrVFj27gZZsDHsZO/jhl9rx+NEn+oXN7CO7n8S0UGQh85YjfiP43xoQKnRnAHakSm0VZUJ98XRUzauyT9rK4E9KbeF/cFk8tPyhhnSyKCnyARMDYCoVUIRG4J6aaxbiPHHTxU8AHFfi7OGdRQWhdlaMLrqtu5oEPDmDfBqg6mrzG6q7Why3Cftd9tS3OPAx5uBPKkEHIvstPJEBjBrpdROl2S++vXjucnhs1uTXoEHZyuJ1Kw2DGNKYw7U51ZnacDwMEPfw5K0gVv4mDAdYDFLf2NsQ8qND9GUVl+TvhiaESATmMrMUrqIDjuGXjOETIaZby28AfPL9AdcR3AcVvyIC3k/YJ4VU6OExt6x2GCTBduse1f9fiq6DF9rfFLpv39fkpC+P1YkrclzW8zO0G1g6BzTDZTyh8dPIkHhHOVLKOAhof98BrvpXy3IC4fVpPoGYlpqxpXnliHQi8BFTrIP4sLek7qDdKB3EHoeqHAh/fHg+4WWQCuauS9FbNcP+RULpmL4LvbODnGwh5TjlzSgBE7BdLL0KeA=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NjE0NDI2NjIzNywKICAicHJvZmlsZUlkIiA6ICI0NjYzYWE0YWUyMjM0NzIyYTkwNGYwYjIxMGIyYmU5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZmFycmVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlODI2OTZjYTk4M2U2MDJiNmYyYTFlMWRmNzA4MDRiZjVkOGZmNDJjMmE0NjE5MzI0ZWNlODMwYmVmYzc0NWYiCiAgICB9CiAgfQp9
         updateSkins: false
       owner:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
@@ -780,7 +780,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: spawned,inventory,gravity,constants,type,location,assignment,mounttrait,equipment,skintrait,lookclose,denizen_flags,owner,scoreboardtrait,triggers,sneak,hologramtrait
+    traitnames: mounttrait,constants,lookclose,hologramtrait,gravity,denizen_flags,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -793,7 +793,7 @@ npc:
       player-skin-signature: Zaj68OQig+lHwPbKVLnJeO1LZ/sDrnyg45RE666tNBONXVzLVCnq8S0kqaeI+KumGIp6NkcSqblXGZqa1Ljhz7jWrWb+7EpVa3pdJmRgx91qrzhpiHYPHuPrVXHtBilmCYdv5Xby7AvqYl9daqngfUiVAY6AYUZe6FMtZhQuxJie4tMtytraCYbgnz7ny7XdiUs0GW1TFuuW2XqDtyEVl1xh1L+VFXwa3jJGE7F+E9bX79XeNk7npyoqrc7luc8JOmnvOn0fUp3eN0ZLC/yJtj4fcWJKQOZ+4gqBb8uWfTHOE2fgxy0ilvh/N06PugzTdWr1LRcfs8dfWOO5Pdjcn3TvuNbdXNf7lmVpwjDEjZZIIb8pmaFbVuQeACcPGuzYXAslph/Jhawrib1kNWXFtoSHB6zxuhkMpLbIvkVgOb50/GL5l2R6/y4VCG+gvmDzDyzRb3qUiHB9sHgMOuajg1ES2VZMGisKc7M9Ovakc/o716mgH40U9XeK0txabYNxCD2sLekcUEu2QzA+VnfHbMbjSrHp4Ks8efufxhimK+Y5hdRn56a4FBTW6ESKFOT2ocMWjCon0fG4oDSWfxXNjwq73sanUsyTVrWwMgm/NWRtd9WDNj9WfL6PQkqLlXg15WGSQO49andVx9KYGjr+eZ9Y+AHekaAAjHDiSosi7DA=
       player-skin-use-latest-skin: false
       player-skin-name: f9e253ac-8e64-4f25-a6c4-ae578007fda6
-    name: Cashier
+    name: Kassierer
     uuid: 11d19929-f3bb-4434-b759-41f103979414
     traits:
       spawned: true
@@ -846,13 +846,13 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: inventory,spawned,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,lookclose,denizen_flags,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '8':
-    name: Mrs. Miller
+    name: Frau Müller
     uuid: 40f129a9-2ea5-406e-bb05-65b5e8ffc5aa
     traits:
       spawned: true
@@ -924,7 +924,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: inventory,spawned,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,denizen_flags,lookclose,owner,scoreboardtrait,triggers,sneak,hologramtrait
+    traitnames: mounttrait,constants,lookclose,hologramtrait,denizen_flags,gravity,type,owner,skintrait,equipment,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -936,7 +936,7 @@ npc:
       player-skin-name: 972ac122-1bd3-4217-89e8-0717a6216a39
       player-skin-signature: a1eBxEF3CjIbVQao8Qk9PjzVZkqbjl6ozq2lu8RvgIrOyeYZwon1jGfC7ruhDPp3X64fTkW+7ar0WzjhAuVWJ5ekg9+p1xXTcBcmYEo/mkrckOsZgH06b9PKwof0xS+w08tr0FnDdQ1hdF0Ucg4klWrMlg4ql/Tr9WwfARGtEsWCSMlDMRjs3R4tbYLMTeNBgjyILsq/U29DUl1HMZDAhHkAqA8Pmj/QMYjigfIUQGTc368TdXzjal88KIw7M9lpvFVhAdSXLJIFDDDGOwzYoZ1jFWwdvNxrFgG+ce9hC5RI7tSzfnJXwH/6NjO71tNnE9u/QlRvVTVq5xm1qAgKkGIKOPIkG6hJbVc/KMSaQQMvRB+AtYa3Jydiks/8K1BeKMYiQ9eRByPwrmEOdAU/Bg4MWcWUnbTksfFEfl1/oNWqjdljN7TNrPz76zCsZPeNOmxqjQAjpLaz9MUmKE2LO4+ZsgSl6lioVfORgRuZEx6BGoih1tT8LU1ZclGqq1Aav2Sf2YfWMAgzRXd/hSjKE727FomiVExV3c03S30T8qt/MUBaa2CRJlsgakOD+0Uz76gnV7EqgDSYXPRbKDIxdAaBaz0cMXvBLBfnSAM7y7ybbR53Ggq27UfjTu0We58jJpUaj5ew5hq6a8qc2E+z2SgsL+8agHQhviIJIVSWoBg=
   '7':
-    name: Mr. Miller
+    name: Herr Müller
     uuid: 10983b57-49be-41a3-93c8-4f57847137d0
     traits:
       spawned: true
@@ -989,7 +989,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: spawned,inventory,gravity,constants,type,location,assignment,mounttrait,equipment,skintrait,lookclose,denizen_flags,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,gravity,denizen_flags,type,owner,skintrait,equipment,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1001,7 +1001,7 @@ npc:
       player-skin-name: 23905c92-1cfc-4e91-83f5-4d4b79f7afb7
       player-skin-signature: XB6685LU9tVJU76WV1IG13qrVMJoqNEsxiiIS28i0ScJDDNSQvP5HIpg+845DJe6Vrwwn50auAnvJU5l6diKKd/e8ekhRwycMItb8oTxtLaVljtQacJe45bqQSQawAiqPH6TEie4H+ZFG1LcOSSiaCwevFcu1vvxmsIALpSPxClbCfppHmlmZCgWsrSbVaEwFEiUUNNlhMFd4SGIRRfyhl9qcjTdSQIJ6bmmoepui+L/79DEHoTDDJO3qg0dY5vGuFuPfLzG/SegHYRSdpS49mxgnxOeBznrGTMfQ4rMBE9NBmVPs1MjQOq9N+p/MLvq92022/JPIsMxv9qSf73PojECEJmQWRLAZu3OuECHMdKomvEx9GS9wDgFIoKO0/WMFpm1raYu6/hKx2fgR2SUck5uxzPUu8ZI78ev5BEFyGLs+g1aeNFcw7mmVx8zkBjUzoHrJ25v36ItyQb5K/UlCaj4HtOt0Ww76TCPGrdOcWWep6DV5iMYXUpMvxlH4tozMqAmwjwzYy+hrcNErPWe/YWOR9KFgikbplQ62J9pl3Rn/JbNnUuhqJVRLaK6SpxqdNL3ySQAaNQpu9emc63OOFKaKoZMrYd9DxqI35/BuvNV65cJRwpDulaUYEWwYweIsPOD0/E5ZcL1EIyyHoRX+ZFJv5PyEllMahD5DHRPWGQ=
   '6':
-    name: Bore Dom
+    name: Herr Langeweile
     uuid: e772bbb6-e2da-48e6-bc92-01d01a0ca130
     traits:
       spawned: true
@@ -1071,7 +1071,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: inventory,spawned,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,lookclose,denizen_flags,owner,scoreboardtrait,triggers,sneak,hologramtrait
+    traitnames: mounttrait,constants,lookclose,hologramtrait,gravity,denizen_flags,type,owner,equipment,skintrait,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1119,13 +1119,13 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: skintrait,spawned,inventory,denizen_flags,gravity,type,owner,scoreboardtrait,location,mounttrait,equipment,sneak
+    traitnames: mounttrait,sneak,inventory,spawned,gravity,denizen_flags,type,location,owner,skintrait,equipment,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '4':
-    name: Tom Tooley
+    name: Werkzeughändler
     uuid: e0cb0be9-b762-427d-8888-24cb419a6b71
     traits:
       spawned: true
@@ -1202,7 +1202,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: spawned,inventory,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,denizen_flags,lookclose,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1221,7 +1221,7 @@ npc:
       player-skin-signature: D8OSDnDtAsBg2FMXOh7eDQsoQK8HIzwzEJXYOFHOWlS0FsROTmC/kdJ5toDQjVTdtAmzBtgVVv01ayAZkdaEC+F3B2+iOPVYpPBfBQiS7MFbXkHQPqd2lYXVX961QppEntSv0GObZnUN7vmafiDy32H7Y989ripnravU8K4u6VsFq6SHSXNbPGmfaZd7votKvG7/7O3Fh38DBRIoTfv6gi+XrSnaipCIAvqgBS6GVztT74hCt4RVKUR9Byk37CCvVyzNd4xdaRdO/m1qB9ncOFb4rRRE+J20FWnD9tK5DhIQbC/pSr479ERULztE9hQd5zJ3HcaAL8J2Bme+IEFguwZ6xtVNaDp/aP9037mkYGSgyiI7qbgB8yXXoh/JRiD/yPq9C0bkht0rDlkkS74MAgj/+PT/o4UNVjTy1TiqJWh+ippiRlqHxFxA84GPHbwz4mY119QNhvGuZ9YZROvb6GF8mPeEqUee8rRfVRjnqOnsF4naBNYV3P8x9du+IjjUtCO4+dJvBMcw9xXuROk2mu9+oqbBqyU6PPHaeWcAGonQufevPDBaaa2cT4Cd8du7CligCT3bgxE7QAeYYO5u+1GLhuF3DwGfpIWztn7ou2Ob/BEEsCQ0zLwdhKkW9ACJpH2cQxBLetZkn5YFNmdJxWhKOTcBwjR/0R6ufXQAOT8=
       player-skin-use-latest-skin: false
       player-skin-name: 6391ffd1-ff34-41ff-94bc-4025d0aa5b18
-    name: Mage
+    name: Magier
     uuid: dbef1666-5a5a-4a91-92e6-3d9b91456624
     traits:
       spawned: true
@@ -1298,7 +1298,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: spawned,inventory,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,lookclose,denizen_flags,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1311,7 +1311,7 @@ npc:
       player-skin-signature: sl3S0liyZ61+UCqX6kTmHs+hwQxqiJIbM9XtnPvM6un6XmuzMLbK8YvjcOJcxmTnkVfHmM0AaoDmTRBfH5HM3QMbs9zZwSMFCCMm+iC2PQgNq0mXeNRCzQbgMGhUSdmY8OT4YDVD9eDzV8KCOBJIZalLnLNnM2E/EUIeu0B3LUeYzVRe9p4EF4+LxM/k0MaDuAWlLkHoGU7Yp6Jl0OTaZce7VrsDsPRjmA6ZPXfUBhuT3QwnsjH6ucQWzyz+ZRGMMX+f4yexGCwZvXtLU2G8d599aVu5oJlnTiWvsw7lVH/41UI/UBBatG88vqVqBQBFeATPpQb7lmeelMAkPnsXzkXkd+VY4bi1VQuUYyCU4slFKkGi43R7RMInYldwW78L3hJvLZGX5CAWXMq5k7NDXURuEU/U2veoZAPqyQb1xsiibJPa0VIlxihs+lgAblqcX9gayHLezkCG2uabo8YoeebaNaJubcO78zkYPK+Rr5zRak3REXM3B9/TDPEbUWinjnHQFph/iG51omG5ijHT8oFwc+QR7jqReWFZCScKLI/eu4HZBTITrx78Bvwf+N/UwvQqhOTW/g27UIhMZSMslJECZ0vicNElul9Ci1jvIyEeU+zT8pYmCvgt5484pa+Op5Ul+hl5CirsDnrIboRgnvBry7JHmrxhGWOhB34AOJg=
       player-skin-use-latest-skin: false
       player-skin-name: 77516e6f-a16c-41e1-ac03-504f1a67e7ac
-    name: Blacksmith
+    name: Schmied
     uuid: 86a53f87-7e22-4b96-90bb-dc34acf61875
     traits:
       spawned: true
@@ -1408,13 +1408,13 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: inventory,spawned,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,lookclose,denizen_flags,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '1':
-    name: Teacher Terry
+    name: Lehrer Lempel
     uuid: 515eb2ba-0d98-45c1-badd-a99e92e78736
     traits:
       spawned: true
@@ -1530,7 +1530,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: spawned,inventory,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,denizen_flags,lookclose,owner,scoreboardtrait,triggers,hologramtrait,sneak
+    traitnames: mounttrait,constants,lookclose,hologramtrait,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1600,7 +1600,7 @@ npc:
         uuid: b10feb7c-2495-4666-9abb-3cb967156c00
       sneak:
         sneaking: false
-    traitnames: inventory,spawned,constants,gravity,type,location,assignment,mounttrait,equipment,skintrait,lookclose,denizen_flags,owner,scoreboardtrait,triggers,sneak
+    traitnames: mounttrait,constants,lookclose,gravity,denizen_flags,type,owner,equipment,skintrait,sneak,inventory,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1612,7 +1612,7 @@ npc:
       cached-skin-uuid-name: 76355c57-3a7f-40cf-ba95-7d4ee5a5fc30
       player-skin-name: 76355c57-3a7f-40cf-ba95-7d4ee5a5fc30
       player-skin-signature: DW4+TufHfmqHZN3ZZbGK8EIwEil48Rhp7guwfHkbS1mm5SOJeFCJS79CbGFMIADDLtGapYT196FCweZyLZ6wwX2+CXX1DR+fBTUeOjvo3faIms7ocrVEWXQYFx4mhgb16aQ1tujxpxQN88IWkWJ+QurSfvkzMD3GdltVZ00M+UMxcD5gD7j9E2Cbkv3EqBgKLdu044iaFQwqNA9M7dAWbAviaX6I9QQQPeGn/yhJJ1VuEHdY+uwIZ2WBNgItqshbLiIYhSwXIxUrxuPE9b8VQxWybB23Piz5HtdKqtm4YvNNhx0Fk8VBwLjO06GKy7KhA9bBxs++i/hbrNnXZqEYj/fdCw0t2uODWjq7anPtfohgYmcmDE+aZj0GP0rCmfS9aQ5KdFtowxxKQyYFFGHlLzsW1efA8WaEa39Yw/8yt5VHUAS8nsteEiKSxjJv8xJ0M1nOXTXAdyq/9jnh5D8HpElECHi68gx0+c+QFfL+qMNibuHEynABG0U1QPZpy1EU8PtqVgb+qtWn2OAyA++Ez/yDrCTo6bzIeTqHifqRaJ6eKqU6FCSgoOUJatuptiU0EQ48WqNMrc+WPEbuW+BHNsM49tbrQlcNe+LsFSjSojuAtLmTzRxBalG9kuG58hFTMJRlrxDR2N61NpNzYRnMl8RL28Adgbf8x6LVvDZR9Ss=
-    name: Booze Buddy
+    name: Saufkumpane
     uuid: 64b55c8e-3043-4aab-8a60-94559fa431ab
     traits:
       spawned: true
@@ -1657,7 +1657,7 @@ npc:
         lineHeight: 0.25
         lines:
           '0': '[ §e! §f]'
-    traitnames: spawned,inventory,gravity,constants,type,location,assignment,mounttrait,equipment,skintrait,denizen_flags,owner,scoreboardtrait,triggers,hologramtrait,sneak
+    traitnames: mounttrait,constants,hologramtrait,denizen_flags,gravity,type,owner,skintrait,equipment,inventory,sneak,assignment,triggers,spawned,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
