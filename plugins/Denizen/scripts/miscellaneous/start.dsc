@@ -14,7 +14,7 @@ language_Handler:
   events:
     on player joins:
       - wait 0.1s
-      - adjust <player> "send_server_brand:<green>Banks of Sacramentino <yellow>1.18.1 <red>DEMO<white>"
+      - adjust <player> "send_server_brand:<green>Banks of Sacramentino <yellow>1.18.2 <red>DEMO<white>"
       - if !<server.has_flag[init]>:
         - teleport <player> <location[445.5,64,98.5,0,180,world]>
         - time 0t
