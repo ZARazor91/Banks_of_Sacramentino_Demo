@@ -24,7 +24,7 @@ language_Handler:
         - flag server unchecked:☐
         - foreach <list[wahl|sch_var|bek_var|bue_var|ber_var|rei_var|leh_var|hun_var|dea_var|flo_var|money]>:
           - flag server <[value]>:0
-        - foreach <list[0|1|6|8|10|13|14|17]>:
+        - foreach <list[1|6|8|10|13|14|17]>:
           - adjust <npc[<[value]>]> hologram_line_height:0.25
           - adjust <npc[<[value]>]> "hologram_lines:<list[[ <yellow>! <white>]]>"
         - money set quantity:0
