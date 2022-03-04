@@ -82,6 +82,7 @@ Triggers:
     Chat:
         Enabled: true
         Use asynchronous event: false
+        # Note: cooldowns, ranges, etc. for all triggers should be edited in your script's "trigger" command, not in the config
         Cooldown: 2s
         Range: 3
         Overhearing range: 4
@@ -209,7 +210,7 @@ Packets:
 # The below value is how many times automatic updates have been applied
 # since you last cleaned this file.
 # ----------- End Important! -----------
-times_changed: 5
+times_changed: 6
 Saves:
     # How long (in seconds) before the offline player flag cache times out.
     # Set to -1 to keep offline player flags loaded perpetually, or to 0 to never cache.
