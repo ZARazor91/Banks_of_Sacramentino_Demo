@@ -3,78 +3,62 @@ ger_i:
   debug: false
 
   script:
-  - rename Reisender npc:0
-  - rename "Lehrer Lempel" npc:1
-  - rename Schmied npc:2
-  - rename Magier npc:3
-  - rename Werkzeughändler npc:4
-  - rename , npc:5
-  - rename "Herr Langeweile" npc:6
-  - rename "Herr Müller" npc:7
-  - rename "Frau Müller" npc:8
-  - rename Kassierer npc:9
-  - rename Pfarrer npc:10
-  - rename Barkeeper npc:11
-  - rename Tipp-Trick-Man npc:12
-  - rename Bürgermeister npc:13
-  - rename Garten-Gerd npc:14
-  - rename Juwelier npc:15
-  - rename Blumen-Bernd npc:16
-  - rename Saufkumpane npc:17
-  - rename Dealer npc:18
   - sign type:automatic "              0|||              0" sign_1
-  - sign type:automatic ¦¦|==¦¦==|¦¦|¦¦ sign_30
-  - sign type:automatic "* * * *|JUWELIER|KLUNKER|* * * *" sign_33
-  - sign type:automatic ||¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦ sign_127
-  - sign type:automatic ||¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦ sign_128
-  - sign type:automatic "|24h geöffnet!" sign_149
-  - sign type:automatic "|24h geöffnet" sign_150
-  - sign type:automatic "|Abfahrten:|nie =(" sign_156
-  - sign type:automatic |Blumen-Bernd sign_180
-  - sign type:automatic "|EV. GEMEIND|Wüstenstedt" sign_192
-  - sign type:automatic "---------------|Familie Idiotus||---------------" sign_193
-  - sign type:automatic "---------------|Familie Müller||---------------" sign_194
-  - sign type:automatic "---------------|Frau Specht||---------------" sign_198
-  - sign type:automatic |Garten-Gerd sign_200
-  - sign type:automatic |GEBRAUCHS-|GEGENSTÄNDE sign_201
-  - sign type:automatic "|Geöffnet:|06:00 - 20:00" sign_202
-  - sign type:automatic |GESAMTSCHULE|WÜSTENSTEDT sign_203
-  - sign type:automatic "|Haltestelle|Linie 3.5" sign_205
-  - sign type:automatic "---------------|Herr Langeweile||---------------" sign_207
-  - sign type:automatic "|IN  RI" sign_212
-  - sign type:automatic |KASSE sign_218
-  - sign type:automatic |Klasse|1a sign_221
-  - sign type:automatic |Klasse|2b sign_222
-  - sign type:automatic |Klasse|3c sign_223
-  - sign type:automatic |Klasse|9,75 sign_224
-  - sign type:automatic "Öffnungszeiten:|07:00 - 20:00" sign_239
-  - sign type:automatic "|Öffnungszeiten:|21:31 - 05:49" sign_240
-  - sign type:automatic "|ZARazor91 &|d0nh" sign_250
-  - sign type:automatic "|SCHMIED UND" sign_265
-  - sign type:automatic |STONY sign_280
-  - sign type:automatic |SUPERMARKT sign_282
-  - sign type:automatic "---------------|Taverne zur|sandigen Ecke|---------------" sign_287
-  - sign type:automatic "|TOOL SHOP" sign_289
-  - sign type:automatic "|TOOL SHOP" sign_290
-  - sign type:automatic "|Viel Spaß|wünschen" sign_296
-  - sign type:automatic |WAFFENHÄNDLER sign_297
-  - sign type:automatic |WERKZEUGE,|BEHÄLTER, sign_300
-  - sign type:automatic "|ZU VERKAUFEN" sign_319
-  - sign type:automatic "= = = =|Zum Starten|/bos eingeben|= = = =" sign_331
-  - sign type:automatic "0              |||0              " sign_349
-  - sign type:automatic "An- und Verkauf||Geöffnet:|08:00 - 18:00" sign_366
-  - sign type:automatic "ANKAUF||Shift Rechtsklick|auf Juwelier" sign_369
-  - sign type:automatic "City Toilette||Benutzung|kostenlos!" sign_413
-  - sign type:automatic "Das|schräge|Zauberlädle|* * *" sign_416
-  - sign type:automatic Drogen|dealen|verboten! sign_442
-  - sign type:automatic "EMPFOHLEN|===============|Spiele ohne|eine Minimap" sign_444
-  - sign type:automatic Home|Sweet|Home sign_488
-  - sign type:automatic "keinem Andern|zu!||- Ende -" sign_492
-  - sign type:automatic Missions-|relevante|Gegenstände!! sign_506
-  - sign type:automatic "Mount Craftigus|50 Blöcke|ü. N.N.|=============" sign_508
-  - sign type:automatic "o             o|||o             o" sign_515
-  - sign type:automatic o-------------o|||o-------------o sign_518
-  - sign type:automatic o-------------o|||o-------------o sign_519
-  - sign type:automatic "Verfassung von|Wüstenstedt|Art. 1, Abs. 1" sign_613
-  - sign type:automatic "Viel Spaß|wünschen|ZARazor91 |& d0nh !" sign_615
-  - sign type:automatic "Was du nicht|willst, dass|man dir tu,|das füg auch" sign_618
+  - sign type:automatic ¦¦|==¦¦==|¦¦|¦¦ sign_2
+  - sign type:automatic "* * * *|JUWELIER|KLUNKER|* * * *" sign_3
+  - sign type:automatic ||¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦ sign_4
+  - sign type:automatic ||¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦ sign_5
+  - sign type:automatic "|24h geöffnet!" sign_6
+  - sign type:automatic "|24h geöffnet" sign_7
+  - sign type:automatic "|Abfahrten:|nie =(" sign_8
+  - sign type:automatic |Blumen-Bernd sign_9
+  - sign type:automatic "|EV. GEMEIND|Wüstenstedt" sign_10
+  - sign type:automatic "---------------|Familie Idiotus||---------------" sign_11
+  - sign type:automatic "---------------|Familie Müller||---------------" sign_12
+  - sign type:automatic "---------------|Frau Specht||---------------" sign_13
+  - sign type:automatic |Garten-Gerd sign_14
+  - sign type:automatic |GEBRAUCHS-|GEGENSTÄNDE sign_15
+  - sign type:automatic "|Geöffnet:|06:00 - 20:00" sign_16
+  - sign type:automatic |GESAMTSCHULE|WÜSTENSTEDT sign_17
+  - sign type:automatic "|Haltestelle|Linie 3.5" sign_18
+  - sign type:automatic "---------------|Herr Langeweile||---------------" sign_19
+  - sign type:automatic "|IN  RI" sign_20
+  - sign type:automatic |KASSE sign_21
+  - sign type:automatic |Klasse|1a sign_22
+  - sign type:automatic |Klasse|2b sign_23
+  - sign type:automatic |Klasse|3c sign_24
+  - sign type:automatic |Klasse|9,75 sign_25
+  - sign type:automatic "Öffnungszeiten:|07:00 - 20:00" sign_26
+  - sign type:automatic "|Öffnungszeiten:|21:31 - 05:49" sign_27
+  - sign type:automatic "|ZARazor91 &|d0nh" sign_28
+  - sign type:automatic "|SCHMIED UND" sign_29
+  - sign type:automatic |STONY sign_30
+  - sign type:automatic |SUPERMARKT sign_31
+  - sign type:automatic "---------------|Taverne zur|sandigen Ecke|---------------" sign_32
+  - sign type:automatic "|TOOL SHOP" sign_33
+  - sign type:automatic "|TOOL SHOP" sign_34
+  - sign type:automatic "|Viel Spaß|wünschen" sign_35
+  - sign type:automatic |WAFFENHÄNDLER sign_36
+  - sign type:automatic |WERKZEUGE,|BEHÄLTER, sign_37
+  - sign type:automatic "|ZU VERKAUFEN" sign_38
+  - sign type:automatic "= = = =|Zum Starten|/bos eingeben|= = = =" sign_39
+  - sign type:automatic "0              |||0              " sign_40
+  - sign type:automatic "An- und Verkauf||Geöffnet:|08:00 - 18:00" sign_41
+  - sign type:automatic "ANKAUF||Shift Rechtsklick|auf Juwelier" sign_42
+  - sign type:automatic "City Toilette||Benutzung|kostenlos!" sign_43
+  - sign type:automatic "Das|schräge|Zauberlädle|* * *" sign_44
+  - sign type:automatic Drogen|dealen|verboten! sign_45
+  - sign type:automatic "EMPFOHLEN|===============|Spiele ohne|eine Minimap" sign_46
+  - sign type:automatic Home|Sweet|Home sign_47
+  - sign type:automatic "keinem Andern|zu!||- Ende -" sign_48
+  - sign type:automatic Missions-|relevante|Gegenstände!! sign_49
+  - sign type:automatic "Mount Craftigus|50 Blöcke|ü. N.N.|=============" sign_50
+  - sign type:automatic "o             o|||o             o" sign_51
+  - sign type:automatic o-------------o|||o-------------o sign_52
+  - sign type:automatic o-------------o|||o-------------o sign_53
+  - sign type:automatic "Verfassung von|Wüstenstedt|Art. 1, Abs. 1" sign_54
+  - sign type:automatic "Viel Spaß|wünschen|ZARazor91 |& d0nh !" sign_55
+  - sign type:automatic "Was du nicht|willst, dass|man dir tu,|das füg auch" sign_56
+  - foreach <script[npc_list].data_key[names]>:
+    - rename <[value].get[ger]> npc:<[key]>
+    - wait 1t
